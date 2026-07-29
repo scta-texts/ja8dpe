@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 2</title>
+        <author ref="#JacquesAlmain">Jacques Almain</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 2</title>
+          <date when="2026-07-29">July 29, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-jay12a">Paris 1512</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-07-29" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="700"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ja8dpe-y12292"><!-- dpe-q2c2 -->
+        <head xml:id="ja8dpe-y12292-Hd1e101">Caput 2</head>
+        <head xml:id="ja8dpe-y12292-Hd1e103" type="question-title">
+          An habens 
+          supremam potestatem in temporalibus habeat 
+          proprietatem in aliquibus rebus particularibus
+        </head>
+        <p xml:id="ja8dpe-y12292-d1e106">
+          <lb ed="#C" n="90"/>¶ Secundum capitulum. An habens 
+          su<lb ed="#C" n="91" break="no"/>premam potestatem in temporalibus habeat 
+          pro<lb ed="#C" n="92" break="no"/>prietatem in aliquibus rebus particularibus?
+        </p>
+        <p xml:id="ja8dpe-y12292-d1e115">
+          <pb ed="#P" n="701"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#C" n="1"/>COnsequenter doct. in 
+          secun<lb ed="#C" n="2" break="no"/>do capitulo ponit duos 
+          <lb ed="#C" n="3"/>modos dicendi circa que 
+          <lb ed="#C" n="4"/>stionem videlicet vtrum 
+          ha<lb ed="#C" n="5" break="no"/>bens supremam 
+          potesta<lb ed="#C" n="6" break="no"/>tem laicam ex ratione 
+          illi<lb ed="#C" n="7" break="no"/>us potestatis supreme 
+          ha<lb ed="#C" n="8" break="no"/>beat aliquam proprietatem sibi proprie 
+          pro<lb ed="#C" n="9" break="no"/>priam. supponitur quod dictum est prius 
+          <lb ed="#C" n="10"/>inid est capitulo quid est habere potestatem 
+          pro<lb ed="#C" n="11" break="no"/>prie propriam / &amp; quid est habere 
+          immedi<lb ed="#C" n="12" break="no"/>ate a deo. Item dictum est prius quod quamuis rex 
+          <lb ed="#C" n="13"/>vel aliquis dominus temporalis habeat 
+          iu<lb ed="#C" n="14" break="no"/>risdictionem super bona mea &amp; corpus 
+          me<lb ed="#C" n="15" break="no"/>um nichilominus bona mea &amp; corpus 
+          me<lb ed="#C" n="16" break="no"/>um non sunt eius. nam non sum seruus eius 
+          <lb ed="#C" n="17"/>ideo non habet dnenium proprietatis in illis. 
+        </p>
+        <p xml:id="ja8dpe-y12292-d1e159">
+          <lb ed="#C" n="18"/>¶ Istis suppositis difficultas est vtrum ipsi 
+          su<lb ed="#C" n="19" break="no"/>preme potestati layce quia talis sint aliqua 
+          <lb ed="#C" n="20"/>bona quorum proprientas ad eum spectet d 
+          <lb ed="#C" n="21"/>fungitur tali potestate. Dicit doct. in 
+          prin<lb ed="#C" n="22" break="no"/>cipio quod habens supremam potestatem 
+          lav<lb ed="#C" n="23" break="no"/>cam habet proprieratem in aliquibus rebus 
+          <lb ed="#C" n="24"/>puta quas habebat antequam fungeretur tali 
+          di<lb ed="#C" n="25" break="no"/>gnitate &amp; potestate suprema &amp; quas 
+          obti<lb ed="#C" n="26" break="no"/>net nomine priuato &amp; non nomine regio 
+          <lb ed="#C" n="27"/>vel imperatorum / in talibus habet proprieta 
+          <lb ed="#C" n="28"/>tem proprie propriam / sed difficultas est vtrum 
+          <lb ed="#C" n="29"/>sint aliqua bona ita connexa illi supreme 
+          po<lb ed="#C" n="30" break="no"/>testati layce seutemporali quod quantum ad 
+          pro<lb ed="#C" n="31" break="no"/>prietatem proprie propriam semper sint 
+          il<lb ed="#C" n="32" break="no"/>lius qui fungitur tali potestate &amp; quod hebeat 
+          <lb ed="#C" n="33"/>proprietatem in illis rebus / &amp; talis est 
+          diffi<lb ed="#C" n="34" break="no"/>cultas de curatis &amp; prelatis ecclesie / nam 
+          cu<lb ed="#C" n="35" break="no"/>re pastorali &amp; episcopatui aliquando sunt 
+          <lb ed="#C" n="36"/>annexa aliqua bona. Queritur inter doct. 
+          <lb ed="#C" n="37"/>vtrum talia bona quo ad proprietatem sint 
+          <lb ed="#C" n="38"/>illius qui habet curam talem pastoralem ita 
+          <lb ed="#C" n="39"/>quod realiter sint eius. Similiter imperiali 
+          digni<lb ed="#C" n="40" break="no"/>tati annexa sunt aliqua vtrum talia quo ad 
+          <lb ed="#C" n="41"/>proprietatem proprie propriam sint illius 
+          <lb ed="#C" n="42"/>qui de facto fungitur dignitate imperiali. 
+          <lb ed="#C" n="43"/>Prima opinio dicit quod non sunt eius / &amp; 
+          argu<lb ed="#C" n="44" break="no"/>mentum huius opinionis est. Quandocumque 
+          <lb ed="#C" n="45"/>aliqua quo ad proprietatem sunt alicuius 
+          <lb ed="#C" n="46"/>potest qualitercumque vult &amp; pro libito de il¬ 
+          <cb ed="#P" n="b"/>
+          <lb ed="#C" n="47"/>lis disponere / &amp; si donat de facto tenet talis 
+          <lb ed="#C" n="48"/>donatio / si prodige exponat (licet peccet) 
+          <lb ed="#C" n="49"/>non tenetur ad restitutionem illorum. sed si in 
+          <lb ed="#C" n="50"/>perator disponat sic prodige de rebus 
+          an<lb ed="#C" n="51" break="no"/>nexis Imperio non solum non peccat sed 
+          te<lb ed="#C" n="52" break="no"/>netur de bonis propriis restituere imperio 
+          <lb ed="#C" n="53"/>ergo talia non sunt eius quaentum ad dominium 
+          <lb ed="#C" n="54"/>&amp; proprietatem proprie propriam / talia 
+          <lb ed="#C" n="55"/>inquam annexa dignitati imperiali. Similiter 
+          di<lb ed="#C" n="56" break="no"/>cunt hoc argumento quod episcopus prodige 
+          <lb ed="#C" n="57"/>exponens bona episcopatus tenetur ad 
+          re<lb ed="#C" n="58" break="no"/>stitutionem / quia non sunt eius sed totius 
+          cle<lb ed="#C" n="59" break="no"/>ri / &amp; est vt dicunt solum administrator. Item 
+          <lb ed="#C" n="60"/>qui habet supremam potestatem laycam 
+          re<lb ed="#C" n="61" break="no"/>galem regit ad vtilitatem publicam &amp; 
+          con<lb ed="#C" n="62" break="no"/>munem &amp; ille non regit qui regit pro suo 
+          <lb ed="#C" n="63"/>priuato bono ergo annexa tali regimini sunt 
+          <lb ed="#C" n="64"/>commuintatis &amp; non dominantis. ideo 
+          rex<lb ed="#C" n="65" break="no"/>non est nisi administrator: &amp; est apparentia 
+          <lb ed="#C" n="66"/>pro ista opinione. Alia est opinio quod habet 
+          <lb ed="#C" n="67"/>proprietatem ita quod illa sunt eius proprie ita 
+          <lb ed="#C" n="68"/>quod habens imperium habet proprietatem 
+          pro<lb ed="#C" n="69" break="no"/>prie propriam in aliquibus rebus. &amp; 
+          moti<lb ed="#C" n="70" break="no"/>uum illius est / ille qui habet dignitatem 
+          in<lb ed="#C" n="71" break="no"/>perialem debet maxine pollere virtutibus 
+          poli<lb ed="#C" n="72" break="no"/>ticis inter quas magnificentia &amp; liberalitas 
+          <lb ed="#C" n="73"/>sunt maxime / sed non potest illis virtutibus 
+          <lb ed="#C" n="74"/>pollere nisi habeat abundantiam rerum / &amp; 
+          ni<lb ed="#C" n="75" break="no"/>si sit proprietarius non potest donare / ergo 
+          <lb ed="#C" n="76"/>in talibus habet proprietatem / quando est 
+          <lb ed="#C" n="77"/>in tali dignitate constitutus aliqui efficiuntur 
+          <lb ed="#C" n="78"/>inimici eius quibus non potest facile 
+          resiste<lb ed="#C" n="79" break="no"/>re sine acquisitione amicorum &amp; 
+          manute<lb ed="#C" n="80" break="no"/>nentia &amp; largitione bonorum / sed sic est quod 
+          <lb ed="#C" n="81"/>non potest illa largiri nisi habeat 
+          proprie<lb ed="#C" n="82" break="no"/>tatem in illis. igitur. Vtrum ergo rex vel in 
+          <lb ed="#C" n="83"/>perator habeat proprietatem in illis bonis 
+          <lb ed="#C" n="84"/>que sunt a communitate deputata dignita 
+          <lb ed="#C" n="85"/>ti regie vel imperiali vel vtrum sit 
+          admini<lb ed="#C" n="86" break="no"/>strator / nam leuantur tributa &amp; pedagia 
+          sal<lb ed="#C" n="87" break="no"/>lagia &amp;c. similiter sunt alique possessiones 
+          <lb ed="#C" n="88"/>&amp; vrbes &amp; castra data regi non pro persona 
+          <lb ed="#C" n="89"/>sua sed pro vtilitate regni. Q non sint eius 
+          <lb ed="#C" n="90"/>est apparentia quia rex non potest 
+          alliena<lb ed="#C" n="91" break="no"/>re regnum neque precipuas vrbes regni in 
+          al<lb ed="#C" n="92" break="no"/>terum transferre
+        </p>
+      </div>
+          </body>
+  </text>
+</TEI>

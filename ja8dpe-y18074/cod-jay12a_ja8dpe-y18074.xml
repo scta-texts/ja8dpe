@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 7</title>
+        <author ref="#JacquesAlmain">Jacques Almain</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 7</title>
+          <date when="2026-07-29">July 29, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-jay12a">Paris 1512</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-07-29" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="727"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ja8dpe-y18074"><!-- dpe-q3c7 -->
+        <head xml:id="ja8dpe-y18074-Hd1e101">Caput 7</head>
+        <head xml:id="ja8dpe-y18074-Hd1e103" type="question-title">Sane licet</head>
+        <p xml:id="ja8dpe-y18074-d1e106">
+          <lb ed="#C" n="55"/>¶ Septimum cap. Sane licet. 
+        </p>
+        <p xml:id="ja8dpe-y18074-d1e111">
+          <lb ed="#C" n="56"/>IN Hoc SEPTIMO 
+          <lb ed="#C" n="57"/>capite vult dicere doctor 
+          <lb ed="#C" n="58"/>quod quis supradicta de 
+          op<lb ed="#C" n="59" break="no"/>timo pricipatu sint vera 
+          <lb ed="#C" n="60"/>tam de principatu vniuersa 
+          <lb ed="#C" n="61"/>li quam particulari: 
+          regulari<lb ed="#C" n="62" break="no"/>ter nihilominus ille 
+          princi<lb ed="#C" n="63" break="no"/>patus regalis in casu non esset optimus: immo 
+          <lb ed="#C" n="64"/>mutandus in aristocraticum: vel tymocraticum. 
+          <lb ed="#C" n="65"/>Patet in casu quo principans esset tyrainus: 
+          <lb ed="#C" n="66"/>vel quando plures aspirarent ad 
+          principan<lb ed="#C" n="67" break="no"/>dum &amp; melius seruaretur bonum 
+          commu<lb ed="#C" n="68" break="no"/>ne per plures principantes. ideo casualiter 
+          <lb ed="#C" n="69"/>alius principatus potest esse melior quam regius 
+          <lb ed="#C" n="70"/>dummodo semper seruetur prima 
+          condi<lb ed="#C" n="71" break="no"/>tio necessario requisita ad bonum 
+          principa<lb ed="#C" n="72" break="no"/>tum: puta quod sit propter bonum commune. 
+          <lb ed="#C" n="73"/>Et secunda conditio: puta quod vnus 
+          principe<lb ed="#C" n="74" break="no"/>tur: casualiter potest esse falsa: puta si ille 
+          vni<lb ed="#C" n="75" break="no"/>cus adtyrannisandum aspiraret &amp; declinaret 
+          <lb ed="#C" n="76"/>tunc optimus principatus non esset 
+          simpli<lb ed="#C" n="77" break="no"/>citer omnibus optimus: immo multis esset no 
+          <lb ed="#C" n="78"/>ciuus quemadmodum declarat doctor in 
+          <lb ed="#C" n="79"/>presenti capite. reliqua autem que dicit 
+          cla<lb ed="#C" n="80" break="no"/>ra sunt: quare transeo ad aliud in quo 
+          sol<lb ed="#C" n="81" break="no"/>uuntur rationes probantes quod debet esse vnus 
+          <lb ed="#C" n="82"/>supremus principans &amp; estt 
+        </p>
+      </div>
+          </body>
+  </text>
+</TEI>

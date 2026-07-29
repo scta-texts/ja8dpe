@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 3</title>
+        <author ref="#JacquesAlmain">Jacques Almain</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 3</title>
+          <date when="2026-07-29">July 29, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-jay12a">Paris 1512</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-07-29" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="723"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ja8dpe-y17138"><!-- dpe-q3c3 -->
+        <head xml:id="ja8dpe-y17138-Hd1e101">Caput 3</head>
+        <head xml:id="ja8dpe-y17138-Hd1e103" type="question-title"/>
+        <p xml:id="ja8dpe-y17138-d1e105">
+          Tercium ca. 
+          <lb ed="#C" n="33"/>¶ Hls OPNlo NB Vs. 
+        </p>
+        <p xml:id="ja8dpe-y17138-d1e110">
+          <lb ed="#C" n="34"/>¶ IAM NITITVR soluere vnam 
+          ratio<lb ed="#C" n="35" break="no"/>nem opinionis &amp; resolutio doct. est quod 
+          pa<lb ed="#C" n="36" break="no"/>pa non habet committere principibus 
+          secu<lb ed="#C" n="37" break="no"/>laribus suam iurisdictionem sed illam habent 
+          <lb ed="#C" n="38"/>a populo. sed arguitur pro parte opposita 
+          <lb ed="#C" n="39"/>sic. Communitas volentium adinuicem 
+          vi<lb ed="#C" n="40" break="no"/>uere &amp; in actibus ciuilibus conuersari inter 
+          <lb ed="#C" n="41"/>quos potest oriri discordia non est bene 
+          or<lb ed="#C" n="42" break="no"/>dinata nisi sit aliquis superior qui possit 
+          il<lb ed="#C" n="43" break="no"/>lorum causas &amp; discordentias terminare 
+          ali<lb ed="#C" n="44" break="no"/>as sequerentur bella &amp; multa alia 
+          inconueni<lb ed="#C" n="45" break="no"/>entia / sed tota communitas omnium est 
+          con<lb ed="#C" n="46" break="no"/>munitas volentium &amp;c. ergo non est bene 
+          <cb ed="#P" n="b"/>
+          <lb ed="#C" n="47"/>ordinata nisi sit vnus superior / sed non 
+          po<lb ed="#C" n="48" break="no"/>test dari talis superior nisi papa / ergo est 
+          <lb ed="#C" n="49"/>omnium superior. sed inferiores non habent 
+          <lb ed="#C" n="50"/>iurisdictionem nisi a superiore / ergo 
+          om<lb ed="#C" n="51" break="no"/>nes habent suas iurisdictiones ex commissio 
+          <lb ed="#C" n="52"/>ne pape / quantum ad hoc argumentum 
+          conces<lb ed="#C" n="53" break="no"/>sa maiore negatur minor puta quod talis 
+          supe<lb ed="#C" n="54" break="no"/>mus non potest esse alius preter papam 
+          im<lb ed="#C" n="55" break="no"/>mo secudum vnum modum dicendi est 
+          ali<lb ed="#C" n="56" break="no"/>quis alter a summo pontifice ex electione 
+          <lb ed="#C" n="57"/>populi &amp; consensu maioris partis aut 
+          sani<lb ed="#C" n="58" break="no"/>oris cui etiam papa est subiectus saltem 
+          <lb ed="#C" n="59"/>in temporalibusscilicet imperator / &amp; ista est 
+          pri<lb ed="#C" n="60" break="no"/>ma solutio. hoc etiam dicit Marcillius 
+          de<lb ed="#C" n="61" break="no"/>padua.
+        </p>
+        <p xml:id="ja8dpe-y17138-d1e175">
+          ¶ Secunda solutio tangitur a 
+          do<lb ed="#C" n="62" break="no"/>ctore / ibi aliter respondetur / &amp; ista secunda 
+          <lb ed="#C" n="63"/>solutio est melior / &amp; dico quod omnium 
+          Chri<lb ed="#C" n="64" break="no"/>stianorum est vnus superior qui potest 
+          cau<lb ed="#C" n="65" break="no"/>sas terminare spirituales. vt papa &amp; alter quod 
+          <lb ed="#C" n="66"/>potest causas ciuiles vt inmperator. Sed quid 
+          <lb ed="#C" n="67"/>dicendum si reges non sunt subditi impera 
+          <lb ed="#C" n="68"/>tori. Dico quod sufficit quod sint duo vel plures 
+          <lb ed="#C" n="69"/>supiores vnus vni parti presidens &amp; alter 
+          <lb ed="#C" n="70"/>alteri / vt sortes gallus &amp; plato hyspanus 
+          <lb ed="#C" n="71"/>nullus est amborum superior: sed quilibet 
+          <lb ed="#C" n="72"/>habet suum superiorem &amp; orta discordia 
+          in<lb ed="#C" n="73" break="no"/>ter illos actor sequatur forum rei vt gallus 
+          <lb ed="#C" n="74"/>conueniat hyspanum coram suo iudice &amp; 
+          <lb ed="#C" n="75"/>principe hyspano / &amp; hyspanus gallum etiam 
+          <lb ed="#C" n="76"/>coram suo. Ideo non requiritur quod vtriusque 
+          <lb ed="#C" n="77"/>sit vnus superior / sed quod quilibet habeat 
+          su<lb ed="#C" n="78" break="no"/>um superiorem &amp; dum modo isti superio 
+          <lb ed="#C" n="79"/>res sint prudentes poterunt suas 
+          communi<lb ed="#C" n="80" break="no"/>tates optime regere..
+        </p>
+      </div>
+          </body>
+  </text>
+</TEI>

@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 8</title>
+        <author ref="#JacquesAlmain">Jacques Almain</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 8</title>
+          <date when="2026-07-29">July 29, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-jay12a">Paris 1512</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-07-29" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="662"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ja8dpe-y03726"><!-- dpe-q1c8 -->
+        <head xml:id="ja8dpe-y03726-Hd1e101">Caput 8</head>
+        <head xml:id="ja8dpe-y03726-Hd1e103" type="question-title">An Christus habuerit supremam 
+          potestatem in temporalibus</head>
+        <p xml:id="ja8dpe-y03726-d1e106">
+          <lb ed="#C" n="3"/>¶ An Christus habuerit supremam 
+          po<lb ed="#C" n="4" break="no"/>testatem in temporalibus. Ca. VIII. 
+        </p>
+        <p xml:id="ja8dpe-y03726-d1e113">
+          <lb ed="#C" n="5"/>VISIS TRIBVS 
+          OPI<lb ed="#C" n="6" break="no"/>nionibus / quarum prima 
+          <lb ed="#C" n="7"/>fuit quod suprema potestas 
+          <lb ed="#C" n="8"/>spiritualis: &amp; suprema 
+          <lb ed="#C" n="9"/>laicalis ex natura rei ita 
+          <lb ed="#C" n="10"/>distinguntur: quod in 
+          ean<lb ed="#C" n="11" break="no"/>dem cadere non possunt 
+          <lb ed="#C" n="12"/>personam. Secunda quod concurrunt in eandem 
+          <lb ed="#C" n="13"/>personam. Et tertia quod non distinguntur ita 
+          <lb ed="#C" n="14"/>ex natura rei quin possint in eandem 
+          con<lb ed="#C" n="15" break="no"/>currere personam: veruntamen non 
+          concur<lb ed="#C" n="16" break="no"/>runt nec debent. His positis doctor 
+          preci<lb ed="#C" n="17" break="no"/>pue nititur impugnare secundam opinionem 
+          <lb ed="#C" n="18"/>in qua iacet tota difficultas. vnum motiuum 
+          <lb ed="#C" n="19"/>secunde opinionis fuit quod qui habet 
+          supre<lb ed="#C" n="20" break="no"/>mam in spiritualibus est vicarius Christi / 
+          <lb ed="#C" n="21"/>sed Christus habuit supremam in 
+          tempo<lb ed="#C" n="22" break="no"/>ralibus quemadmodum &amp; in spiritualibus 
+          <lb ed="#C" n="23"/>data est michi omnis potestas in celo &amp; in 
+          <lb ed="#C" n="24"/>terra. ergo qui habet supremam potestatem 
+          <lb ed="#C" n="25"/>inspiritualibus haber etiam in 
+          temporali<lb ed="#C" n="26" break="no"/>bus: sed papa habet supremam potestatem 
+          <lb ed="#C" n="27"/>in spiritualibus cum sit verus vicarius 
+          Chri<lb ed="#C" n="28" break="no"/>sti: ergo habet etiam supremam in vtraque / 
+          <lb ed="#C" n="29"/>&amp; sic habet supremam in temporalibus. 
+          <lb ed="#C" n="30"/>Occasione huius rationis talis mouetur 
+          dif<lb ed="#C" n="31" break="no"/>ficultas.
+        </p>
+        <p xml:id="ja8dpe-y03726-d1e174">
+          ¶ Vtrum Christus habuerit supre 
+          <lb ed="#C" n="32"/>mum dominium in quibuscunque rebus 
+          ten<lb ed="#C" n="33" break="no"/>poralibus. Supponitur primo ex 
+          prehabi<lb ed="#C" n="34" break="no"/>tis quod aliud est quererelan Christus habuerit 
+          <lb ed="#C" n="35"/>in singulis rebus temporalibus proprietatem: 
+          <lb ed="#C" n="36"/>vel an habuerit potestatem iurisdictionis. 
+          <lb ed="#C" n="37"/>Secundo supponitur quod quando queritur 
+          <lb ed="#C" n="38"/>an Christus habuerit supremam iurisdicto 
+          <lb ed="#C" n="39"/>nem quod dupliciter hoc intelligi potest. Vel 
+          <lb ed="#C" n="40"/>secudum diuinitatem vel secumdum huma 
+          <lb ed="#C" n="41"/>nitatem / &amp; queritur de vtroque. Secundum 
+          <lb ed="#C" n="42"/>diuinitatem non est difficultas quia 
+          domi<lb ed="#C" n="43" break="no"/>ni est terra &amp; plenitudo eius Psalmi. xxiii. 
+          <lb ed="#C" n="44"/>Ideo secundum diuinitatem habet potesta 
+          <lb ed="#C" n="45"/>tem vnamquamque rem in dominium alterius 
+          <cb ed="#P" n="b"/>
+          <lb ed="#C" n="46"/>transferre ad libitum eius sicut patet de v¬¬ 
+          <lb ed="#C" n="47"/>sis argenteis Egyptiorum &amp; de terra 
+          pro<lb ed="#C" n="48" break="no"/>missionis que transtulit in filios Israel. Ideo 
+          <lb ed="#C" n="49"/>secundum diuinitatem habet 
+          proprieta<lb ed="#C" n="50" break="no"/>tem rei &amp; potestatem iurisdictionis. solum 
+          <lb ed="#C" n="51"/>ergo restat difficultas an secundum 
+          humani<lb ed="#C" n="52" break="no"/>tatem. Et supponitur tertio quod aliud est que 
+          <lb ed="#C" n="53"/>rere de Christo secundum humanitatem / 
+          <lb ed="#C" n="54"/>vtrum habuerit in singulis rebus 
+          tempora<lb ed="#C" n="55" break="no"/>libus proprietatem &amp; potestatem 
+          iurisdi<lb ed="#C" n="56" break="no"/>ctionis iure hereditario matris vel patris 
+          pu<lb ed="#C" n="57" break="no"/>tatiui. Vel vtrum habuerit abaliquo 
+          pri<lb ed="#C" n="58" break="no"/>uilegio sibia deo collato / puta quod deus 
+          trans<lb ed="#C" n="59" break="no"/>tulerit ei quo ad humanitatem verum 
+          do<lb ed="#C" n="60" break="no"/>minium cunctarum rerum: &amp; potestatem 
+          <lb ed="#C" n="61"/>iurisdictionis. Quarto supponitur quod aliud 
+          <lb ed="#C" n="62"/>est querere de Christo existente in 
+          mortali<lb ed="#C" n="63" break="no"/>vita vel post resurrectionem. lstis 
+          supposi<lb ed="#C" n="64" break="no"/>tis non queritur vtrum Christus habuerit 
+          <lb ed="#C" n="65"/>in temporalibus proprietatem aut potesta 
+          <lb ed="#C" n="66"/>tem iurisdictionis secundum diuinitatem / 
+          <lb ed="#C" n="67"/>sed secundum humanitatem. &amp; in isto 
+          sen<lb ed="#C" n="68" break="no"/>su dupliciter intelligitur / vel vtrum iure 
+          he<lb ed="#C" n="69" break="no"/>reditario tanquam verus heres Marie / vel 
+          <lb ed="#C" n="70"/>vtrum habuerit: quia diuinitas in eum 
+          tras<lb ed="#C" n="71" break="no"/>tulit.
+        </p>
+        <p xml:id="ja8dpe-y03726-d1e266">
+          ¶ Pro solutione huius questionis. Sit 
+          <lb ed="#C" n="72"/>prima propositio. Christus secundum 
+          hu<lb ed="#C" n="73" break="no"/>manitatem habuit proprietatem in 
+          aliqui<lb ed="#C" n="74" break="no"/>bus rebus temporalibus iure hereditario. 
+          <lb ed="#C" n="75"/>Patet sic. Notissimum est quod loseph pater 
+          <lb ed="#C" n="76"/>Christi putatiuus / cuius Christus erat 
+          ve<lb ed="#C" n="77" break="no"/>rus heres legalis &amp; successor habuit 
+          domi<lb ed="#C" n="78" break="no"/>nium in aliqua re. &amp; verissimile est 
+          immo<lb ed="#C" n="79" break="no"/>tenetur communiter quod loseph mortuus est 
+          <lb ed="#C" n="80"/>antequam Christus pateretur. Similiter 
+          vir<lb ed="#C" n="81" break="no"/>go Maria cuius secundum humanitatem 
+          <lb ed="#C" n="82"/>fuit verus heres habuit proprietatem in 
+          ali<lb ed="#C" n="83" break="no"/>quibus rebus. ergo cum Christus fuit 
+          ve<lb ed="#C" n="84" break="no"/>rus heres ipsorum verisimile est quod habuit 
+          <lb ed="#C" n="85"/>dominium proprietatis in aliqua re cuius 
+          <lb ed="#C" n="86"/>erant proprietarii. ergo Christus iure here 
+          <lb ed="#C" n="87"/>ditario non solum potestatem 
+          iurisdictio<lb ed="#C" n="88" break="no"/>nis: sed etiam habuit proprietatem in 
+          ali<lb ed="#C" n="89" break="no"/>quibus rebus / immo male sonare videtur 
+          <lb ed="#C" n="90"/>quod Christus fuerit mendicus. 
+          Quandoqui<lb ed="#C" n="91" break="no"/>dem dicitur vere mendicus qui solo titulo 
+          <pb ed="#P" n="663"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#C" n="1"/>indigentie petit aliquid. vere &amp; realiter 
+          ta<lb ed="#C" n="2" break="no"/>lis dicitur mendicus / &amp; notum est quamuis 
+          <lb ed="#C" n="3"/>Christus non habuisset proprietatem in 
+          ali<lb ed="#C" n="4" break="no"/>quibus rebus habuisset tamen ius petendi. 
+          <lb ed="#C" n="5"/>quia seminabat &amp; docebat. ergo non solum 
+          <lb ed="#C" n="6"/>titulo indigentie petebat. ergo non fuit vere 
+          <lb ed="#C" n="7"/>mendicus. sicut rex admninistrans iusticiam 
+          <lb ed="#C" n="8"/>subditis &amp; communitati petens &amp; exigens 
+          <lb ed="#C" n="9"/>ab illis pro manutenentia suistatus non est 
+          <lb ed="#C" n="10"/>mendicus / quia non titulo indigentie petit 
+          <lb ed="#C" n="11"/>sed administrationis. sic de beneficiatis 
+          po<lb ed="#C" n="12" break="no"/>test dici. Patet igitur quod Christus non fuit 
+          <lb ed="#C" n="13"/>mendicus sed habuit non solum aliqu: atum 
+          <lb ed="#C" n="14"/>rerum vsum: verum etiam proprietatem in illis 
+          <lb ed="#C" n="15"/>rebus. Sed difficultas est / an habuerit in 
+          re<lb ed="#C" n="16" break="no"/>gno lsrael veram proprietatem / hoc est an 
+          <lb ed="#C" n="17"/>habuerit potestatem iurisdictionis iure 
+          he<lb ed="#C" n="18" break="no"/>reditario in regno Israel precipue in regno 
+          <lb ed="#C" n="19"/>iude. Primo non est difficultas de toto 
+          vni<lb ed="#C" n="20" break="no"/>uerso quod non habuit supremam potestatem 
+          <lb ed="#C" n="21"/>iurisdictionis in toto vniuerso iure heredi 
+          <lb ed="#C" n="22"/>tario. Patet / nullus parentum eius fuit ve / 
+          <lb ed="#C" n="23"/>rus monarcha totius mundi nec Dauid / nec 
+          <lb ed="#C" n="24"/>Salomon. igitur. Sed difficultas est vtrum 
+          <lb ed="#C" n="25"/>habuerit in regno iuda veram potestatem 
+          <lb ed="#C" n="26"/>iurisdictionis iure hereditario / ita quod fuerit 
+          <lb ed="#C" n="27"/>verus rex iuda non solum priuilegio 
+          conces<lb ed="#C" n="28" break="no"/>so a deo. Respondet Armachanus in 
+          quar<lb ed="#C" n="29" break="no"/>to ca. xvi. quod Christus fuit verus rex iuda 
+          se<lb ed="#C" n="30" break="no"/>cundum humanitatem iure hereditario. &amp; 
+          <lb ed="#C" n="31"/>quamuis hoc non possit euidenter probari 
+          ta<lb ed="#C" n="32" break="no"/>men assumit id quod habetur in Deutero. 
+          <lb ed="#C" n="33"/>quod sim antiqua domo non sit masculus / filia 
+          <lb ed="#C" n="34"/>est heres bonorum paternorum &amp; mater / 
+          <lb ed="#C" n="35"/>norum: &amp; sic non erat ita in regno iude &amp; 
+          <lb ed="#C" n="36"/>francie. Vltra supponit vnum quod verum est 
+          sci<lb ed="#C" n="37" break="no"/>licet quod ipsa virgo Maria realiter descendit 
+          <lb ed="#C" n="38"/>ex Dauid &amp; non solum loseph. Patet / si non 
+          <lb ed="#C" n="39"/>descendisset virgo ex Dauid Christus non 
+          <lb ed="#C" n="40"/>deberet vocari in scripturis semen &amp; filius 
+          <lb ed="#C" n="41"/>Dauid / quia non est realiter filius 
+          loseph<lb ed="#C" n="42" break="no"/>sed virginis. ergo si virgo non realiter 
+          de<lb ed="#C" n="43" break="no"/>scendisset ex Dauid non fuisset filius Dauid 
+          <lb ed="#C" n="44"/>neque semen eius. Sed quandocumque in lege an 
+          <lb ed="#C" n="45"/>tiqua non erat masculus filia succedebat. 
+          er<lb ed="#C" n="46" break="no"/>go viro cessante in domo Dauid ad virgi¬ 
+          <cb ed="#P" n="b"/>
+          <lb ed="#C" n="47"/>nem deuoluebatur successio. &amp; sic vitgo 
+          <lb ed="#C" n="48"/>Maria habuit verum ius hereditarium in 
+          <lb ed="#C" n="49"/>regno luda: &amp; ex consequenti Christus filius 
+          <lb ed="#C" n="50"/>eius.
+        </p>
+        <p xml:id="ja8dpe-y03726-d1e427">
+          ¶ Quantum ad hoc / vtrum iure 
+          here<lb ed="#C" n="51" break="no"/>ditario spectaret verum regnum iude 
+          ipsi<lb ed="#C" n="52" break="no"/>Christo: apparet michi quod non pertinet ad 
+          <lb ed="#C" n="53"/>eum regnum iude secundum humanitatem. 
+          <lb ed="#C" n="54"/>Et ratio que me mouet contra Armachanum 
+          <lb ed="#C" n="55"/>est / quia vt notum est Machabei vere &amp; 
+          rea<lb ed="#C" n="56" break="no"/>liter dominati sunt in regno iuda: &amp; non 
+          <lb ed="#C" n="57"/>erant tyranni. ergo realiter habebant potem 
+          <lb ed="#C" n="58"/>statem iurisdictionis in regno iude / &amp; 
+          ta<lb ed="#C" n="59" break="no"/>men ipsi Machabei erant de genere Leui / 
+          <lb ed="#C" n="60"/>&amp; si descendebant ex domo Dauid hoc erat 
+          <lb ed="#C" n="61"/>per matres &amp; feminas / quia erant 
+          sacerdo<lb ed="#C" n="62" break="no"/>tes. ergo de domo Leui / &amp; sic longo 
+          tem<lb ed="#C" n="63" break="no"/>pore antequam virgo maria nasceretur erat 
+          <lb ed="#C" n="64"/>ablata potestas a domo Dauid. ergo 
+          ipsa<lb ed="#C" n="65" break="no"/>virgo Maria non habuit potestatem 
+          iuris<lb ed="#C" n="66" break="no"/>dictionis in regno iude. ergo credendum 
+          <lb ed="#C" n="67"/>est quod Christus non habuit potestatem in 
+          <lb ed="#C" n="68"/>illo secundum humanitatem.
+        </p>
+        <p xml:id="ja8dpe-y03726-d1e469">
+          ¶ Resolutio 
+          <lb ed="#C" n="69"/>ergo quantum ad tria puncta est. Primum / 
+          <lb ed="#C" n="70"/>certissimum est quod Christus sure 
+          heredita<lb ed="#C" n="71" break="no"/>rio habuit proprietatem in aliquibus rebus 
+          <lb ed="#C" n="72"/>Secundum punctum quod est ambiguum 
+          <lb ed="#C" n="73"/>Christus iure hereditario non habuit pote 
+          <lb ed="#C" n="74"/>statem in regno sude. Tertium quod est 
+          cer<lb ed="#C" n="75" break="no"/>tissimum / Christus sure hereditario 
+          secun<lb ed="#C" n="76" break="no"/>dum humanitatem non habuit potestatem 
+          <lb ed="#C" n="77"/>iurisdictionis in vniuerso orbe siue in 
+          sin<lb ed="#C" n="78" break="no"/>gulis rebus cum nec Dauid nec aliquis 
+          eo<lb ed="#C" n="79" break="no"/>rum a quibus descendit illam habuerit / 
+          er<lb ed="#C" n="80" break="no"/>go nec ipse Christus. Restat modo 
+          difficul<lb ed="#C" n="81" break="no"/>tas inter doct orescum Christus non fuerit 
+          <lb ed="#C" n="82"/>verus monarcha iure hereditario / an fuerit 
+          <lb ed="#C" n="83"/>per priuilegium sibi collatum a deo verus 
+          <lb ed="#C" n="84"/>monarcha. Aliqui dixerunt quod Christus 
+          <lb ed="#C" n="85"/>non habuit illam potestatem iurisdictionis 
+          <lb ed="#C" n="86"/>eo tempore quo viuebat in carne secundum 
+          <lb ed="#C" n="87"/>humanitatem. Rationes habent multum 
+          <lb ed="#C" n="88"/>apparentes. Primo habetur Luce 
+          duodeci<lb ed="#C" n="89" break="no"/>mo. Venit aliquis ad Christum dicens ei. 
+          <lb ed="#C" n="90"/>Magister dic fratri meo vt diuidat mecum 
+          <lb ed="#C" n="91"/>hereditatem. At ille dixit ei / homo quis me 
+          consti<lb ed="#C" n="92" break="no"/>tuit iudicem aut diuisorem inter vos. qu. d. nullus 
+          <pb ed="#P" n="664"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#C" n="1"/>Tunc ex illo arguitur sic / Christus non 
+          ha<lb ed="#C" n="2" break="no"/>buit pertantem diuidendi hereditatem inter istos 
+          <lb ed="#C" n="3"/>duos sratres. ergo non habuit supremam 
+          <lb ed="#C" n="4"/>potestatem iurisdictionis in temporalibus 
+          <lb ed="#C" n="5"/>Et hoc argumentum est multum apparens. 
+          <lb ed="#C" n="6"/>Nam quicumque habuit supremam potestatem 
+          <lb ed="#C" n="7"/>iurisdictionis in temporalibus habuit po/ 
+          <lb ed="#C" n="8"/>testatem diuidendi &amp; dicendi ius / puta quid 
+          <lb ed="#C" n="9"/>iustum &amp; quid iniustum in quacunque re 
+          ten<lb ed="#C" n="10" break="no"/>porali quo ad omnia. ergo videtur ex dicta 
+          <lb ed="#C" n="11"/>auctoritate quod Christus non habuit ex priui 
+          <lb ed="#C" n="12"/>legio a diuinitate concesso secundum 
+          huma<lb ed="#C" n="13" break="no"/>nitatem talem potestatem iurisdictionis in 
+          <lb ed="#C" n="14"/>omnibus rebus temporalibus. Item dixit / 
+          <lb ed="#C" n="15"/>regnum meum non est de hoc mundo. 
+          er<lb ed="#C" n="16" break="no"/>go non habuit potestatem regiam in hoc 
+          <lb ed="#C" n="17"/>mundo. &amp; per consequens non habuit 
+          su<lb ed="#C" n="18" break="no"/>premam iurisdictionis potestatem in 
+          tem<lb ed="#C" n="19" break="no"/>poralibus. Vnde quattuor dicit hec opi 
+          <lb ed="#C" n="20"/>nio. Primum / Christus secundum humanita 
+          <lb ed="#C" n="21"/>tem non habuit proprietatem &amp; potestatem 
+          <lb ed="#C" n="22"/>in singulis rebus. Patet / volucres celi 
+          ni<lb ed="#C" n="23" break="no"/>dos habent / filius autem hominis non 
+          ha<lb ed="#C" n="24" break="no"/>bet vbi caput reclinet. Secundum / iure 
+          heredi<lb ed="#C" n="25" break="no"/>tario non habuit potestatem iurisditionis 
+          <lb ed="#C" n="26"/>in singulis rebus temporalibus. Tertium / 
+          iu<lb ed="#C" n="27" break="no"/>re hereditario non habuit potestatem 
+          iuris<lb ed="#C" n="28" break="no"/>dictionis in regno iude. Quarto / non habuit 
+          <lb ed="#C" n="29"/>illam in rebus temporalibus ex priuilegio 
+          <lb ed="#C" n="30"/>sibi a diuinitate concesso. Sed contra hanc 
+          <lb ed="#C" n="31"/>sunt multi textus. primum quod deus fecit illum 
+          <lb ed="#C" n="32"/>heredem omnium. ergo ex priuilegio 
+          ha<lb ed="#C" n="33" break="no"/>buit potestatem in omnibus. Vnde dicit 
+          <lb ed="#C" n="34"/>sanctus Tho. de regimine principum / quod 
+          Chri<lb ed="#C" n="35" break="no"/>stus ex concessione a deo secundum 
+          humani<lb ed="#C" n="36" break="no"/>tatem habuit supremam iurisdictionis potestatem 
+          <lb ed="#C" n="37"/>in singulis rebus temporalibus / ideo 
+          elici<lb ed="#C" n="38" break="no"/>tur ex dictis sanctus Tho. quod secundum 
+          humani<lb ed="#C" n="39" break="no"/>tatem non iure hereditario: sed concessione 
+          <lb ed="#C" n="40"/>a diuinitate sibi facta habuit supremam 
+          pote<lb ed="#C" n="41" break="no"/>statem iurisdictionis in singulis rebus 
+          tem<lb ed="#C" n="42" break="no"/>poralibus. Similiter habetur in 
+          apocalipsi<lb ed="#C" n="43" break="no"/>in cuius semine id est humanitate rex regum &amp;c. 
+          <lb ed="#C" n="44"/>Tunc bene sequitur Christus secundum 
+          hu<lb ed="#C" n="45" break="no"/>manitatem habet potestatem super reges. 
+          er<lb ed="#C" n="46" break="no"/>go habet potestatem super siugula que ha¬ 
+          <cb ed="#P" n="b"/>
+          <lb ed="#C" n="47"/>bent reges: sed ipsi reges habent potestatem 
+          <lb ed="#C" n="48"/>in temporalibus ad minus iurisdictionis quamuis 
+          <lb ed="#C" n="49"/>non habeant in singulis proprietatem 
+          do<lb ed="#C" n="50" break="no"/>minii: tamen habent iurisdictionem id est 
+          dicen<lb ed="#C" n="51" break="no"/>di ius &amp; diffiniendi de vnaquaque re 
+          tempo<lb ed="#C" n="52" break="no"/>rali. &amp; dicto iure tenentur subditi obedire / 
+          <lb ed="#C" n="53"/>quod si non fecerint habent potestatem 
+          re<lb ed="#C" n="54" break="no"/>bellantes &amp; contumaces iustis afficiendi 
+          pe<lb ed="#C" n="55" break="no"/>nis. ergo Christus secundum humanitatem 
+          <lb ed="#C" n="56"/>ex concessione habet potestatem iurisdictio 
+          <lb ed="#C" n="57"/>nis in singulis rebus temporalibus. 
+          Simili<lb ed="#C" n="58" break="no"/>ter habentur multe auctoritates in Esaia &amp; 
+          <lb ed="#C" n="59"/>in euangelio facientes ad hoc. Propterea 
+          di<lb ed="#C" n="60" break="no"/>cit Thomas / quod monarchia Christi incepit 
+          <lb ed="#C" n="61"/>a conceptione. &amp; quod habuit supremam 
+          po<lb ed="#C" n="62" break="no"/>testatem in temporalibus / &amp; iurisdictionem 
+          <lb ed="#C" n="63"/>in singulis rebus. Et probatur a signo. 
+          Re<lb ed="#C" n="64" break="no"/>ges adorauerunt eum tanquam subiecfi 
+          tempo<lb ed="#C" n="65" break="no"/>raliter. ergo signum erat quod erat verus 
+          domi<lb ed="#C" n="66" break="no"/>nus &amp; monarcha in singulis rebus 
+          tempo<lb ed="#C" n="67" break="no"/>ralibus. Et pro ista opinione facio talem 
+          ra<lb ed="#C" n="68" break="no"/>tionem. Christus habuit potestatem 
+          secun<lb ed="#C" n="69" break="no"/>dum humanitatem ex concessione a 
+          diuini<lb ed="#C" n="70" break="no"/>tate sibi facta obligandi homines etiam ad 
+          <lb ed="#C" n="71"/>mortale. &amp; Christus secundum humanitatem 
+          <lb ed="#C" n="72"/>non potuit errare. &amp; quilibet alius ei secundum 
+          hu<lb ed="#C" n="73" break="no"/>manitatem tenebatur credere &amp; exequi quod 
+          Chri<lb ed="#C" n="74" break="no"/>stus secundum humanitatem ei asseruisset &amp; 
+          praecepis<lb ed="#C" n="75" break="no"/>set: sed si Christus asseruisset sententialiter 
+          de<lb ed="#C" n="76" break="no"/>aliqua re temporali: hec res est istius &amp; non alterius 
+          <lb ed="#C" n="77"/>tunc alter fuisset obligatus reddere illam res 
+          illi<lb ed="#C" n="78" break="no"/>cui Christus adiudicasset. &amp; illam reddere 
+          se<lb ed="#C" n="79" break="no"/>cundum Christi sententiam. ergo erat in illo 
+          <lb ed="#C" n="80"/>superioritas &amp; auctoritas iurisdictionis etiam 
+          <lb ed="#C" n="81"/>erga quoscumque homines. immo habuit potestatem 
+          <lb ed="#C" n="82"/>vnumquemque regem priuare &amp; oppositam legem 
+          <lb ed="#C" n="83"/>instituere damnatis gratiam facere &amp; eos 
+          li<lb ed="#C" n="84" break="no"/>berare. habuit igitur iurisditionis 
+          potesta<lb ed="#C" n="85" break="no"/>tem secundum humanitatem &amp; omnes illi parere 
+          tene<lb ed="#C" n="86" break="no"/>bantur &amp; ratione subiectionis ad illius 
+          sen<lb ed="#C" n="87" break="no"/>tentiam adimplendam obligabantu. &amp; hec 
+          opi<lb ed="#C" n="88" break="no"/>nio est probabilior. Pont etiam suaderi hoc modo 
+          <lb ed="#C" n="89"/>Nam Paulus habuit pertatem petendi qmporalia 
+          pro<lb ed="#C" n="90" break="no"/>seminatione spitumalium quamuis non vsus fuerit illa. 
+          <lb ed="#C" n="91"/>Similiter Chistus habuit potestatem in 
+          sin<lb ed="#C" n="92" break="no"/>gulis rebus quis non sit vsus illa potestate. 
+          <pb ed="#P" n="665"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#C" n="1"/>lam queritur cum sit probabile quod habuerit istam 
+          <lb ed="#C" n="2"/>potestatem in singulis rebus temporalibus 
+          <lb ed="#C" n="3"/>&amp; fecit papam vicarium suum an concesserit 
+          <lb ed="#C" n="4"/>successoribus suis istam supremam potestatem 
+          <lb ed="#C" n="5"/>iurisdictionis in temporalibus. Respodent 
+          con<lb ed="#C" n="6" break="no"/>muniter doctores vt dicit Ioannes de 
+          pari<lb ed="#C" n="7" break="no"/>sius quod non oportet Christum omnem 
+          potesta<lb ed="#C" n="8" break="no"/>tem quam habuit in temporalibus contulisse 
+          <lb ed="#C" n="9"/>petro. Nam potestas Christi secundum 
+          huma<lb ed="#C" n="10" break="no"/>nitatem non fuit alligata sacramentis. Nam 
+          <lb ed="#C" n="11"/>secundum humanitatem habuit potestatem 
+          <lb ed="#C" n="12"/>remittendi peccata etiam absque sacramentis 
+          <lb ed="#C" n="13"/>sed papa non habuit potestatem illam remit 
+          <lb ed="#C" n="14"/>tendi peccata sine sacramentis. ergo Christus 
+          <lb ed="#C" n="15"/>non contulit Petro &amp; eius successoribus 
+          om<lb ed="#C" n="16" break="no"/>nem potestatem quam habuit. ergo hoc 
+          da<lb ed="#C" n="17" break="no"/>co quod Christus habuerit supremam potesta 
+          <lb ed="#C" n="18"/>tem iurisdictionis in temporalibus 
+          secun<lb ed="#C" n="19" break="no"/>dum humanitatem non potest inferri quod totam 
+          <lb ed="#C" n="20"/>illam contulerit petro. Similiter habuit 
+          po<lb ed="#C" n="21" break="no"/>testatem faciendi miracula. &amp; quamuis illam 
+          con<lb ed="#C" n="22" break="no"/>tulerit Petro: non tamen omnibus 
+          successori<lb ed="#C" n="23" break="no"/>bus eius. Similiter non contulit petro 
+          pote<lb ed="#C" n="24" break="no"/>statem instituendi sacramenta. ergo quantum 
+          <lb ed="#C" n="25"/>ad ista tria non contulit omnem potestatem 
+          iu<lb ed="#C" n="26" break="no"/>risdictionis quam habuit in rebus 
+          temporali<lb ed="#C" n="27" break="no"/>bus Petro &amp; successoribus.
+        </p>
+        <p xml:id="ja8dpe-y03726-d1e792">
+          ¶ Alia difficul 
+          <lb ed="#C" n="28"/>tas. Cum ergo summus pontifex non 
+          habe<lb ed="#C" n="29" break="no"/>at supremam potestatem laicam iurisdictionis: 
+          <lb ed="#C" n="30"/>nec in corpora nec in res hominum queritur 
+          <lb ed="#C" n="31"/>an ipse &amp; ecclesiastici sint supreme 
+          potesta<lb ed="#C" n="32" break="no"/>ti laicali subiecti vel sint ex institutione 
+          di<lb ed="#C" n="33" break="no"/>uina exempti / &amp; hoc quantum ad iudicium 
+          co<lb ed="#C" n="34" break="no"/>herciuum quo ad bona &amp; sua corpora. Pro 
+          <lb ed="#C" n="35"/>cuius declaratione supponitur quod qui habet 
+          <lb ed="#C" n="36"/>iurisdictionem temporalem non solum habet 
+          <lb ed="#C" n="37"/>illam super res: sed etiam super corpora. 
+          <lb ed="#C" n="38"/>Secundo supponitur quod habens illam non 
+          <lb ed="#C" n="39"/>solum homines pro demeritis iustis potest 
+          <lb ed="#C" n="40"/>afficere peius: sed etiam ab eis exigere aliquod 
+          <lb ed="#C" n="41"/>tributum personale sicut ecclesiastici habent 
+          <lb ed="#C" n="42"/>ius decimas petendi non solum prediales 
+          <lb ed="#C" n="43"/>sed etiam personales / ita ad istam potestatem 
+          <lb ed="#C" n="44"/>supremam laicam iurisdictionis non solum 
+          spe<lb ed="#C" n="45" break="no"/>ctat eos punire sed etiam tributum persona 
+          <lb ed="#C" n="46"/>leexigere. Nam licite potest princeps pro¬ 
+          <cb ed="#P" n="b"/>
+          <lb ed="#C" n="47"/>republica &amp; substentatione sui status ratio 
+          <lb ed="#C" n="48"/>nabilis tributum petere. Hoc fecit Cesarquod 
+          <lb ed="#C" n="49"/>approbauit Christuscum dicit reddite que 
+          <lb ed="#C" n="50"/>sunt cesaris cesari. Similiter dictum fuit 
+          di<lb ed="#C" n="51" break="no"/>scipulis Magister vester non soluit 
+          didrach<lb ed="#C" n="52" break="no"/>ma. &amp; verissimile est quod didrachma erat 
+          tribu<lb ed="#C" n="53" break="no"/>tum personale. lstis suppositis queritur an 
+          <lb ed="#C" n="54"/>ipsi prelati ecclesiastici sint iure diuino ab 
+          <lb ed="#C" n="55"/>ipsa potestate laica coherciua exempti / ita 
+          <lb ed="#C" n="56"/>quod ille qui illam exercet non possit 
+          ecclesiasti<lb ed="#C" n="57" break="no"/>corum peccata punire nec ab illis tributa 
+          exi<lb ed="#C" n="58" break="no"/>gere.
+        </p>
+        <p xml:id="ja8dpe-y03726-d1e864">
+          ¶ Qtum ad hoc sit prima 
+          proposi<lb ed="#C" n="59" break="no"/>tio. Ecclesiastici quantum ad praedia sua &amp; res 
+          im<lb ed="#C" n="60" break="no"/>mobiles non sunt iure diuino a iurisdictione 
+          <lb ed="#C" n="61"/>laica coherciua exempti. &amp; loquor de omnibus 
+          <lb ed="#C" n="62"/>ecclesiasticis vniuersaliter. Patet / 
+          ecclesiasti<lb ed="#C" n="63" break="no"/>ci iure diuino nullam habent talem potestatem / 
+          <lb ed="#C" n="64"/>sed ex iure diuino habent ius petendi decinas 
+          <lb ed="#C" n="65"/>quamuis ius sit immobile: tamen ipseres puta 
+          deci<lb ed="#C" n="66" break="no"/>me sunt res mobiles. Preterea notum est quod 
+          <lb ed="#C" n="67"/>aliquod predium aliquando donatur 
+          eccle<lb ed="#C" n="68" break="no"/>siastico &amp; stat quod sit obnoxium alicui 
+          prin<lb ed="#C" n="69" break="no"/>cipi quantum ad redditus annuos / quo facto 
+          si<lb ed="#C" n="70" break="no"/>transferatur in dominium ecclesiastici transit 
+          <lb ed="#C" n="71"/>cum onere suo id est cum obligatione ad 
+          soluen<lb ed="#C" n="72" break="no"/>dum tributum vel censum annuum illi 
+          domi<lb ed="#C" n="73" break="no"/>no laico. ergo non sunt iure diuino 
+          exem<lb ed="#C" n="74" break="no"/>pti a tributo quo ad res immobiles. Item 
+          pos<lb ed="#C" n="75" break="no"/>sident illas res solum iure principum / quia 
+          <lb ed="#C" n="76"/>tenent illas in feudum a regibus &amp; 
+          princi<lb ed="#C" n="77" break="no"/>pibus.
+        </p>
+        <p xml:id="ja8dpe-y03726-d1e908">
+          ¶ Secunda propositio / 
+          ecclesiastici<lb ed="#C" n="78" break="no"/>non sunt subiecti potestati laice coherciue 
+          <lb ed="#C" n="79"/>quantum ad eas res que eis competunt iure 
+          <lb ed="#C" n="80"/>diuino puta quantum ad decimas. ita quod 
+          ni<lb ed="#C" n="81" break="no"/>chil ab eis exigi potest. Patet duplici ratio 
+          <lb ed="#C" n="82"/>ne. Nam laici exercentes potestatem laicam 
+          <lb ed="#C" n="83"/>tenentur ipsis ecclesiasticis soluere. ergo 
+          ec<lb ed="#C" n="84" break="no"/>clesiastici ad nihiltenentur eis. Item quando 
+          <lb ed="#C" n="85"/>cunque quis possidet aliquid lege vel aucto 
+          <lb ed="#C" n="86"/>ritate superioris in illo quod possidet lege 
+          <lb ed="#C" n="87"/>superioris non obligatur inferiori: sed ec / 
+          <lb ed="#C" n="88"/>clesiastici habent decimas &amp; ius in illis 
+          im<lb ed="#C" n="89" break="no"/>mediate auctoritate dei qui est supremus 
+          super<lb ed="#C" n="90" break="no"/>omnes reges exercentes iurisdictionem laicam &amp; 
+          co<lb ed="#C" n="91" break="no"/>herciuam. ergo quantum ad hoc nullo modo obligan 
+          <lb ed="#C" n="92"/>tur illis exercentibus iurisdictionem coherciuan
+        </p>
+        <p xml:id="ja8dpe-y03726-d1e944">
+          <pb ed="#P" n="666"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#C" n="1"/>¶ Tertia propositio / in qua iacet 
+          difficul<lb ed="#C" n="2" break="no"/>tas inter doctores. An ecclesiastici quantum 
+          <lb ed="#C" n="3"/>ad personas eorum sint exempti iure 
+          diui<lb ed="#C" n="4" break="no"/>no a potestate coherciua laica / ita quod saici 
+          iu<lb ed="#C" n="5" break="no"/>dices non possint pro demeritis ecclesiasticos 
+          <lb ed="#C" n="6"/>punire nec ab eis tributum personale exigere 
+          <lb ed="#C" n="7"/>Dicit Marcilius in secundo ca. quarto quod non. 
+          <lb ed="#C" n="8"/>Oppositum tenet Carlerius in quibusdam 
+          tra<lb ed="#C" n="9" break="no"/>ctatibus quos edidit post concilium basilien 
+          <lb ed="#C" n="10"/>se de gestis in illo. Dicit Marcilius qui 
+          mul<lb ed="#C" n="11" break="no"/>tum exaltauit potestatem laicam quod 
+          ecclesiasti<lb ed="#C" n="12" break="no"/>ce persone sunt a deo iudicio laicali coherci 
+          <lb ed="#C" n="13"/>uo subiecte. Et ad hoc probandum adducit tres 
+          <lb ed="#C" n="14"/>rationes precipuas ex sacris litteris. dicit 
+          no<lb ed="#C" n="15" break="no"/>tum esse ex priuilegio ipsos ecclesiasticos 
+          <lb ed="#C" n="16"/>esse exemptos: sed quantum est ex institutione 
+          di<lb ed="#C" n="17" break="no"/>uina sunt iudicio coherciuo laicali 
+          subiecti<lb ed="#C" n="18" break="no"/>ad Ro. xiii. Onis anima subiecta sit 
+          potestati<lb ed="#C" n="19" break="no"/>bus sublimioribus. Dicit glo. quod in verbo 
+          <lb ed="#C" n="20"/>omnis nullus excipitur &amp; nullus excluditur. 
+          <lb ed="#C" n="21"/>Omnis anima secundum glo id est omnis homo. Item que 
+          <lb ed="#C" n="22"/>a deo sunt ordinata sunt. Et qui potestati 
+          <lb ed="#C" n="23"/>resistit ordinationi dei resistit. Et subdit / red 
+          <lb ed="#C" n="24"/>dite ergo omnibus debita cui tributum / tributum 
+          <lb ed="#C" n="25"/>cui vectigal / vectigal: cui honorem / honorem: 
+          <lb ed="#C" n="26"/>tam non expresse videtur sequai quod persone 
+          eccle<lb ed="#C" n="27" break="no"/>siastice sint subiecte quantum ad corpora eorum 
+          <lb ed="#C" n="28"/>ad tributa.
+        </p>
+        <p xml:id="ja8dpe-y03726-d1e1012">
+          ¶ Secunda auctoritas habetur 
+          pri<lb ed="#C" n="29" break="no"/>me Petri secundo. Subditi estote omni 
+          huma<lb ed="#C" n="30" break="no"/>ne creature propter deum siue regi quasi 
+          pre<lb ed="#C" n="31" break="no"/>cellenti siue ducibus tanquam ab eo missis ad 
+          <lb ed="#C" n="32"/>vindictam malefactorum / laudem vero bonorum 
+          <lb ed="#C" n="33"/>quia sic est voluntas dei. ergo videtur quod 
+          perso<lb ed="#C" n="34" break="no"/>ne ecclesiastice sint subiecte quantum ad 
+          corpo<lb ed="#C" n="35" break="no"/>ra eorum ad tributum.
+        </p>
+        <p xml:id="ja8dpe-y03726-d1e1030">
+          ¶ Tertia ratio est que 
+          <lb ed="#C" n="36"/>magis est apparens. nam habetur actuum. xx v. 
+          <lb ed="#C" n="37"/>quod Paulus declinauit iurisdictionem 
+          sacerdo<lb ed="#C" n="38" break="no"/>tum legis &amp; appellauit ad tribunal Cesaris 
+          <lb ed="#C" n="39"/>aquoc vt inquit) oportet me iudicari: sed 
+          <lb ed="#C" n="40"/>certum est quod Paulus erat ecclesiasticus immo 
+          <lb ed="#C" n="41"/>episcopus &amp; non est mentitus / nec timore 
+          <lb ed="#C" n="42"/>pene hoc dicebat immo pro veritate mori 
+          de<lb ed="#C" n="43" break="no"/>creuerat / &amp; iudicari volebat a Cesare. ergo 
+          <lb ed="#C" n="44"/>persona ecclesiastica non est ex iure diuino 
+          a<lb ed="#C" n="45" break="no"/>laicali iurisdictione exempta nec quantum ad 
+          cor<lb ed="#C" n="46" break="no"/>pus nec quantum ad tributum. &amp; hec est opinio 
+          <cb ed="#P" n="b"/>
+          <lb ed="#C" n="47"/>
+          <name xml:id="ja8dpe-y03726-Nd1e1060">Marcilii</name>. Sed oppositum tenet Carlerius 
+          <lb ed="#C" n="48"/>quondam regalis collegii nauarre socius 
+          me<lb ed="#C" n="49" break="no"/>ritissimus in quodam tractatu quem edidit 
+          con<lb ed="#C" n="50" break="no"/>tra Bohemos quod ecclesiastice persone ex iure 
+          <lb ed="#C" n="51"/>diuino sunt exempte quo ad corpus a 
+          iuris<lb ed="#C" n="52" break="no"/>dictione coherciua laicali / &amp; fundat se Mla 
+          e<lb ed="#C" n="53" break="no"/>thei. xvii. venerunt exactores quo didrachmam 
+          <lb ed="#C" n="54"/>accipiebant &amp; dixerunt Petro. Magister 
+          ve<lb ed="#C" n="55" break="no"/>ster non soluit didrachmam. ait. Etiam. Et cum 
+          <lb ed="#C" n="56"/>intrasset in domum preuenit eum lesus dicens. 
+          <lb ed="#C" n="57"/>Quid tibi videtur Simon? Reges terre a 
+          qui<lb ed="#C" n="58" break="no"/>bus accipiunt tributum vel censum a filiis suis 
+          <lb ed="#C" n="59"/>an ab alienis: Et ille dixit. ab alienis. Dixit 
+          <lb ed="#C" n="60"/>illi lesus. ergo liberi sunt filii. vt autem non 
+          <lb ed="#C" n="61"/>scandalisemus eos vade ad mare &amp; mitte 
+          ha<lb ed="#C" n="62" break="no"/>mum &amp; eum piscem qui primus ascenderit 
+          <lb ed="#C" n="63"/>tolle. &amp; apperto ore eius inuenies statheren 
+          <lb ed="#C" n="64"/>illum sumens da enis pro me &amp; te. Ex isto 
+          tex<lb ed="#C" n="65" break="no"/>tu videtur quod non soluerit ex debito. Dicit 
+          <lb ed="#C" n="66"/>Carlerius quod per liberos intellexit ecclesiasti 
+          <lb ed="#C" n="67"/>cos. ergo exemit ecclesiasticos a tributo 
+          per<lb ed="#C" n="68" break="no"/>sonali soluendo laicis. Et hoc est 
+          probabi<lb ed="#C" n="69" break="no"/>le / quod eoipso quod aliquis esset effectus ecclesia 
+          <lb ed="#C" n="70"/>sticus / potestas laica nullam habet in illum 
+          <lb ed="#C" n="71"/>potestatem: quia est effectus filius &amp; liber. 
+          <lb ed="#C" n="72"/>Et ista opinio videtur probabilior. 
+        </p>
+      </div>
+          </body>
+  </text>
+</TEI>

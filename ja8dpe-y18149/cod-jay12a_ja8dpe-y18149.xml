@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 8</title>
+        <author ref="#JacquesAlmain">Jacques Almain</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 8</title>
+          <date when="2026-07-29">July 29, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-jay12a">Paris 1512</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-07-29" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="727"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ja8dpe-y18149"><!-- dpe-q3c8 -->
+        <head xml:id="ja8dpe-y18149-Hd1e101">Caput 8</head>
+        <head xml:id="ja8dpe-y18149-Hd1e103" type="question-title">Per scripta</head>
+        <p xml:id="ja8dpe-y18149-d1e106">
+          <lb ed="#C" n="83"/>¶ Cap. octauum. Per scripta. 
+        </p>
+        <p xml:id="ja8dpe-y18149-d1e111">
+          <lb ed="#C" n="84"/>IN HOC CAPITVLO 
+          <lb ed="#C" n="85"/>soluuntur rationes proban 
+          <lb ed="#C" n="86"/>tes quod debet esse vnus 
+          supre<lb ed="#C" n="87" break="no"/>mus principans. Arguitur 
+          <lb ed="#C" n="88"/>sic. in omni communitate 
+          <lb ed="#C" n="89"/>alioquorum volentium 
+          communio<lb ed="#C" n="90" break="no"/>nem habere ad inuicem &amp; habere contractus ratio¬ 
+          <pb ed="#P" n="728"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#C" n="1"/>ne quorum pet oriri dissentiones &amp; discordie: 
+          <lb ed="#C" n="2"/>necesseen habere supsemum in illa comunitate a quo 
+          <lb ed="#C" n="3"/>cetere potestates &amp; iurisditiones dependeant: 
+          <lb ed="#C" n="4"/>sed tota communitas mortalium est 
+          congrega<lb ed="#C" n="5" break="no"/>tio &amp;c. ergo oportet quod sit vnus supremus 
+          <lb ed="#C" n="6"/>a quo &amp;c. sed nullus potest esse nisi papa / 
+          <lb ed="#C" n="7"/>quia potestas eius non dependet nisi a deo / 
+          <lb ed="#C" n="8"/>&amp; non a principe vel regibus.
+        </p>
+        <p xml:id="ja8dpe-y18149-d1e150">
+          ¶ Ad hoc 
+          ar<lb ed="#C" n="9" break="no"/>gumentum negatur maior / quia non 
+          repu<lb ed="#C" n="10" break="no"/>gnat optimo principatui esse aliquam 
+          iuris<lb ed="#C" n="11" break="no"/>ditionem que non dependeat ab illo vt 
+          di<lb ed="#C" n="12" break="no"/>ctum est in primo correlario. sufficit quod 
+          ca<lb ed="#C" n="13" break="no"/>sualiter dependeat &amp; non regulariter. Alia 
+          <lb ed="#C" n="14"/>ratio precipua. Si sint duo precipientes non 
+          <lb ed="#C" n="15"/>subordinati &amp; ambo vocent eandem perso 
+          <lb ed="#C" n="16"/>nam iurisdice: talis persona erit perplexa. 
+          <lb ed="#C" n="17"/>Exemplum / vt si imperator vocet sortem 
+          <lb ed="#C" n="18"/>pro re ciuili / &amp; papa eodem tempore vocet 
+          <lb ed="#C" n="19"/>eundem pro re ecclesiastica / si iste 
+          potesta<lb ed="#C" n="20" break="no"/>tes sic se haberent quod nulla ab altera 
+          depende<lb ed="#C" n="21" break="no"/>ret iam sortes esset perplexus / nam si vadat 
+          <lb ed="#C" n="22"/>ad papam contempnit imperatorem &amp; 
+          pec<lb ed="#C" n="23" break="no"/>cat quando res est licita / &amp; econtra si vadat 
+          <lb ed="#C" n="24"/>ad imperatorem contempnit papam. ergo 
+          <lb ed="#C" n="25"/>politia non erit optime ordinata si sint 
+          due<lb ed="#C" n="26" break="no"/>potestates coherciue in communitate &amp; nul 
+          <lb ed="#C" n="27"/>la dependeat ab altera.
+        </p>
+        <p xml:id="ja8dpe-y18149-d1e195">
+          ¶ Doctor respondet 
+          <lb ed="#C" n="28"/>negando quod sequatur personam in aliquo 
+          ca<lb ed="#C" n="29" break="no"/>suesse perplexam / quia vel in vocatione 
+          am<lb ed="#C" n="30" break="no"/>bo explicant causam quare vocant. Si 
+          expli<lb ed="#C" n="31" break="no"/>cant causam vadat ad eum qui vrgentioren 
+          <lb ed="#C" n="32"/>explicat causam: vt rex vocat sortem vt 
+          def<lb ed="#C" n="33" break="no"/>fendat ciuitatem quia imminet periculum. Si 
+          <lb ed="#C" n="34"/>militer papa vocat illum pro causa non tam 
+          <lb ed="#C" n="35"/>vrgenti. debet tunc obedire regi ideo debet 
+          <lb ed="#C" n="36"/>ire ad illum qui causam vrgentiorem 
+          expli<lb ed="#C" n="37" break="no"/>cat secundum quod vir prudens iudicabit in 
+          il<lb ed="#C" n="38" break="no"/>lis exercitatus. Si vero nullus explicat 
+          cau<lb ed="#C" n="39" break="no"/>sam. dico quod necessarium est ire ad supremum 
+          <lb ed="#C" n="40"/>principantem / vt si papa &amp; rex vocant 
+          me<lb ed="#C" n="41" break="no"/>apparentia est quod debeo ire ad regem. Nam 
+          <lb ed="#C" n="42"/>rex habet maius dominium in corpora no 
+          <lb ed="#C" n="43"/>stra quam papa / quia non dominatur 
+          corpori<lb ed="#C" n="44" break="no"/>bus. Contra / potestas pape a nullo 
+          depen<lb ed="#C" n="45" break="no"/>det nisi a deo: sed potestas regalis ab alio 
+          <lb ed="#C" n="46"/>dependet puta a populo: ergo papa habet 
+          <cb ed="#P" n="b"/>
+          <lb ed="#C" n="47"/>potestatem immediate a deo. &amp; per 
+          conse<lb ed="#C" n="48" break="no"/>quens maiorem.
+        </p>
+        <p xml:id="ja8dpe-y18149-d1e245">
+          ¶ Respondetur quod dupliciter 
+          <lb ed="#C" n="49"/>intelligitur peartantem aliquam dependere a deo. vno 
+          <lb ed="#C" n="50"/>modo quod nullus preter deum illam instituit. &amp; sic 
+          <lb ed="#C" n="51"/>potestas papalis dependet a deo. Alio 
+          mo<lb ed="#C" n="52" break="no"/>do quod deus illam conferat nullo requisito 
+          <lb ed="#C" n="53"/>creato. &amp; sic potestas papalis nunc non sic 
+          <lb ed="#C" n="54"/>dependet a deo quia prerequiritur electio. 
+          <lb ed="#C" n="55"/>sed illa que fuit in Petro a solo deo 
+          depen<lb ed="#C" n="56" break="no"/>debat. Tertio modo quod a solo deo 
+          depen<lb ed="#C" n="57" break="no"/>deat quantum ad destitutionem. &amp; sic 
+          pote<lb ed="#C" n="58" break="no"/>stas papalis non a solo deo dependet / quia 
+          <lb ed="#C" n="59"/>concilium generale potest destituere ipsum 
+          <lb ed="#C" n="60"/>papam.
+        </p>
+        <p xml:id="ja8dpe-y18149-d1e274">
+          ¶ Dico ergo tria. Primum / potestas 
+          <lb ed="#C" n="61"/>papalis dependet a solo deo quantum ad 
+          <lb ed="#C" n="62"/>institutionem. Secundum / non dependet 
+          <lb ed="#C" n="63"/>a solo deo quantum ad nouam collationem / 
+          <lb ed="#C" n="64"/>quia requiritur electio. Tertium / neque 
+          de<lb ed="#C" n="65" break="no"/>pendet a solo deo quantum ad 
+          destitutio<lb ed="#C" n="66" break="no"/>nem. Dico vltra quod potestas regalis non de 
+          <lb ed="#C" n="67"/>pendet a solo deo quantum ad illa tria 
+          su<lb ed="#C" n="68" break="no"/>pradicta. Vnde argumentum bene probat 
+          <lb ed="#C" n="69"/>quod potestas papalis est dignior quam regalis / 
+          <lb ed="#C" n="70"/>sed non probat quod ipsa sit supra potestatem 
+          <lb ed="#C" n="71"/>regiam quantum ad institutionem &amp; 
+          desti<lb ed="#C" n="72" break="no"/>tutionem.
+        </p>
+        <p xml:id="ja8dpe-y18149-d1e303">
+          ¶ Resolutio ergo huius questio 
+          <lb ed="#C" n="73"/>nis tertie est / potestas iurisditionis principum 
+          <lb ed="#C" n="74"/>secularium: non dependet nec a papa nec 
+          <lb ed="#C" n="75"/>a Romana ecclesia. immo papa illam 
+          iuris<lb ed="#C" n="76" break="no"/>ditionem laicam non habet nisi ex collatio 
+          <lb ed="#C" n="77"/>ne imperatorum &amp; principum aut ex 
+          pre<lb ed="#C" n="78" break="no"/>scriptione. Opinio vero iuristarum est 
+          com<lb ed="#C" n="79" break="no"/>munis quod summus pontifex habet eam: 
+          sal<lb ed="#C" n="80" break="no"/>tem in habitu. hoc est si talis princeps qui 
+          <lb ed="#C" n="81"/>habeteam regulariter negligat illam 
+          exer<lb ed="#C" n="82" break="no"/>cere / vel non possit: ad papam spectat illam 
+          <lb ed="#C" n="83"/>exercere. &amp; hoc est habere in habitu in ca. 
+          <lb ed="#C" n="84"/>nouit de iudicis. 
+        </p>
+      </div>
+          </body>
+  </text>
+</TEI>

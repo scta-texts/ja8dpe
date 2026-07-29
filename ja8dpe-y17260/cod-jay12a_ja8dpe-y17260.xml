@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 4</title>
+        <author ref="#JacquesAlmain">Jacques Almain</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 4</title>
+          <date when="2026-07-29">July 29, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-jay12a">Paris 1512</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-07-29" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="723"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ja8dpe-y17260"><!-- dpe-q3c4 -->
+        <head xml:id="ja8dpe-y17260-Hd1e101">Caput 4</head>
+        <head xml:id="ja8dpe-y17260-Hd1e103" type="question-title"/>
+        <p xml:id="ja8dpe-y17260-d1e105">
+          ¶ Quartum capitulum. 
+        </p>
+        <p xml:id="ja8dpe-y17260-d1e107">
+          <lb ed="#C" n="81"/>¶ PORRO QVIA ISTA. Videnda sunt 
+          <lb ed="#C" n="82"/>pertinentia ad bonum principatum / primum 
+          <lb ed="#C" n="83"/>quod sit ordinatus in bonnm commune &amp; non 
+          <lb ed="#C" n="84"/>in vtilitatem alicuius persone priuate. 
+          vn<lb ed="#C" n="85" break="no"/>de aristoteles non solum ponit differentiam 
+          <lb ed="#C" n="86"/>boni principatus a tyrano / sed etiam a 
+          de<lb ed="#C" n="87" break="no"/>spotico licito. quia principatus est 
+          ordina<lb ed="#C" n="88" break="no"/>tus ad communem vtilitatem. Isto modo 
+          <lb ed="#C" n="89"/>Christus instituit principatum 
+          sacerdota<lb ed="#C" n="90" break="no"/>lem propter vtilitatem communem &amp; non 
+          <lb ed="#C" n="91"/>propter bonum priuatum Petri &amp; 
+          succes<lb ed="#C" n="92" break="no"/>sorum. talis autem principatus papalis &amp; 
+          <pb ed="#P" n="724"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#C" n="1"/>episcopalis est ex ordinatione Christi / quod 
+          <lb ed="#C" n="2"/>insinuatum est a Christo cum petrum fecit 
+          pa<lb ed="#C" n="3" break="no"/>pam dicendo / pasce oues meas: quasi dicat 
+          <lb ed="#C" n="4"/>super oues meas te principem constituo vt 
+          <lb ed="#C" n="5"/>non tollas ab eis lac &amp; lanam nisi pro 
+          neces<lb ed="#C" n="6" break="no"/>sitatibus tuis. iuxta illud ad Corinthios. ix. 
+          <lb ed="#C" n="7"/>quis pascitur gregem: &amp; de lacte eius non 
+          man<lb ed="#C" n="8" break="no"/>ducat. ecclesiastici enim habent titulum petem 
+          <lb ed="#C" n="9"/>di &amp; exigendi temporalia pro spiritualibus. 
+          <lb ed="#C" n="10"/>vt patet ex illa auctoritate pauli. Principatus 
+          <lb ed="#C" n="11"/>ergo apostolicus est ordinatus non 
+          pro<lb ed="#C" n="12" break="no"/>pter bonum principantis sed propter bonum 
+          <lb ed="#C" n="13"/>commune subiectorum ad obtinendum 
+          re<lb ed="#C" n="14" break="no"/>gnum celorum. &amp; ideo petrus dicit aliis 
+          pa<lb ed="#C" n="15" break="no"/>storibus: pascite qui est in vobis gregen dei / 
+          <lb ed="#C" n="16"/>ex istis auctoritatibus habetur manifeste quod 
+          <lb ed="#C" n="17"/>principatus apostolicus est institutus 
+          pro<lb ed="#C" n="18" break="no"/>pter bonum commune / propterea si Petrus 
+          <lb ed="#C" n="19"/>aliquid instituisset contra libertatem 
+          alicu<lb ed="#C" n="20" break="no"/>ius particularis persone / vbi non fuisset 
+          ne<lb ed="#C" n="21" break="no"/>cessitas aut magna vtilitas / illa institutio 
+          si<lb ed="#C" n="22" break="no"/>ne preceptio non obligasset. nam que fiunt 
+          <lb ed="#C" n="23"/>a iudice &amp; non in illa materia in qua non 
+          ha<lb ed="#C" n="24" break="no"/>bet potestatem iudicandi nullius sunt 
+          effi<lb ed="#C" n="25" break="no"/>cacie. vnde non fuit data petro potestas 
+          ni<lb ed="#C" n="26" break="no"/>si in vtilitatem subditorum quare si 
+          papa<lb ed="#C" n="27" break="no"/>ferat sententiam excommunicationis &amp; non 
+          <lb ed="#C" n="28"/>pro causa vera vel apparente non est timenda. 
+        </p>
+      </div>
+          </body>
+  </text>
+</TEI>

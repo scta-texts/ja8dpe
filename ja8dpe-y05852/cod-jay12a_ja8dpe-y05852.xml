@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 11</title>
+        <author ref="#JacquesAlmain">Jacques Almain</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 11</title>
+          <date when="2026-07-29">July 29, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-jay12a">Paris 1512</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-07-29" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="671"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ja8dpe-y05852"><!-- dpe-q1c11 -->
+        <head xml:id="ja8dpe-y05852-Hd1e101">Caput 11</head>
+        <head xml:id="ja8dpe-y05852-Hd1e103" type="question-title">
+          An ex ordinatione diuina 
+          ad papam spectet de quolibet peccato 
+          ordinarie cognoscere</head>
+        <p xml:id="ja8dpe-y05852-d1e106">
+          <lb ed="#C" n="79"/>¶ Capitulo. xi. An ex ordinatione diuina 
+          <lb ed="#C" n="80"/>ad papam spectet de quolibet peccato 
+          ordi<lb ed="#C" n="81" break="no"/>narie cognoscere.
+        </p>
+        <p xml:id="ja8dpe-y05852-d1e115">
+          <lb ed="#C" n="82"/>COnsequenter queritur. 
+          <lb ed="#C" n="83"/>Vtrum sit concessa ex 
+          in<lb ed="#C" n="84" break="no"/>stitutione Christi petro 
+          <lb ed="#C" n="85"/>regulariter potestas 
+          pro<lb ed="#C" n="86" break="no"/>omni mortali 
+          excommuni<lb ed="#C" n="87" break="no"/>candi etiam supposito quod 
+          <lb ed="#C" n="88"/>actor &amp; peccatum nota 
+          <lb ed="#C" n="89"/>sint. Supponuntur quod iam dicta sunt. quomodo 
+          <lb ed="#C" n="90"/>duplex est peccatum scilicet seculare &amp; 
+          spiritua<lb ed="#C" n="91" break="no"/>le. similiter peccatum seculare est duplex scilicet 
+          <lb ed="#C" n="92"/>erroris &amp; vendicationis.
+        </p>
+        <p xml:id="ja8dpe-y05852-d1e141">
+          ¶ Istis suppositis 
+          <pb ed="#P" n="672"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#C" n="1"/>sit prima propositio. Ad iudicem 
+          ecclesia<lb ed="#C" n="2" break="no"/>sticum vt est papa episcopus officialis &amp;c. 
+          <lb ed="#C" n="3"/>spectat ordinarie cognoscere de quocunque 
+          <lb ed="#C" n="4"/>mortali etiam oppositionis &amp; erroris in 
+          re<lb ed="#C" n="5" break="no"/>bus secularibus ex ordinatione diuina. Et in 
+          <lb ed="#C" n="6"/>ista propositione coincidunt omnes doct. &amp; 
+          lo<lb ed="#C" n="7" break="no"/>quor de mortalibus semper. Patet nullum 
+          <lb ed="#C" n="8"/>est mortale nisi quia contra legem dei vt 
+          pa<lb ed="#C" n="9" break="no"/>tet ex diffinitione peccati data ab 
+          Augusti<lb ed="#C" n="10" break="no"/>no. Peccatum est dictum factum vel 
+          concu<lb ed="#C" n="11" break="no"/>pitum contra legem dei: sed sic est quod ad 
+          iu<lb ed="#C" n="12" break="no"/>dicem ecclesiasticum quia ecclesiasticus est 
+          <lb ed="#C" n="13"/>secundum hanc considerationem de 
+          omni<lb ed="#C" n="14" break="no"/>quod est contra legem dei spectat 
+          ordina<lb ed="#C" n="15" break="no"/>rie iudicare an sit contra legem dei vel non 
+          <lb ed="#C" n="16"/>Ex ore enim eius legem requiram / ergo ad 
+          <lb ed="#C" n="17"/>iudicem ecclesiasticum ordinarie &amp; 
+          iudici<lb ed="#C" n="18" break="no"/>arie spectat cognoscere de omni peccato 
+          er<lb ed="#C" n="19" break="no"/>roris vel oppositionis in rebus 
+          seculari<lb ed="#C" n="20" break="no"/>bus: vt si quis diceret furtum non esse 
+          pec<lb ed="#C" n="21" break="no"/>catum. immo si cum pertinatia diceret 
+          ta<lb ed="#C" n="22" break="no"/>lis esset hereticus: sed notum est quod hoc 
+          spe<lb ed="#C" n="23" break="no"/>ctat ad iudicem ecclesiasticum de talibus 
+          co<lb ed="#C" n="24" break="no"/>gnoscere.
+        </p>
+        <p xml:id="ja8dpe-y05852-d1e201">
+          ¶ Secunda propositio 
+          regulari<lb ed="#C" n="25" break="no"/>ter ad iudicem ecclesiasticum non spectat 
+          or<lb ed="#C" n="26" break="no"/>dinarie cognoscere de vendicatione rerum 
+          <lb ed="#C" n="27"/>secularium puta cuius sint / aut cuius non sint. 
+          <lb ed="#C" n="28"/>patet nam quod ista res sit istius &amp; illa illius hoc 
+          <lb ed="#C" n="29"/>est ex iure ciuili ex capitulo quo iure 
+          supra<lb ed="#C" n="30" break="no"/>allegato / ergo hoc debet iudicari secundum 
+          <lb ed="#C" n="31"/>leges ciuiles: sed ad ecclesiasticum vt 
+          ecclesi<lb ed="#C" n="32" break="no"/>asticus est non spectat cognitio iuris ciuilis 
+          <lb ed="#C" n="33"/>incapitulo quo iure &amp; capitulo nouit de 
+          <lb ed="#C" n="34"/>iudiciis. Non intendimus de feudo 
+          iudi<lb ed="#C" n="35" break="no"/>care / quia ad ipsum spectat id est regem vel im 
+          <lb ed="#C" n="36"/>peratorem. in criminibus non in possessio 
+          <lb ed="#C" n="37"/>nibus vestra potestas est. Et istud 
+          apparen<lb ed="#C" n="38" break="no"/>ter deducitur ex sacris litteris. nam summus 
+          pote<lb ed="#C" n="39" break="no"/>tifex non habet maiorem auctoritatem quam 
+          <lb ed="#C" n="40"/>habuit Christus secundum humanitatem: 
+          <lb ed="#C" n="41"/>sed Christus secundum humanitatem non 
+          <lb ed="#C" n="42"/>habuit hanc auctoritatem discernendi 
+          de<lb ed="#C" n="43" break="no"/>feudis &amp; de rebus secularibus / &amp; de 
+          vendi<lb ed="#C" n="44" break="no"/>tione rerum secularium. nam ipse. qu. negans 
+          <lb ed="#C" n="45"/>a se auctoritatem illam respoendit iuueni interro 
+          <lb ed="#C" n="46"/>ganti eum vt iuberet fratrem suum diuidere 
+          <cb ed="#P" n="b"/>
+          <lb ed="#C" n="47"/>hereditatem: quis constituit me diuisorem 
+          <lb ed="#C" n="48"/>inter vos.
+        </p>
+        <p xml:id="ja8dpe-y05852-d1e258">
+          ¶ Contra hanc auctoritatem sunt 
+          <lb ed="#C" n="49"/>due auctoritates que videntur expresse 
+          so<lb ed="#C" n="50" break="no"/>nare oppositum. Prima habetur. xi. quoid estct 
+          <lb ed="#C" n="51"/>quecumque dissentiones oriuntur inter 
+          Chri<lb ed="#C" n="52" break="no"/>stianos ad ecclesiasticos sunt defferende &amp; 
+          <lb ed="#C" n="53"/>ab eis terminande / ergo etiam dissentiones quam 
+          <lb ed="#C" n="54"/>oriuntur de venditionibus. Dico quod istud 
+          <lb ed="#C" n="55"/>capitulum expresse ponintur a palea. &amp; ideo 
+          <lb ed="#C" n="56"/>nec approbatur nec reprobatur: immo 
+          nul<lb ed="#C" n="57" break="no"/>lius est approbations.
+        </p>
+        <p xml:id="ja8dpe-y05852-d1e280">
+          ¶ Alia auctoritas 
+          ha<lb ed="#C" n="58" break="no"/>betur prime ad Corinthi. vi. angelos 
+          iudi<lb ed="#C" n="59" break="no"/>cabimus quanto magis secularia. ergo magis 
+          <lb ed="#C" n="60"/>ex officio / quia clerici sunt: spectat de secula 
+          <lb ed="#C" n="61"/>ribus iudicare.
+        </p>
+        <p xml:id="ja8dpe-y05852-d1e291">
+          ¶ Quantum ad hoc Occan 
+          <lb ed="#C" n="62"/>optime soluit. Reprehendebat enim paulus 
+          <lb ed="#C" n="63"/>fideles qui conueniebant sese mutuo coran 
+          <lb ed="#C" n="64"/>iudicibus infidelibus / admonebat enim eos 
+          <lb ed="#C" n="65"/>vt componerent inter se antequam adirent 
+          iudi<lb ed="#C" n="66" break="no"/>cium / &amp; si non: quod ex consensu partium 
+          ali<lb ed="#C" n="67" break="no"/>quos deligerent arbitros: si autem non / 
+          re<lb ed="#C" n="68" break="no"/>currerent ad ordinarium / &amp; ita debet facere 
+          <lb ed="#C" n="69"/>quilibet bonus iudex. Vnde nos angelos 
+          <lb ed="#C" n="70"/>iudicabimus supple iudicio approbationinis 
+          <lb ed="#C" n="71"/>approbando beatitudinem bonorum &amp; 
+          dan<lb ed="#C" n="72" break="no"/>nationem malorum / quanto magis secularia 
+          iu<lb ed="#C" n="73" break="no"/>dicabimus iudicio supple approbationis 
+          ap<lb ed="#C" n="74" break="no"/>probando illud esse tuum &amp;c. Vnde in istis 
+          <lb ed="#C" n="75"/>duabus propositionibus concordat 
+          ma<lb ed="#C" n="76" break="no"/>ior pars doctorum.
+        </p>
+        <p xml:id="ja8dpe-y05852-d1e326">
+          ¶ Iam difficultas est / 
+          <lb ed="#C" n="77"/>nam notum est hoc esse meum &amp; illud esse 
+          <lb ed="#C" n="78"/>sortis: nichilominus sortes detinet / &amp; sic no 
+          <lb ed="#C" n="79"/>tum est ipsum peccare detinendo me 
+          inui<lb ed="#C" n="80" break="no"/>to: &amp; illud peccatum sortis est peccatum 
+          se<lb ed="#C" n="81" break="no"/>culare &amp; non spirituale: quia non est de 
+          di<lb ed="#C" n="82" break="no"/>recto contra sacramenta. queritur modo vtrum 
+          <lb ed="#C" n="83"/>ad summum pontificem vel iudicem 
+          eccle<lb ed="#C" n="84" break="no"/>siasticum spectet ordinarie tale peccatum 
+          <lb ed="#C" n="85"/>punire vel solum ad iudicem laicum.
+        </p>
+        <p xml:id="ja8dpe-y05852-d1e348">
+          ¶ Quamn 
+          <lb ed="#C" n="86"/>tum ad hoc sunt tria dicta. Primum. Non 
+          <lb ed="#C" n="87"/>spectat ad sumnmum pontificem quemlibet 
+          <lb ed="#C" n="88"/>de quolibet tali peccato etiam quod noscitur 
+          es<lb ed="#C" n="89" break="no"/>se peccatum ordinarie iudicare seu punire. 
+          <lb ed="#C" n="90"/>&amp; hoc conceditur ferme ab omibus doct. 
+          <lb ed="#C" n="91"/>Patet non spectat ad summum potetificem de 
+          ta<lb ed="#C" n="92" break="no"/>li peccato punire infidelem purum ordina 
+          <pb ed="#P" n="673"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#C" n="1"/>rie. patet antecedens. prime ad Corinthi. v. 
+          <lb ed="#C" n="2"/>Non est michi cure de his que foris sunt id est 
+          <lb ed="#C" n="3"/>de infidelibus hoc est nullam habeo potesta 
+          <lb ed="#C" n="4"/>tem coherciuam super eos. Hoc dato de 
+          pec<lb ed="#C" n="5" break="no"/>cato puri infidelis quod sit notum &amp; quod 
+          <lb ed="#C" n="6"/>ipse concedat realiter alienum detinere 
+          ad<lb ed="#C" n="7" break="no"/>huc ad pontificem vt pontifex est non 
+          spe<lb ed="#C" n="8" break="no"/>ctat istum de tali peccato ordinarie 
+          puni<lb ed="#C" n="9" break="no"/>re / quod maior pars doctorum concedit &amp; 
+          <lb ed="#C" n="10"/>hoc satis paulus innuit qu postquam idolatras 
+          <lb ed="#C" n="11"/>ebrios maledicos rapace shrismisit stati 
+          sub<lb ed="#C" n="12" break="no"/>iunxit / quid enim mihi de his que foris sunt 
+          <lb ed="#C" n="13"/>iudicare?
+        </p>
+        <p xml:id="ja8dpe-y05852-d1e399">
+          ¶ Panormitanus in capitulo 
+          no<lb ed="#C" n="14" break="no"/>uit de iudicis tenet oppositum. videlicet quod 
+          <lb ed="#C" n="15"/>summus pontifex in peccatis que sunt 
+          con<lb ed="#C" n="16" break="no"/>tra legem nature potest infideles 
+          excommu<lb ed="#C" n="17" break="no"/>nicare &amp; cohercere censura ecclesiastica: sed 
+          <lb ed="#C" n="18"/>communis sententia doct. tenet oppositum. 
+        </p>
+        <p xml:id="ja8dpe-y05852-d1e412">
+          <lb ed="#C" n="19"/>¶ Ex isto dicto sequuntur aliqua correlaria 
+          <lb ed="#C" n="20"/>Primum infidelis non tenetur vitare 
+          ex<lb ed="#C" n="21" break="no"/>communicatum fidelem. Ratio est quia sun 
+          <lb ed="#C" n="22"/>mus pontifex non potest obligare illum ad 
+          <lb ed="#C" n="23"/>vitandum. quia nullam habet 
+          iurisdictio<lb ed="#C" n="24" break="no"/>nem in ipsum. Secundo sequitur quod fidelis 
+          <lb ed="#C" n="25"/>excommunicatus non tenetur vitare infide 
+          <lb ed="#C" n="26"/>lem. Nam in excommunicatone sunt duo. 
+          <lb ed="#C" n="27"/>excommunicatus enim tenetur vitare 
+          fra<lb ed="#C" n="28" break="no"/>tres suos Christianos &amp; illi ipsum: &amp; vltra 
+          <lb ed="#C" n="29"/>tenetur se a sacramentis abstinere. Tertium 
+          <lb ed="#C" n="30"/>quod sequitur est quod vitare 
+          excommunica<lb ed="#C" n="31" break="no"/>tum quantum ad collocutionem &amp; quantum ad 
+          il<lb ed="#C" n="32" break="no"/>la que sunt mere ciuilia non videtur esse 
+          de<lb ed="#C" n="33" break="no"/>iure diuino. vt dicit Occam in dya. sed solum 
+          <lb ed="#C" n="34"/>de iure positiuo: tamen videntur aliquam 
+          au<lb ed="#C" n="35" break="no"/>ctoritates oppositum sonare. Difficultas est 
+          <lb ed="#C" n="36"/>vtrum vitare excommunicatum sit 
+          precep<lb ed="#C" n="37" break="no"/>tum diuinum vel humanum. Dicit Occam quod 
+          <lb ed="#C" n="38"/>est solum humanum. Ratio est quia si esset 
+          <lb ed="#C" n="39"/>diuinum nulla indigentia etiam extrema 
+          pos<lb ed="#C" n="40" break="no"/>set aliquem excusare de participando cum 
+          <lb ed="#C" n="41"/>excommunicato. quia propter nullam 
+          in<lb ed="#C" n="42" break="no"/>digentiam etiam extremam sunt precepta 
+          diui<lb ed="#C" n="43" break="no"/>na frangenda sed indigentia extrema 
+          excu<lb ed="#C" n="44" break="no"/>sat de participando cum excommunicato / 
+          <lb ed="#C" n="45"/>ergo illud est solum iure humano 
+          prohibi<lb ed="#C" n="46" break="no"/>tum. &amp; hoc argumentum est multum appa¬ 
+          <cb ed="#P" n="b"/>
+          <lb ed="#C" n="47"/>rens: ideo vitare illum quantum ad ciuilia ista: 
+          <lb ed="#C" n="48"/>&amp; non sacramenta est solum de iure 
+          huma<lb ed="#C" n="49" break="no"/>no &amp; non diuino.
+        </p>
+        <p xml:id="ja8dpe-y05852-d1e484">
+          ¶ Secundum dictum in 
+          <lb ed="#C" n="50"/>quo non est difficultas / quod ad pontificem 
+          spre<lb ed="#C" n="51" break="no"/>ctat ordinarie iudicare vnumquemque pra 
+          cri<lb ed="#C" n="52" break="no"/>mine quod est pure spirituale puta pro 
+          pec<lb ed="#C" n="53" break="no"/>catis contra sacramenta vel articulos 
+          fidei<lb ed="#C" n="54" break="no"/>commissis. Patet / ad ipsum spectat noscere 
+          <lb ed="#C" n="55"/>ius diuinum &amp; aliis manifestare &amp; 
+          inobe<lb ed="#C" n="56" break="no"/>dientes aliqua pena punire igitur / sola 
+          igi<lb ed="#C" n="57" break="no"/>tur est difficultas in hoc puta sit sortes fide 
+          <lb ed="#C" n="58"/>lis qui peccat mortali peccato quod solum 
+          <lb ed="#C" n="59"/>est seculare peccatum: vtrum ad summum 
+          pote<lb ed="#C" n="60" break="no"/>tificem ordinarie spectet iudicare de tali 
+          cri<lb ed="#C" n="61" break="no"/>mine vel ad laycum. Apparentia est quod solum ad 
+          <lb ed="#C" n="62"/>laycum. quia pro eodem peccato nullus debet 
+          <lb ed="#C" n="63"/>puniri diuersis penis: sed talis punietur a 
+          iu<lb ed="#C" n="64" break="no"/>dice laico: igitur.
+        </p>
+        <p xml:id="ja8dpe-y05852-d1e519">
+          ¶ Quantum ad hoc est 
+          dif<lb ed="#C" n="65" break="no"/>ficultas in qua aduersantur doct. Durandus 
+          <lb ed="#C" n="66"/>in tertia. qu. de iurisdictione ecclesiastica te¬an 
+          <lb ed="#C" n="67"/>net quod ad iudicem ecclesiasticum spectat 
+          or<lb ed="#C" n="68" break="no"/>dinarie de omni actione humana 
+          cogno<lb ed="#C" n="69" break="no"/>scere presertim si consideretur per modum 
+          <lb ed="#C" n="70"/>iniurie aut peccati: &amp; sic vnumquem que pro 
+          om<lb ed="#C" n="71" break="no"/>ni peccato mortali pena ecclesiastica 
+          puni<lb ed="#C" n="72" break="no"/>re. &amp; loquitur semper de fidelibus. Patet 
+          mul<lb ed="#C" n="73" break="no"/>tis argumentis &amp; faciam duo 
+          apparentio<lb ed="#C" n="74" break="no"/>ra. Primum est / cuius est considerare finem 
+          <lb ed="#C" n="75"/>semper est considerare media ordinata ad 
+          <lb ed="#C" n="76"/>illum finem. quia semper media sumunt 
+          ra<lb ed="#C" n="77" break="no"/>tionem a fine. &amp; illa propositio videtur sa 
+          <lb ed="#C" n="78"/>tis nota: sicut medicus cuius est 
+          considera<lb ed="#C" n="79" break="no"/>re sanitatem considerat ea que inducunt 
+          sa<lb ed="#C" n="80" break="no"/>nitatem &amp; que impediunt ipsam / sed sic est 
+          <lb ed="#C" n="81"/>quod corpus est propter animam: &amp; tempora 
+          <lb ed="#C" n="82"/>lia propter spiritualia: &amp; quamlibet actio 
+          hu<lb ed="#C" n="83" break="no"/>mana debet ordinari in vltimum finem id est 
+          <lb ed="#C" n="84"/>beatitudinem. ergo cuius est ordinarie 
+          co<lb ed="#C" n="85" break="no"/>gnoscere de spiritualibus &amp; fine vltimo &amp; 
+          <lb ed="#C" n="86"/>de spiritueiusdem est cognoscere de 
+          omni<lb ed="#C" n="87" break="no"/>bus ordinatis ad illa / &amp; presertim de 
+          actio<lb ed="#C" n="88" break="no"/>nibus humanis quando ponuntur sub ratione 
+          con<lb ed="#C" n="89" break="no"/>uenientis vel impedimenti ad illum finem. Et 
+          ip<lb ed="#C" n="90" break="no"/>se Durandus vocat hanc rationem 
+          irrefraga<lb ed="#C" n="91" break="no"/>bilem. Secunda ratio que est apparentior 
+          sun<lb ed="#C" n="92" break="no"/>pta ex auctoritate Christi Matthei. xvii i. 
+          <pb ed="#P" n="674"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#C" n="1"/>Si peccauerit in te frater tuus &amp;c. nam si 
+          de<lb ed="#C" n="2" break="no"/>tineat mea vel percutiat me peccat in me / tam 
+          <lb ed="#C" n="3"/>dem ex processu dicitur dic ecclesie id est prelato 
+          <lb ed="#C" n="4"/>ecclesie potestatem habenti illum 
+          excommu<lb ed="#C" n="5" break="no"/>nicare pro quocumque peccato quod est in 
+          fra<lb ed="#C" n="6" break="no"/>trem commissum. &amp; hoc est multum 
+          appa<lb ed="#C" n="7" break="no"/>rens &amp; probabile quod ad summum 
+          pontificen<lb ed="#C" n="8" break="no"/>&amp; ecclesiasticos iudices spectat ordinarie 
+          iu<lb ed="#C" n="9" break="no"/>dicare de omni actione humana proposita 
+          <lb ed="#C" n="10"/>vel constituta sub ratione iniurie vel 
+          pecca<lb ed="#C" n="11" break="no"/>ti &amp; vnumquemque pro tali peccato pena 
+          affice<lb ed="#C" n="12" break="no"/>re precipue pro peccato contumatie.
+        </p>
+        <p xml:id="ja8dpe-y05852-d1e613">
+          ¶ 
+          Ali<lb ed="#C" n="13" break="no"/>ter dicit lohan. de parisius &amp; Occam / quod 
+          sum<lb ed="#C" n="14" break="no"/>mus pontifex regulariter non debet iudica 
+          <lb ed="#C" n="15"/>re seu aliquem punire pro peccato quod est 
+          <lb ed="#C" n="16"/>pure seculare( quod dico propter 
+          adulteri<lb ed="#C" n="17" break="no"/>um quod non est pure seculare. immo 
+          con<lb ed="#C" n="18" break="no"/>tra matrimonii sacramentum / Similiter 
+          v<lb ed="#C" n="19" break="no"/>sura non est peccatum pure seculare) sed 
+          <lb ed="#C" n="20"/>solum in tribns casibus / exemplum iudex 
+          <lb ed="#C" n="21"/>ecclesiasticus non debet punire furantem pro 
+          fur<lb ed="#C" n="22" break="no"/>to nec homicidium pro homicidio 
+          suppo<lb ed="#C" n="23" break="no"/>sito quod sit laicus.
+        </p>
+        <p xml:id="ja8dpe-y05852-d1e639">
+          ¶ Tunc dicit augustinus 
+          su<lb ed="#C" n="24" break="no"/>per Amos propheta quedam sunt peccata ita 
+          <lb ed="#C" n="25"/>enormia quod non veniunt a iudice 
+          ecclesiasti<lb ed="#C" n="26" break="no"/>co punienda sed a seculari. Vltra dicit 
+          Oc<lb ed="#C" n="27" break="no"/>cam in fine dya. quod papa in tribus casibus 
+          po<lb ed="#C" n="28" break="no"/>test / cui concordat Gerson. Primus quando 
+          <lb ed="#C" n="29"/>peccans est iuridicialiter subiectus 
+          iurisdicti<lb ed="#C" n="30" break="no"/>one layca summo pontifice. potest tunc 
+          ip<lb ed="#C" n="31" break="no"/>sum punire.
+        </p>
+        <p xml:id="ja8dpe-y05852-d1e660">
+          ¶ Secundus est quando in 
+          <lb ed="#C" n="32"/>terra in qua talis peccat non est aliquis daenes 
+          <lb ed="#C" n="33"/>temporalis vel si sit pernitiose negligit 
+          pec<lb ed="#C" n="34" break="no"/>catorem punire. Patet per ca. licet de foro 
+          <lb ed="#C" n="35"/>competenti vbi expresse ponitur talis casus. 
+        </p>
+        <p xml:id="ja8dpe-y05852-d1e671">
+          <lb ed="#C" n="36"/>¶ Tertius / quando iudex secularis nullam 
+          pe<lb ed="#C" n="37" break="no"/>nam potest infligere vt in casucum 
+          pecca<lb ed="#C" n="38" break="no"/>tor est occultus: nam pena temporalis non 
+          <lb ed="#C" n="39"/>infligitur nisi persone cognite. Ideo in istis 
+          <lb ed="#C" n="40"/>tribus casibus ad summum pontificem &amp; 
+          iu<lb ed="#C" n="41" break="no"/>dices ecclisiasticos spectat punire de tali 
+          cri<lb ed="#C" n="42" break="no"/>mine pure seculari / sed illis exceptis dicit 
+          <lb ed="#C" n="43"/>Occam non spectat ad summum pontificem 
+          <lb ed="#C" n="44"/>ipsum laycum de crimine pure layco 
+          regu<lb ed="#C" n="45" break="no"/>lariter punire. Quid ergo respondebit Oc 
+          <lb ed="#C" n="46"/>cam ad argumentum Durandi. Dicit lo. de¬ 
+          <cb ed="#P" n="b"/>
+          <lb ed="#C" n="47"/>parisius ad maiorem / cuius est iudicare de 
+          fi<lb ed="#C" n="48" break="no"/>ne eiusdem est iudicare suple innuitiue id est 
+          in<lb ed="#C" n="49" break="no"/>nuere que sunt media necessaria ad illum 
+          fi<lb ed="#C" n="50" break="no"/>nem consequendum &amp; que impedimenta / &amp; 
+          <lb ed="#C" n="51"/>hoc verum est quod spectat ad ecclesiasticum/ 
+          <lb ed="#C" n="52"/>quia ad eum spectat ostendere quod est 
+          ne<lb ed="#C" n="53" break="no"/>cessarium ad felicitatem consequendam. Sed 
+          <lb ed="#C" n="54"/>si intelligas cuius est iudicare de fine eiusdem 
+          <lb ed="#C" n="55"/>est iudicare iudicio coherciuo &amp; correctio 
+          <lb ed="#C" n="56"/>de quolibet necessario ad illum finem / 
+          nega<lb ed="#C" n="57" break="no"/>tur / immo illa est falsa vniuersaliter cuius est 
+          <lb ed="#C" n="58"/>iudicare de fine illius est iudicare de mediis 
+          <lb ed="#C" n="59"/>iudicio coherciuo &amp; hoc ordinarie de quo 
+          <lb ed="#C" n="60"/>libet necessario vel impediente respectu 
+          ta<lb ed="#C" n="61" break="no"/>lis finis.
+        </p>
+        <p xml:id="ja8dpe-y05852-d1e732">
+          ¶ Etiam dico quod summus 
+          pontifex<lb ed="#C" n="62" break="no"/>non iudicat de beatitudine eterna isto 
+          iudi<lb ed="#C" n="63" break="no"/>cio de quo loquimur sed per modum doctrine 
+          <lb ed="#C" n="64"/>&amp; incitamenti ostendendo de mediis 
+          ne<lb ed="#C" n="65" break="no"/>cessariis ad salutem. Regulariter ergo 
+          ciui<lb ed="#C" n="66" break="no"/>lia ad laycos pertinent.
+        </p>
+        <p xml:id="ja8dpe-y05852-d1e745">
+          ¶ Ad secundum 
+          si<lb ed="#C" n="67" break="no"/>peccauerit in te frater tuus non excludit ali 
+          <lb ed="#C" n="68"/>quod peccatum neque spirituale neque 
+          tempora<lb ed="#C" n="69" break="no"/>le / ergo ecclesiasticus super quod libet 
+          pecca<lb ed="#C" n="70" break="no"/>tum habet auctoritatem.
+        </p>
+        <p xml:id="ja8dpe-y05852-d1e756">
+          ¶ Dicit Occam primo 
+          <lb ed="#C" n="71"/>si peccauerit dic ecclesie quod per ecclesiam non 
+          <lb ed="#C" n="72"/>intelligitur ecclesiasticus solum sed quecumque 
+          <lb ed="#C" n="73"/>communitas fidelium siue sint soli ecclesia 
+          <lb ed="#C" n="74"/>stici / siue soli layci siue vtrumque simul iuncti &amp;c 
+          <lb ed="#C" n="75"/>hoc modo exponere dic ecclesie id est tali 
+          com<lb ed="#C" n="76" break="no"/>munitati puta tali parrochie. Dicit secundo 
+          <lb ed="#C" n="77"/>quod per illam auctoritatem non datur potestas 
+          <lb ed="#C" n="78"/>coherciua iudici ecclesiastico sed solum 
+          da<lb ed="#C" n="79" break="no"/>tur eadem potestas que datur ipsis testibus / 
+          <lb ed="#C" n="80"/>nam dicitur adhibe duos testes &amp; non 
+          da<lb ed="#C" n="81" break="no"/>tur testibus auctoritas excommunicandi sed 
+          <lb ed="#C" n="82"/>increpandi &amp; admonendi. ideo dicit quod 
+          si<lb ed="#C" n="83" break="no"/>militer non datur iudici ecclesiastico 
+          pote<lb ed="#C" n="84" break="no"/>statem excommunicandi sed declarandi 
+          ip<lb ed="#C" n="85" break="no"/>sum esse excommunicatum. Verum videEur 
+          <lb ed="#C" n="86"/>Durandi opinio probabilior &amp; 
+          conformin<lb ed="#C" n="87" break="no"/>or processui euangelico quod quicunque de 
+          ali<lb ed="#C" n="88" break="no"/>quo certum est quod est mortale saluo 
+          or<lb ed="#C" n="89" break="no"/>dine iuris puta saluo processu de correctio 
+          <lb ed="#C" n="90"/>ne fraterna tandem pr contumatia venit 
+          excon<lb ed="#C" n="91" break="no"/>municandus. quia nult desistere ab illo 
+          pec<lb ed="#C" n="92" break="no"/>cato.
+        </p>
+        <p xml:id="ja8dpe-y05852-d1e806">
+          ¶ Hanc deffensat &amp; ad longum nititur 
+          <pb ed="#P" n="675"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#C" n="1"/>probare carlerius ponens vlumum suum 
+          <lb ed="#C" n="2"/>correlarium tale. quod asserere iudicem 
+          ecclesi<lb ed="#C" n="3" break="no"/>asticum non posse cogere laicum ad 
+          soluen<lb ed="#C" n="4" break="no"/>dum debitum quando certum est quod 
+          ip<lb ed="#C" n="5" break="no"/>se debet illud vel ad cedendum bonis est 
+          erra<lb ed="#C" n="6" break="no"/>re in materia clauium. Habetur ergo 
+          reso<lb ed="#C" n="7" break="no"/>solutoire quando de aliquo exteriori facto 
+          <lb ed="#C" n="8"/>certo quod est peccatum potest iudex ecclesia 
+          <lb ed="#C" n="9"/>sticus seruato ordine iuris de quocunque 
+          tali<lb ed="#C" n="10" break="no"/>ordinarie cognoscere &amp; in foro 
+          exteriori<lb ed="#C" n="11" break="no"/>publico peccantem censura id est 
+          excommunicati<lb ed="#C" n="12" break="no"/>one ecclesiastica punire &amp; precipue sifuerit 
+          <lb ed="#C" n="13"/>contumax. Et hec opinio est sacris litteris 
+          con<lb ed="#C" n="14" break="no"/>formior. 
+        </p>
+      </div>
+          </body>
+  </text>
+</TEI>

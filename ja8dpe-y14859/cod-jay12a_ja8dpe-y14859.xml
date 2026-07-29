@@ -1,0 +1,996 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 1</title>
+        <author ref="#JacquesAlmain">Jacques Almain</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 1</title>
+          <date when="2026-07-29">July 29, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-jay12a">Paris 1512</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-07-29" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="712"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ja8dpe-y14859"><!-- dpe-q3c1 -->
+        <head xml:id="ja8dpe-y14859-Hd1e101">Caput 1</head>
+        <head xml:id="ja8dpe-y14859-Hd1e103" type="question-title">An iurisdictionis 
+          temporalis auctoritas dependeat a papa et 
+          romana ecclesia</head>
+        <p xml:id="ja8dpe-y14859-d1e106">
+          <lb ed="#C" n="67"/>¶ QVESTIO TERTIA. 
+        </p>
+        <p xml:id="ja8dpe-y14859-d1e111">
+          <lb ed="#C" n="68"/>¶ Capitulum. i an iurisdictionis 
+          tempora<lb ed="#C" n="69" break="no"/>lis auctoritas dependeat a papa &amp; 
+          ro<lb ed="#C" n="70" break="no"/>mana ecclesia. 
+        </p>
+        <p xml:id="ja8dpe-y14859-d1e120">
+          <lb ed="#C" n="71"/>IN PRESENTI 
+          QVE<lb ed="#C" n="72" break="no"/>stione querebatur an 
+          im<lb ed="#C" n="73" break="no"/>parator habeat possessiones 
+          <lb ed="#C" n="74"/>quas possidet ratione 
+          im<lb ed="#C" n="75" break="no"/>periia papa vela deo / &amp; 
+          <lb ed="#C" n="76"/>tandem resolutio docto 
+          <lb ed="#C" n="77"/>ris fuit quod non habet 
+          imme<lb ed="#C" n="78" break="no"/>diate nec a deo nec a papa / ad istum sensum 
+          <lb ed="#C" n="79"/>quod nec deus nec papa immediate ei 
+          contule<lb ed="#C" n="80" break="no"/>rint tales possessiones: sed habet 
+          immedia<lb ed="#C" n="81" break="no"/>te a populo sic quod sunt collate ipsi ab ipso 
+          po<lb ed="#C" n="82" break="no"/>pulo / &amp; post collationem nullum 
+          recogno<lb ed="#C" n="83" break="no"/>scit superiorem in illis preter deum. Et sic in 
+          <lb ed="#C" n="84"/>isto sensu habet immediate a deo illas 
+          pos<lb ed="#C" n="85" break="no"/>sessiones.
+        </p>
+        <p xml:id="ja8dpe-y14859-d1e156">
+          ¶ Visum est etiam principaliter 
+          <lb ed="#C" n="86"/>de duobus punctis. Primum / vtrum bona 
+          <lb ed="#C" n="87"/>annexa dignitati imperiali sint 
+          imperato<lb ed="#C" n="88" break="no"/>ris quantum ad proprietatem: &amp; de hoc 
+          fue<lb ed="#C" n="89" break="no"/>runt due opiniones. Secundo / visum est 
+          <lb ed="#C" n="90"/>an imperator sit proprietarius omnim rerum 
+          <lb ed="#C" n="91"/>imperii / puta an sit proprietarius in bonis 
+          <lb ed="#C" n="92"/>Sortis / Guillermi / Ioannis &amp;c. Et satis ad 
+          <pb ed="#P" n="713"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#C" n="1"/>hoc responsum est secundum mentem doc. 
+          <lb ed="#C" n="2"/>qlam in ista tertia questione queritur. Vtrum 
+          <lb ed="#C" n="3"/>papa &amp; Ro. ecclesia habeat committere 
+          iuris<lb ed="#C" n="4" break="no"/>dictionem imperatori &amp; ceteris principibus 
+          <lb ed="#C" n="5"/>non recognoscentibus superiorem in 
+          tempo<lb ed="#C" n="6" break="no"/>ralibus ita quod potestas iudicandi quam habent 
+          <lb ed="#C" n="7"/>temporales domini cuiuscumque conditionis 
+          fue<lb ed="#C" n="8" break="no"/>rint non recognoscentes superiorem in 
+          temporali<lb ed="#C" n="9" break="no"/>bus sit a papa ex ordinaria sua pertante. Hoc est 
+          <lb ed="#C" n="10"/>an papa ex ordinaria potestate habeat 
+          eom<lb ed="#C" n="11" break="no"/>mittere iurisdictionem deanenis temporalibus / ita 
+          <lb ed="#C" n="12"/>quod sine tali commissione inordinate illam 
+          iu<lb ed="#C" n="13" break="no"/>risdictionem exerceant.
+        </p>
+        <p xml:id="ja8dpe-y14859-d1e206">
+          ¶ Et antequam aggredia 
+          <lb ed="#C" n="14"/>mur questionem: primo supponenda sunt 
+          <lb ed="#C" n="15"/>aliqua pro intellectu illius. Primo quod 
+          impe<lb ed="#C" n="16" break="no"/>rator vel rex habet multas potestates 
+          iudi<lb ed="#C" n="17" break="no"/>ciarias. Primo / habet potestatem punitiuam 
+          <lb ed="#C" n="18"/>in corpus hom inum subditorum &amp; in 
+          bo<lb ed="#C" n="19" break="no"/>nis: ita quod potest illos ad mortem 
+          condem<lb ed="#C" n="20" break="no"/>nare ad mutilationem membri: ad carceres 
+          <lb ed="#C" n="21"/>perpetuos: &amp; ad bonorum perditionem. &amp; 
+          <lb ed="#C" n="22"/>ista vocatur potestas punitiua in corpus sub 
+          <lb ed="#C" n="23"/>ditorum &amp; auferendi eorum bona &amp; liber 
+          <lb ed="#C" n="24"/>tates. Preter hanc punitiuam habet aliam 
+          <lb ed="#C" n="25"/>potestatem iurisdictionis secundum quam 
+          po<lb ed="#C" n="26" break="no"/>test &amp; tenetur adiudicare vnicuique quod suum 
+          <lb ed="#C" n="27"/>est. Nam quando est questio de possessione 
+          po<lb ed="#C" n="28" break="no"/>test rex auctoritatiue diffinire cuius sit &amp; sic 
+          <lb ed="#C" n="29"/>iudicando non punit aliquem / nam per hoc 
+          <lb ed="#C" n="30"/>quod iudicat hanc rem esse prlatonis quam sortes 
+          <lb ed="#C" n="31"/>nitebatur vsurpare non punit ipsum sortem. 
+          <lb ed="#C" n="32"/>ideo illa potestas non est punitiua aut 
+          cor<lb ed="#C" n="33" break="no"/>rectiua / est tamen iurisdictionis. Habet enim 
+          <lb ed="#C" n="34"/>potestatem diuidendi dominia in ca. quo 
+          <lb ed="#C" n="35"/>iure. viii. distin. Habet etiam potestatem 
+          <lb ed="#C" n="36"/>preceptiuam ad quam spectat leges 
+          conde<lb ed="#C" n="37" break="no"/>re / &amp; potestatem imponendi talias &amp; 
+          tribu<lb ed="#C" n="38" break="no"/>ta pro exigentia boni communis &amp; reipu. 
+          re<lb ed="#C" n="39" break="no"/>gni. Vtrum illas potestates habeat a 
+          papa<lb ed="#C" n="40" break="no"/>vel Romana ecclesia. Quantum ad primam 
+          po<lb ed="#C" n="41" break="no"/>testatem scilicet punitiuam &amp; super corpus 
+          <lb ed="#C" n="42"/>&amp; membra &amp; bona subditorum sunt 
+          diffi<lb ed="#C" n="43" break="no"/>cultates. Prima / an liceat imperatori &amp; 
+          re<lb ed="#C" n="44" break="no"/>gi siue domino temporali occidere 
+          malefi<lb ed="#C" n="45" break="no"/>cos. Secunda est / an liceat principi 
+          occide<lb ed="#C" n="46" break="no"/>re innocentem. Tertia / supposito quod aliquem 
+          <cb ed="#P" n="b"/>
+          <lb ed="#C" n="47"/>iuste condemnare potest ad mortem / an 
+          li<lb ed="#C" n="48" break="no"/>ceat condemnato fugere si possit / similiter 
+          <lb ed="#C" n="49"/>se deffendere a morte. &amp; iste sunt tres 
+          diffi<lb ed="#C" n="50" break="no"/>cultates precipue circa potestatem 
+          puniti<lb ed="#C" n="51" break="no"/>uam quantum ad punitionem mortis. Quantum 
+          <lb ed="#C" n="52"/>ad primam difficultatem. arguitur quod non / 
+          <lb ed="#C" n="53"/>deus enim vult eos viuere Exechielis primo. 
+          <lb ed="#C" n="54"/>Nolo mortem peccatoris / ergo cum 
+          impe<lb ed="#C" n="55" break="no"/>rator debeat se conformare voluntati 
+          diuin<lb ed="#C" n="56" break="no"/>ne non debet aliquem morte punire. 
+          Op<lb ed="#C" n="57" break="no"/>positum arguitur Exodi. xxii. Maleficos 
+          <lb ed="#C" n="58"/>non patieris viuere.
+        </p>
+        <p xml:id="ja8dpe-y14859-d1e308">
+          ¶ Pro solutione huius 
+          <lb ed="#C" n="59"/>difficultatis aduertendum est duplices esse 
+          <lb ed="#C" n="60"/>homines malos in politia. quidam sunt 
+          ma<lb ed="#C" n="61" break="no"/>li solum sibiipsi vt mali malitia cordis &amp; 
+          <lb ed="#C" n="62"/>cogitationis / &amp; non operis exterioris qui 
+          <lb ed="#C" n="63"/>non progrediuntur ad opus / &amp; malicia 
+          <lb ed="#C" n="64"/>eorum non est nota. Similiter quamuis 
+          ali<lb ed="#C" n="65" break="no"/>quando progrediantur ad opus exterius tamen 
+          <lb ed="#C" n="66"/>illud opus non est perturbatiuum 
+          reipubli<lb ed="#C" n="67" break="no"/>ce neque damnum proximo inferens &amp; 
+          pro<lb ed="#C" n="68" break="no"/>dige exponens sua bona. Alii vero sunt 
+          ma<lb ed="#C" n="69" break="no"/>li &amp; sibi &amp; aliis vt fures &amp; homicide qui danm 
+          <lb ed="#C" n="70"/>num proximo inferunt. Supponendum vlte 
+          <lb ed="#C" n="71"/>rius quod quelibet persona se habet in ordine 
+          <lb ed="#C" n="72"/>ad communitatem sicut membrum in 
+          ordi<lb ed="#C" n="73" break="no"/>ne ad corpus. Nam sicut corpus hominis 
+          <lb ed="#C" n="74"/>constituitur ex pluribus membris. sic 
+          cor<lb ed="#C" n="75" break="no"/>pus humanum politicum constituitur ex 
+          plu<lb ed="#C" n="76" break="no"/>ribus personis / &amp; quelibet particularis in 
+          <lb ed="#C" n="77"/>ordine ad totam politiam se habet sicut 
+          men<lb ed="#C" n="78" break="no"/>brum vnum in ordine ad suum corpus. 
+          <lb ed="#C" n="79"/>Tertio supponitur quod principes imperantes 
+          <lb ed="#C" n="80"/>debent intendere bonum commune &amp; non 
+          <lb ed="#C" n="81"/>proprium. Et hoc habetur ex Aristotele 
+          <lb ed="#C" n="82"/>ponente differentiam inter despotem &amp; 
+          re<lb ed="#C" n="83" break="no"/>gem siue principem. quia despotes intendit 
+          <lb ed="#C" n="84"/>bonum proprium &amp; princeps bonum 
+          con<lb ed="#C" n="85" break="no"/>mune. Nam despotes principatur 
+          aliqui<lb ed="#C" n="86" break="no"/>bus tanquam seruis intendendo solum bonum 
+          <lb ed="#C" n="87"/>particulare. his suppositis sit prima 
+          propo<lb ed="#C" n="88" break="no"/>sitio.
+        </p>
+        <p xml:id="ja8dpe-y14859-d1e376">
+          ¶ Non licetalicui priuate persone ma¬ i 
+          <lb ed="#C" n="89"/>leficum occidere quantumcumque no ciuum 
+          <lb ed="#C" n="90"/>communitati / &amp; hoc capiendo priuatam 
+          <lb ed="#C" n="91"/>personam que non habet potestatem neque 
+          <lb ed="#C" n="92"/>commissariam neque ordinariam in repu. 
+          <pb ed="#P" n="714"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#C" n="1"/>¶Ista propositio est Augustini in primo 
+          de<lb ed="#C" n="2" break="no"/>ciuitate dicentis qui siue auctoritate 
+          publi<lb ed="#C" n="3" break="no"/>ca maleficum occidit ab homicidio immunis 
+          <lb ed="#C" n="4"/>esse non potest / &amp; ista propositio deducitur 
+          <lb ed="#C" n="5"/>etiam ad longum. xxiii. qu. v. per totum. 
+          videli<lb ed="#C" n="6" break="no"/>cet quod non licer cuicumque priuate persone 
+          quen<lb ed="#C" n="7" break="no"/>cunque maleficum occidere. Vnde rationem 
+          assi<lb ed="#C" n="8" break="no"/>gnat.s. Tho. qu. Lxiiii. articulo. iii. non est 
+          li<lb ed="#C" n="9" break="no"/>citum quemquem interficere nisi eius vita 
+          fue<lb ed="#C" n="10" break="no"/>rit comunitati nociua sicut non est licitum membrum 
+          <lb ed="#C" n="11"/>abscindere nisi propter vtilitatem corporis / 
+          <lb ed="#C" n="12"/>ita nec est licitum membrum comnitatis remoue 
+          <lb ed="#C" n="13"/>re nisi propter vtilitatem totius comunitatis. 
+          er<lb ed="#C" n="14" break="no"/>go solum ad illum spectat interimere 
+          malefi<lb ed="#C" n="15" break="no"/>cum qui habet curam totius comunitatis. nec 
+          a<lb ed="#C" n="16" break="no"/>more vindicte nec odio persone: sed solum 
+          <lb ed="#C" n="17"/>propter bonum publicum &amp; amore iusticie 
+          <lb ed="#C" n="18"/>&amp; equitatis / ideo solum qui habet intende 
+          <lb ed="#C" n="19"/>re bonum communitatis habet hoc facere: 
+          <lb ed="#C" n="20"/>sed huiusmodi non est persona priuata alias 
+          <lb ed="#C" n="21"/>non esset priuata sed publica. igitur &amp;c. 
+        </p>
+        <p xml:id="ja8dpe-y14859-d1e437">
+          <lb ed="#C" n="22"/>¶ SECVNpA PRo posTTlo REs. 
+          <lb ed="#C" n="23"/>ponsiua ad questionem licet persone publice 
+          <lb ed="#C" n="24"/>maleficum occidere comunitati nociuum. Hec 
+          pa<lb ed="#C" n="25" break="no"/>tet manifeste &amp; sunt multe auctoritates 
+          Au<lb ed="#C" n="26" break="no"/>gustini in libris de ciuitate ad hoc facientes 
+          <lb ed="#C" n="27"/>Et Exodi. xxii. non patieris maleficos viue 
+          <lb ed="#C" n="28"/>re immo est preceptum. Veruntamem ratio potest 
+          <lb ed="#C" n="29"/>haberi ex supradictis. quilibet homo 
+          parti<lb ed="#C" n="30" break="no"/>cularis in ordine ad totam conunitatem est mem 
+          <lb ed="#C" n="31"/>brum. ergo sicut licet gerenti curam totius 
+          <lb ed="#C" n="32"/>corporis abscindere membrum pro 
+          sanita<lb ed="#C" n="33" break="no"/>te totius corporis similiter licebit gerenti 
+          cu<lb ed="#C" n="34" break="no"/>ram communitatis pro vtilitate ipsius 
+          rei<lb ed="#C" n="35" break="no"/>pu. aliquam personam interimere / ideo licet 
+          <lb ed="#C" n="36"/>principi regi &amp; habentibus curam commnitatis 
+          <lb ed="#C" n="37"/>maleficos interficere. &amp; ad preceptum 
+          diui<lb ed="#C" n="38" break="no"/>num non occides / dicitur quod prohibetur 
+          oc<lb ed="#C" n="39" break="no"/>cidere auctoritate priuata sed non publica. 
+        </p>
+        <p xml:id="ja8dpe-y14859-d1e479">
+          <lb ed="#C" n="40"/>¶ Circa primam propositionem est 
+          difficul<lb ed="#C" n="41" break="no"/>tas. &amp; ponitur talis casus / sortes cognoscit 
+          <lb ed="#C" n="42"/>quod plato vult &amp; potest totam rem publicam 
+          <lb ed="#C" n="43"/>destruere &amp; incendio dare nihilominus an 
+          <lb ed="#C" n="44"/>tequam hoc faciat plato / non potest ipse sortes 
+          <lb ed="#C" n="45"/>aliter prouidere reipublice qui est priuata 
+          <lb ed="#C" n="46"/>persona nisi platonem interficiat / an in tali¬ 
+          <cb ed="#P" n="b"/>
+          <lb ed="#C" n="47"/>casuteneatur sortes qui est priuata persona 
+          <lb ed="#C" n="48"/>platonem occidere. &amp; videtur quod sic / quia 
+          ma<lb ed="#C" n="49" break="no"/>gis tenetur tueri totam conitatem quam vitam 
+          pro<lb ed="#C" n="50" break="no"/>priam siue personam propriam: sed in 
+          casu<lb ed="#C" n="51" break="no"/>quo plato inuaderet sortem volendo eum 
+          <lb ed="#C" n="52"/>interficere nisi aliter posset euadere quam 
+          occi<lb ed="#C" n="53" break="no"/>dendo platonem non male faceret illum 
+          occi<lb ed="#C" n="54" break="no"/>dendo / quia vim vi repellere licet vt clamant 
+          <lb ed="#C" n="55"/>iura / ergo vbi non potest aliter subuenire 
+          <lb ed="#C" n="56"/>reipublice nisi interficiendo platonem 
+          vi<lb ed="#C" n="57" break="no"/>detur quod teneatur illum occidere / quia 
+          tene<lb ed="#C" n="58" break="no"/>tur se morti exponere pro salute conitatis. 
+          er<lb ed="#C" n="59" break="no"/>go licet in casu persone priuate maleficum 
+          <lb ed="#C" n="60"/>occidere.
+        </p>
+        <p xml:id="ja8dpe-y14859-d1e530">
+          ¶ Circa secundam propositionem 
+          <lb ed="#C" n="61"/>potest esse difficultas. &amp; arguitur sic / perso 
+          <lb ed="#C" n="62"/>na publica non habet auctoritatem nisi a 
+          per<lb ed="#C" n="63" break="no"/>sonis priuatis / &amp; precipue quando fit per 
+          ele<lb ed="#C" n="64" break="no"/>ctionem / ergo persone priuate habent 
+          au<lb ed="#C" n="65" break="no"/>ctoritatem quam dant isti: ergo licet priuatis 
+          <lb ed="#C" n="66"/>personis maleficum interficere. Vnde certum 
+          <lb ed="#C" n="67"/>est quod vbi rex fit per electionem non habet 
+          po<lb ed="#C" n="68" break="no"/>testatem nisi a subditis eligentibus / ergo 
+          il<lb ed="#C" n="69" break="no"/>li habent talem petantem: &amp; per consequens licet eis 
+          <lb ed="#C" n="70"/>exequi actum illius potestatis. ergo licet 
+          per<lb ed="#C" n="71" break="no"/>sone priuate sicut publice maleficos occide 
+          <lb ed="#C" n="72"/>re.
+        </p>
+        <p xml:id="ja8dpe-y14859-d1e559">
+          ¶ Qtum ad primum dicunt aliqui 
+          preci<lb ed="#C" n="73" break="no"/>pue Euridanus quod in tali casu potest occide 
+          <lb ed="#C" n="74"/>re prolatonem / &amp; hoc non facit vt persona 
+          pri<lb ed="#C" n="75" break="no"/>uata: sed publica gerente vices comnunitatis. 
+          Ve<lb ed="#C" n="76" break="no"/>runtamen dnes de Gersono in tractatu quem 
+          fa<lb ed="#C" n="77" break="no"/>cit super isto precepto non occides / dicit quod 
+          <lb ed="#C" n="78"/>quis plato sit tyrannus volens totam rem 
+          pu<lb ed="#C" n="79" break="no"/>blicam destruere: &amp; sit sortes persona priua 
+          <lb ed="#C" n="80"/>ta nullam habens auctoritatem super 
+          plato<lb ed="#C" n="81" break="no"/>nem neque commissionem ordinariam non licet 
+          illi<lb ed="#C" n="82" break="no"/>occidere platonem. Et ratio sua est / quia non 
+          <lb ed="#C" n="83"/>sunt facienda mala vt inde eueniant bona / 
+          <lb ed="#C" n="84"/>licet ergo teneatur sortes destructionem 
+          reipu<lb ed="#C" n="85" break="no"/>blice impedire pro posse suo / hoc tamen est 
+          <lb ed="#C" n="86"/>per media licita. Sed argumentum est forte 
+          <lb ed="#C" n="87"/>in oppositum &amp; multum apparens / si sortes 
+          <lb ed="#C" n="88"/>cognoscat platonem velle ipsum 
+          interfice<lb ed="#C" n="89" break="no"/>re nisi possit aliter euadere quam eum 
+          occiden<lb ed="#C" n="90" break="no"/>do non peccat illum occidendo / ergo a 
+          for<lb ed="#C" n="91" break="no"/>tiori cum plus teneatur reipublice quam 
+          pro<lb ed="#C" n="92" break="no"/>prie saluti simpl citer videtur &amp; cetera. 
+          <pb ed="#P" n="715"/>
+          <cb ed="#P" n="a"/>
+        </p>
+        <p xml:id="ja8dpe-y14859-d1e609">
+          <lb ed="#C" n="1"/>¶ Quantum ad hoc argumentum / licet 
+          sor<lb ed="#C" n="2" break="no"/>ti occidere platonem ipsum impetentem vbi non 
+          <lb ed="#C" n="3"/>pocest aliter eua dere: sed est diuersitas inter 
+          <lb ed="#C" n="4"/>doctores. Nam tenet de Anchona quod non 
+          li<lb ed="#C" n="5" break="no"/>cet occidere inuasorem etiam quamuis non 
+          pa<lb ed="#C" n="6" break="no"/>teat euasio nisi per occisionem: immo dicit quod 
+          <lb ed="#C" n="7"/>occidendo peccat. Vnde dicit quod tripliciter 
+          <lb ed="#C" n="8"/>potest homo occidi. Vno modo odio perso 
+          <lb ed="#C" n="9"/>ne vel amore vindicte / &amp; prohibetur per illud 
+          <lb ed="#C" n="10"/>non occides. Alio modo occiditur amore 
+          iu<lb ed="#C" n="11" break="no"/>sticie / &amp; hoc per illud precipitur maleficos 
+          <lb ed="#C" n="12"/>ne patiaris viuere. Tertio modo occiditur 
+          ne<lb ed="#C" n="13" break="no"/>cessitate ineuitabili / &amp; hoc permuititur 
+          Exodi<lb ed="#C" n="14" break="no"/>xxii. vbi permititur quod fur nocturnus 
+          occi<lb ed="#C" n="15" break="no"/>datur. Vnde dicit quod permissio est de 
+          minori<lb ed="#C" n="16" break="no"/>malo. &amp; ideo dicit quod non debemus vim 
+          vi<lb ed="#C" n="17" break="no"/>repellendo occidere quamuis non possimus 
+          ali<lb ed="#C" n="18" break="no"/>ter euadere. &amp; ratio sua est / plus teneor 
+          dili<lb ed="#C" n="19" break="no"/>gere animam proximi quam corpus meum: sed 
+          occiden<lb ed="#C" n="20" break="no"/>do istum qui me iniuste &amp; malo animo ag 
+          <lb ed="#C" n="21"/>greditur perdo animam eius / quia ipse peccat 
+          <lb ed="#C" n="22"/>mortaliter cum sit in actu peccati me 
+          niten<lb ed="#C" n="23" break="no"/>do occidere: sed si permittam me occidere solunm 
+          <lb ed="#C" n="24"/>perdo corpus meum &amp; non animam / ergo lege 
+          <lb ed="#C" n="25"/>caritatis plus obligor permittere quod interficiat 
+          <lb ed="#C" n="26"/>me quam illum occidere in tali actu peccati. Cum 
+          <lb ed="#C" n="27"/>lege caritatis plus teneor diligere animam 
+          <lb ed="#C" n="28"/>proximi quam corpus meum. nam corpus meum 
+          <lb ed="#C" n="29"/>est vltimum in ordine caritatis quod 
+          teneor<lb ed="#C" n="30" break="no"/>diligere. Adducit ipse de Anchona 
+          aucto<lb ed="#C" n="31" break="no"/>ritates Augustini que videntur hoc expresse 
+          <lb ed="#C" n="32"/>sonare. Nam dicit in libro primo de 
+          libe<lb ed="#C" n="33" break="no"/>ro arbitrio. Homo qui inculpata lege alium 
+          <lb ed="#C" n="34"/>aggreditur &amp; occidit qualiter immunis sit 
+          <lb ed="#C" n="35"/>a peccato videre nequeo dicit Augustinus. 
+          <lb ed="#C" n="36"/>ergo ex auctoritate Augustini talis realiter 
+          <lb ed="#C" n="37"/>occidens aggressorem peccat. Tamem ista 
+          opi<lb ed="#C" n="38" break="no"/>nio videtur multum dura &amp; difficilis cum 
+          com<lb ed="#C" n="39" break="no"/>munis omnim doct. opinio sit in oppositum. 
+          <lb ed="#C" n="40"/>Nam secundum illam opinionem sequitur quod 
+          nul<lb ed="#C" n="41" break="no"/>lus posset licite in bello iusto alterum occide 
+          <lb ed="#C" n="42"/>re / nam si est iustum ex parte mei tunc ex parte 
+          par<lb ed="#C" n="43" break="no"/>tis aduerse est iniustum / &amp; ideo scio aduersarium 
+          <lb ed="#C" n="44"/>esse in peccato cum iniuste pugnat contra me. &amp; 
+          <lb ed="#C" n="45"/>prpter hoc argumentum dicit de Anchona quod 
+          <lb ed="#C" n="46"/>non licet vnquam gerentibellum ex parte suiiu. 
+          <cb ed="#P" n="b"/>
+          <lb ed="#C" n="47"/>stum aduersarios occidere quod tamen videtur 
+          <lb ed="#C" n="48"/>absurdum. Proptera ab aliis aliter dicitur. 
+          <lb ed="#C" n="49"/>Vndeis. Tho. secunda secunde. qu. lxiiii. dicit 
+          <lb ed="#C" n="50"/>quod inuasus si intendat inuasorem occidere / 
+          <lb ed="#C" n="51"/>ita quod ex intentione occidat de facto peccat: 
+          <lb ed="#C" n="52"/>sed si intendat se solum defendere &amp; vitam 
+          <lb ed="#C" n="53"/>conseruare &amp; se defendendo occidat 
+          nul<lb ed="#C" n="54" break="no"/>lo modo peccat / ita quod nullo modo intendat 
+          <lb ed="#C" n="55"/>occisionem sed ei displicet talis occisio / immo 
+          <lb ed="#C" n="56"/>alius seipsum occidit inquantum non desistit 
+          <lb ed="#C" n="57"/>ab impetitione. &amp; dicere oppositum esset 
+          <lb ed="#C" n="58"/>multum durum / &amp; videtur contra equitatem 
+          natu<lb ed="#C" n="59" break="no"/>ralem permittere se interficere vbi potest 
+          euita<lb ed="#C" n="60" break="no"/>re.
+        </p>
+        <p xml:id="ja8dpe-y14859-d1e744">
+          ¶ Ad argumentum quodest fortissimum / licet 
+          <lb ed="#C" n="61"/>sorti occidere platonem pro defensione 
+          sue<lb ed="#C" n="62" break="no"/>vite proprie. Dico quod verum est: sed non licet intem 
+          <lb ed="#C" n="63"/>dere voluntarie. Vnde dico duo. primum / 
+          <lb ed="#C" n="64"/>sum certus quod plato aggreditur me &amp; non 
+          <lb ed="#C" n="65"/>adhuc aggreditur / non sicet mihi illum 
+          occi<lb ed="#C" n="66" break="no"/>dere: sed quando est in actu aggrediendi licet 
+          <lb ed="#C" n="67"/>occidere si non possim aliter euadere. 
+          Simili<lb ed="#C" n="68" break="no"/>ter dico si plato esset in actu 
+          oppugnandici<lb ed="#C" n="69" break="no"/>uitatem licet cuilibet de ciuitate illum 
+          occi<lb ed="#C" n="70" break="no"/>dere quia sunt defensiores: sed quando 
+          so<lb ed="#C" n="71" break="no"/>lum constat de proposito. dico quod non licet 
+          <lb ed="#C" n="72"/>mihi priuate persone illum occidere nunc 
+          <lb ed="#C" n="73"/>quauis constet mihi certitudinaliter quod cras euer 
+          <lb ed="#C" n="74"/>tet ciuitatem.
+        </p>
+        <p xml:id="ja8dpe-y14859-d1e777">
+          ¶ Resolutio est / licet priuate 
+          <lb ed="#C" n="75"/>persone inuasorem occidere preter intentio 
+          <lb ed="#C" n="76"/>nem occidendi. Secundo / licet ciuiliter 
+          de<lb ed="#C" n="77" break="no"/>ciuitate occidere oppugnantem ciuitatem 
+          <lb ed="#C" n="78"/>quando est in actu destruendi: sed non licet 
+          <lb ed="#C" n="79"/>quando est solum in proposito destruendi. 
+        </p>
+        <p xml:id="ja8dpe-y14859-d1e790">
+          <lb ed="#C" n="80"/>¶ Qaetum ad argumentum contra secundam 
+          pro<lb ed="#C" n="81" break="no"/>positionem. rex nullam habet pertantem nisi a 
+          po<lb ed="#C" n="82" break="no"/>pulo. ergo tota comnitas habet auctoritatem 
+          <lb ed="#C" n="83"/>occidendi. Dico quod sic / si nullus esset rex 
+          si<lb ed="#C" n="84" break="no"/>cut quilbet potest abscindere membrum 
+          pu<lb ed="#C" n="85" break="no"/>tridum a corpore suo quando non est alius qui 
+          ab<lb ed="#C" n="86" break="no"/>scindat ita similiter tota comunitas potest &amp;c. sed 
+          <lb ed="#C" n="87"/>ista persona singularis vel illa non potest. Vnde 
+          si<lb ed="#C" n="88" break="no"/>cut rex potest / ita comunitas a qua rex habet aucto 
+          <lb ed="#C" n="89"/>ritatem: sed particularis persona non potest. ideo 
+          <lb ed="#C" n="90"/>quantum ad primam ptatem correctionis quilibet 
+          im<lb ed="#C" n="91" break="no"/>perator &amp; dans tempoalis habet auctoritatem 
+          auf<lb ed="#C" n="92" break="no"/>ferendi vitam.
+        </p>
+        <p xml:id="ja8dpe-y14859-d1e822">
+          ¶ Ontum ad secundam quanestionem qua¬ 
+          <pb ed="#P" n="716"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#C" n="1"/>querebatur an liceat principi occidere 
+          ino<lb ed="#C" n="2" break="no"/>centes. Nam visum est quomodo licet 
+          pri<lb ed="#C" n="3" break="no"/>cipi occidere: non tamne omnes maleficos / puta 
+          <lb ed="#C" n="4"/>maleficos malicia interiori &amp; exteriori quam 
+          <lb ed="#C" n="5"/>dotalis malicia non perturbat rem publican 
+          <lb ed="#C" n="6"/>&amp;c. Queritur an liceat principi occidere in 
+          <lb ed="#C" n="7"/>nocentem. &amp; apperet quod sic / licet principi 
+          ex<lb ed="#C" n="8" break="no"/>ponere vrbem igni &amp; gladio pro 
+          rebella<lb ed="#C" n="9" break="no"/>tione: sed in illa sunt aliqui innocentes vt 
+          par<lb ed="#C" n="10" break="no"/>uuli: ergo licet principi occidere innocentem. 
+          <lb ed="#C" n="11"/>Consequentia est certa / &amp; antecedens quo 
+          <lb ed="#C" n="12"/>ad primam partem videtur practicari sepe. 
+          <lb ed="#C" n="13"/>Oppositum tamen arguitur exodi. xxiii. in 
+          <lb ed="#C" n="14"/>sontem &amp; iustum non occides.
+        </p>
+        <p xml:id="ja8dpe-y14859-d1e859">
+          ¶ Pro 
+          solutio<lb ed="#C" n="15" break="no"/>ne dupliciter potest intelligi questio / vno 
+          <lb ed="#C" n="16"/>modo sic / an liceat principi occidere illum 
+          <lb ed="#C" n="17"/>qui realiter est innocens / est tamem probatus 
+          <lb ed="#C" n="18"/>nocens / &amp; malefactor / &amp; princeps vel iudex 
+          <lb ed="#C" n="19"/>non habet certitudinem de opposito puta 
+          de<lb ed="#C" n="20" break="no"/>eius innocentia. Qaentum ad hoc nulli doct. 
+          <lb ed="#C" n="21"/>est dubium quin possit princeps vel iudex 
+          <lb ed="#C" n="22"/>talem damnare ad mortem / sed tota 
+          diffi<lb ed="#C" n="23" break="no"/>cultas est inter doct. Vtrum liceat 
+          principi<lb ed="#C" n="24" break="no"/>vel iudici qui vt persona priuata habet 
+          cer<lb ed="#C" n="25" break="no"/>ticudinem de innocentia istius: sed non 
+          pos<lb ed="#C" n="26" break="no"/>set illam probare nihilominus conuincitur 
+          <lb ed="#C" n="27"/>per testes nocens omni exceptione maiores / 
+          <lb ed="#C" n="28"/>an liceat illum innocentem dannare ad mortem 
+        </p>
+        <p xml:id="ja8dpe-y14859-d1e892">
+          <lb ed="#C" n="29"/>¶ Circa hoc est multiplex modus dicendi. 
+          <lb ed="#C" n="30"/>Delira dicit duo super illo Exodi. xxiii. 
+          <lb ed="#C" n="31"/>Insontem &amp; iustum non occides. Primum est: 
+          <lb ed="#C" n="32"/>si iudex vel princeps est certus de maleficio 
+          <lb ed="#C" n="33"/>platonis puta quod est homicida / nihilominus 
+          <lb ed="#C" n="34"/>plato probatur innocens coram iudice ab illo 
+          fa<lb ed="#C" n="35" break="no"/>cto cuius sortes iudex habet certitudinem 
+          de<lb ed="#C" n="36" break="no"/>opposito non licet sorti occidere platonem 
+          <lb ed="#C" n="37"/>Hoc dictum probatur / si liceat tunc occide 
+          <lb ed="#C" n="38"/>re platonem. vel licitum est ei vt priuate vel 
+          <lb ed="#C" n="39"/>publice persone. Non primum / quia 
+          nulli<lb ed="#C" n="40" break="no"/>vt priuate persone licet quemquem interficere. 
+          <lb ed="#C" n="41"/>Nec potest dici secundum / quia non habet 
+          <lb ed="#C" n="42"/>viam conuenientem vt occidat vt publica 
+          <lb ed="#C" n="43"/>persona. quia non est ei ordine iuris pr 
+          coba<lb ed="#C" n="44" break="no"/>tus nocens vt publice persone. ergo in 
+          tali<lb ed="#C" n="45" break="no"/>casu non licet sorti occidere platonem. &amp; hoc 
+          <lb ed="#C" n="46"/>de necessitate est fatendum. Habetur de con¬ 
+          <cb ed="#P" n="b"/>
+          <lb ed="#C" n="47"/>secratione distinctione.d iis. quod non licet 
+          sacer<lb ed="#C" n="48" break="no"/>doti curato ex pellere a mensa Christi illum 
+          <lb ed="#C" n="49"/>quem sit peccatorem vt priuata persona. ergo 
+          <lb ed="#C" n="50"/>eodem modo hic dicendum est.
+        </p>
+        <p xml:id="ja8dpe-y14859-d1e944">
+          ¶ Secundum dictum 
+          <lb ed="#C" n="51"/>ipsius Delira est / si sortes princeps vel iudex 
+          <lb ed="#C" n="52"/>sciat prlatonem innocentem nihilominus per 
+          te<lb ed="#C" n="53" break="no"/>stes omni exceptione maiores est probatus 
+          <lb ed="#C" n="54"/>nocens vt puta homicida non licet etiam (
+          di<lb ed="#C" n="55" break="no"/>cit Delira) ipsum sortem damnare platonem ad 
+          <lb ed="#C" n="56"/>mortem vel occidere. &amp; huius sententie est 
+          guil<lb ed="#C" n="57" break="no"/>lermus odonis super libros Ethicorum. Et 
+          ra<lb ed="#C" n="58" break="no"/>tio precipua est ex textu iam allegato 
+          Exo<lb ed="#C" n="59" break="no"/>di. xxiii. Nam si est innocens. ergo est indig 
+          <lb ed="#C" n="60"/>nus morte ergo occidens &amp; sciens peccat 
+          con<lb ed="#C" n="61" break="no"/>tra iusticiam. Et sic resolutio Delira est / quod 
+          <lb ed="#C" n="62"/>iudex non tenetur iudicare secundum allegata 
+          <lb ed="#C" n="63"/>&amp; probata quando habet scientiam particularem 
+          <lb ed="#C" n="64"/>de opposito quamuis non possit repellere testes 
+          <lb ed="#C" n="65"/>neque probare innocentiam accusati / immo 
+          te<lb ed="#C" n="66" break="no"/>netur non iudicare secundum allegata &amp; pro 
+          <lb ed="#C" n="67"/>bata. &amp; ista duo dicta differunt / quia in primo 
+          <lb ed="#C" n="68"/>casu non habet viam occidendi / &amp; in secundo 
+          ha<lb ed="#C" n="69" break="no"/>bet viam non occidendisciliet cedendi officio Primum 
+          <lb ed="#C" n="70"/>patet / quia quamuis sciat illum dignum morte 
+          <lb ed="#C" n="71"/>non habet viam occidendi / nam non habet 
+          <lb ed="#C" n="72"/>viam occidendi tunc nisi vt priuata 
+          perso<lb ed="#C" n="73" break="no"/>na / sed non licetei vt priuata persona. igitur. 
+          <lb ed="#C" n="74"/>Secundum patet / puta quod habeat viam non 
+          occi<lb ed="#C" n="75" break="no"/>dendi: quia potest cedere officio &amp;c. 
+          Oppo<lb ed="#C" n="76" break="no"/>site sententie estid s. Tho. secunda secunde. quo. 
+          <lb ed="#C" n="77"/>lx vii. arti. secundo. Et idem dicit Altissio. &amp; 
+          <lb ed="#C" n="78"/>Richardus &amp; glo. de consecra. distiid ii. Et idem 
+          <lb ed="#C" n="79"/>habetur tertia. qu. vii. ca. iudicet in glo. 
+          Te<lb ed="#C" n="80" break="no"/>nent omnes cums. Tho. Vnde in tali casu dicit 
+          <lb ed="#C" n="81"/>sanctus Tho. aut sortes est supremus iudex 
+          <lb ed="#C" n="82"/>puta impearator vel rex non recognoscens 
+          su<lb ed="#C" n="83" break="no"/>periorem in tali potestate iurisdica: aut non est 
+          <lb ed="#C" n="84"/>supmus iudex. Si non sit iudex supsemus / vel 
+          <lb ed="#C" n="85"/>potestremittere ad superiorem vel non. si non / 
+          pu<lb ed="#C" n="86" break="no"/>ta quia vel superior praecipit ei vt cognoscat 
+          de<lb ed="#C" n="87" break="no"/>causa / dicit quod propter hoc tenetur 
+          renuncia<lb ed="#C" n="88" break="no"/>re. Si non potest tunc vel potest sine 
+          scanda<lb ed="#C" n="89" break="no"/>lo iniusticie ipsum liberare vel non. Nam aliqui 
+          <lb ed="#C" n="90"/>sunt casus ita enormes quod etiam supemus iudex 
+          <lb ed="#C" n="91"/>non potest dare vitam sine scandalo iusticie. 
+          In<lb ed="#C" n="92" break="no"/>tali casunon potest non occidere immo tenetur condem 
+          <pb ed="#P" n="717"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#C" n="1"/>nare. Resolutio tho. est quo. allegata arti. 
+          secun<lb ed="#C" n="2" break="no"/>do. quod iudex potest cognoscere aliqua 
+          du<lb ed="#C" n="3" break="no"/>pliciter. vno modo / vt priuata persona. alio 
+          <lb ed="#C" n="4"/>modo vt publica. si vt priuata / nec licet 
+          con<lb ed="#C" n="5" break="no"/>demnare / nec absoluere / quia secundum talem 
+          <lb ed="#C" n="6"/>cognitionem nullam habet potestatem: Sed 
+          <lb ed="#C" n="7"/>vt persona publica aliquid potest 
+          cogno<lb ed="#C" n="8" break="no"/>scere dupliciter. vno modo in communi. 
+          <lb ed="#C" n="9"/>alio modo in particulari. In communi per 
+          <lb ed="#C" n="10"/>legem naturalem diuinam aut humanam. 
+          <lb ed="#C" n="11"/>hoc est per leges publicas diuinas aut 
+          hu<lb ed="#C" n="12" break="no"/>manas contra quas nullas probationes ad 
+          <lb ed="#C" n="13"/>mittere debet. vnde in communi 
+          cogno<lb ed="#C" n="14" break="no"/>scit quod omns malefactor est occidendus 
+          quan<lb ed="#C" n="15" break="no"/>do malefactor est perturbatiuus reipublice. 
+          <lb ed="#C" n="16"/>Alio modo potest cognoscere in facto 
+          par<lb ed="#C" n="17" break="no"/>ticulari vt persona publica puta per 
+          instru<lb ed="#C" n="18" break="no"/>menta &amp; testes &amp; alia huiusmodi legitina 
+          do<lb ed="#C" n="19" break="no"/>tumenta que debet sequi in iudicando 
+          ma<lb ed="#C" n="20" break="no"/>gis quam id quod ipse nouit tanquam priuata 
+          per<lb ed="#C" n="21" break="no"/>sona. Dicit ergo quod in casu in quo sortes 
+          iu<lb ed="#C" n="22" break="no"/>dex scit prolatonem innocentem 
+          nichilomi<lb ed="#C" n="23" break="no"/>nus probatur nocens &amp; fecit omnem 
+          inda<lb ed="#C" n="24" break="no"/>ginem ad reffellendum testes &amp; non potest 
+          il<lb ed="#C" n="25" break="no"/>lum liberare sine scandalo iusticie in tali 
+          ca<lb ed="#C" n="26" break="no"/>su licet sorti iudici platonem innocentem 
+          dan<lb ed="#C" n="27" break="no"/>nare ad mortem / &amp; istam opinionem dicit 
+          <lb ed="#C" n="28"/>prepositinus probabiliorem. &amp; hoc intellige 
+          <lb ed="#C" n="29"/>sane puta supponendo quod non tenetur cede 
+          <lb ed="#C" n="30"/>re ex officio. contra id quod dicit Delira &amp; 
+          <lb ed="#C" n="31"/>non potest remittere ad alterum &amp; si non 
+          ce<lb ed="#C" n="32" break="no"/>dat officio tenetur condemnare. Ratio 
+          mea<lb ed="#C" n="33" break="no"/>fortissima pro ista opinione est ista: capio 
+          sor<lb ed="#C" n="34" break="no"/>tem episcopum coramquo agitatur 
+          mate<lb ed="#C" n="35" break="no"/>ria de matrimonio inter sortem &amp; bertam 
+          <lb ed="#C" n="36"/>nam sortes probat bertam esse suam vxorem 
+          <lb ed="#C" n="37"/>nichilominus episcopus scit oppositum sed 
+          <lb ed="#C" n="38"/>non potest probare / &amp; plato probat per 
+          te<lb ed="#C" n="39" break="no"/>stes omni exceptione maiores quod Berta sit 
+          <lb ed="#C" n="40"/>vxor eius / quia eam desponsauit in facie 
+          ec<lb ed="#C" n="41" break="no"/>clesie: tunc episcopus tenetur ad iudicare 
+          il<lb ed="#C" n="42" break="no"/>lam adherere sorti &amp; ei reddere debitum. 
+          c<lb ed="#C" n="43" break="no"/>potest casus poni districtius puta quod causa 
+          <lb ed="#C" n="44"/>agitetur coram papa qui non potest cedere 
+          <lb ed="#C" n="45"/>papatuinisi ex consensu cardinalium &amp; 
+          ec<lb ed="#C" n="46" break="no"/>clesie &amp; ratione insufficientie &amp; supposito 
+          <cb ed="#P" n="b"/>
+          <lb ed="#C" n="47"/>quod non potest cedere. ergo oportet de 
+          neces<lb ed="#C" n="48" break="no"/>sitate quod iudicet &amp; non potest iudicare quod non 
+          <lb ed="#C" n="49"/>sit vxor eius. patet per opinantem oppositum 
+          <lb ed="#C" n="50"/>non potest iudicare de aliquo nisi sciat vt 
+          per<lb ed="#C" n="51" break="no"/>sona publica / quia scunia vt persona 
+          particula<lb ed="#C" n="52" break="no"/>ris non sufficit ad ferendum indicium. ergo 
+          sal<lb ed="#C" n="53" break="no"/>tem in casu iudex tenetur iudicare 
+          contra<lb ed="#C" n="54" break="no"/>scientiam quam habet vt persona 
+          priua<lb ed="#C" n="55" break="no"/>ta siue particularis. Eodem modo iudex 
+          <lb ed="#C" n="56"/>laicus debet facere. nam si probauerim hanc 
+          ren<lb ed="#C" n="57" break="no"/>esse meam que de facto non est mea &amp; iudex 
+          <lb ed="#C" n="58"/>certo scit quod non est mea tenetur ad iudicare 
+          <lb ed="#C" n="59"/>illam rem michi / similiter tenetur condem 
+          <lb ed="#C" n="60"/>nare innocentem probatum nocentem quamuis 
+          <lb ed="#C" n="61"/>vt persona priuata sciat oppositum &amp; hoc 
+          <lb ed="#C" n="62"/>seruato ordine iuris quem tenetur obserua 
+          <lb ed="#C" n="63"/>re / quid ergo ad argumentum Exodi. 
+          xxiii<lb ed="#C" n="64" break="no"/>exponunt insontem id est quem cognoscis 
+          inson<lb ed="#C" n="65" break="no"/>tem &amp; iustum vt persona talis id est vt persona 
+          <lb ed="#C" n="66"/>publica non debes condemnare. sed in 
+          casu<lb ed="#C" n="67" break="no"/>sudex non cognoscit istum insontem vt 
+          iu<lb ed="#C" n="68" break="no"/>dex immo habet ea que sufficiunt ad oppositum 
+          <lb ed="#C" n="69"/>vt persona publica: ideo in tali casu potest 
+          <lb ed="#C" n="70"/>illum adiudicare morti. Dices nunquam licet 
+          ali<lb ed="#C" n="71" break="no"/>cui facere contra conscientiam / sed iste 
+          occi<lb ed="#C" n="72" break="no"/>dendo facit contra conscientiam: ergo non 
+          <lb ed="#C" n="73"/>licet istum occidere / verum est quod numquam licet 
+          <lb ed="#C" n="74"/>alicui facere contra conscientiam. sed nego 
+          <lb ed="#C" n="75"/>quod iste faciat contra conscientiam. Contra 
+          iu<lb ed="#C" n="76" break="no"/>dicat istum esse innocentem neque dignum 
+          pe<lb ed="#C" n="77" break="no"/>na &amp; morte &amp; iudicat eum non esse occidem 
+          <lb ed="#C" n="78"/>dum / dico quod iudicat eum esse occidendum 
+          si<lb ed="#C" n="79" break="no"/>recte iudicat. vnde ista consequentia 
+          nichil<lb ed="#C" n="80" break="no"/>valet / iste est innocens: ergo non est dignus 
+          <lb ed="#C" n="81"/>morte. vnde dico quod ex parte iudicis iuste 
+          <lb ed="#C" n="82"/>occiditur &amp; istud iudicium esset erroneum 
+          <lb ed="#C" n="83"/>in iudice / iste non est iudicandus a me. im 
+          <lb ed="#C" n="84"/>mo istud iudicium est verum iste est 
+          iudi<lb ed="#C" n="85" break="no"/>candus ia me &amp; non tenetur illud 
+          depone<lb ed="#C" n="86" break="no"/>re. Contra / ergo faciet contra conscientiam 
+          <lb ed="#C" n="87"/>nego &amp; dico quod facere contra conscientiam 
+          <lb ed="#C" n="88"/>est facere contra dictamen practicum de 
+          ali<lb ed="#C" n="89" break="no"/>qicciendo vel non faciendo. quamuis ergo 
+          <lb ed="#C" n="90"/>iudicat iudex quod est innocens &amp; vere / 
+          tamen<lb ed="#C" n="91" break="no"/>iudicat recte quod est occidendus. : Eodem 
+          mo<lb ed="#C" n="92" break="no"/>do dicendum est de lictore a cognoscit cer¬ 
+          <pb ed="#P" n="718"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#C" n="1"/>titudinaliter condemnatum ad mortem 
+          pr<lb ed="#C" n="2" break="no"/>iudicem esse innocentem debet eum 
+          suspen<lb ed="#C" n="3" break="no"/>dere quamuis sciat illum esse indignum morte 
+          <lb ed="#C" n="4"/>postquam habet mandatum a iudice iuste 
+          pre<lb ed="#C" n="5" break="no"/>cipiente &amp; iuste condamnante. &amp; ista opinio 
+          <lb ed="#C" n="6"/>videtur probabilior quod postquam non potest ad 
+          <lb ed="#C" n="7"/>alterum remittere neque absoluere sine 
+          scan<lb ed="#C" n="8" break="no"/>dalo &amp; concesso quod non tenetur cedere( nan 
+          <lb ed="#C" n="9"/>esset valde difficile quod rex teneretur cedere 
+          re<lb ed="#C" n="10" break="no"/>gno propter istum casum particularem) quod 
+          <lb ed="#C" n="11"/>ipse iudex debet talem innocentem 
+          conden<lb ed="#C" n="12" break="no"/>nare. His prelibatis circa materiam tercieque 
+          <lb ed="#C" n="13"/>stionis accedendum estad illam tertiam quaestio 
+          <lb ed="#C" n="14"/>nem qua querebatur vtrum talem 
+          potesta<lb ed="#C" n="15" break="no"/>tem coherciuam habeat im perator vel danes 
+          <lb ed="#C" n="16"/>temporalis a papa &amp; romana ecclesia. Prima 
+          <lb ed="#C" n="17"/>opinio est / quod ex institutione Christi 
+          habu<lb ed="#C" n="18" break="no"/>it talem a papa cuius opinionis sunt qui 
+          di<lb ed="#C" n="19" break="no"/>cebant in precedentibus questionibus quod 
+          pa<lb ed="#C" n="20" break="no"/>pa habet plenitudinem potestatis tam in 
+          ten<lb ed="#C" n="21" break="no"/>poralibus quam in spiumalibus. &amp; quod in vtrisque 
+          po<lb ed="#C" n="22" break="no"/>test facere sine peccato omne illud quod non 
+          <lb ed="#C" n="23"/>est contra legem nature aut diuinam / sed 
+          pa<lb ed="#C" n="24" break="no"/>pam committere talem iurisdictionem non 
+          <lb ed="#C" n="25"/>est contra legem nature aut diuinam siue euan 
+          <lb ed="#C" n="26"/>gelicam. Item qui excercet illam sine 
+          com<lb ed="#C" n="27" break="no"/>missione summi pontificis iniuste excercet: 
+          <lb ed="#C" n="28"/>patet / nisipapa committeret negligenter 
+          fa<lb ed="#C" n="29" break="no"/>ceret opus sibi commissum &amp; non potest 
+          pa<lb ed="#C" n="30" break="no"/>pa per se excercere: nam data est ei potestas 
+          <lb ed="#C" n="31"/>&amp; prohibitum estei ne illam excerceat. ergo 
+          <lb ed="#C" n="32"/>oportet quod alteri committat &amp; nisi 
+          altericon<lb ed="#C" n="33" break="no"/>mitteret negligeret opus sibi commissum 
+          <lb ed="#C" n="34"/>quod autem exercens sine commissione 
+          pa<lb ed="#C" n="35" break="no"/>pe iniuste exerceat: patet quicumque assumit 
+          ho<lb ed="#C" n="36" break="no"/>norem nisi ad illum sit vocatus tanquam aaron 
+          <lb ed="#C" n="37"/>etiam loquendo de honoretam in 
+          spiumali<lb ed="#C" n="38" break="no"/>bus quam in temporalibus presumptuose 
+          assu<lb ed="#C" n="39" break="no"/>mit / &amp; talis est notandus de ambitione &amp; 
+          <lb ed="#C" n="40"/>non intrat per ostium. vnde ad prelatum 
+          spe<lb ed="#C" n="41" break="no"/>ctat iuridice &amp; ordinarie prouidere de 
+          be<lb ed="#C" n="42" break="no"/>neficiis particularibus / ergo eodem moo cum ad 
+          <lb ed="#C" n="43"/>papam ordinarie spectet istam 
+          iurisdictio<lb ed="#C" n="44" break="no"/>nem commitere etiam ex institutione 
+          Chri<lb ed="#C" n="45" break="no"/>sti / si aliquis assumat libero suo arbitrio am 
+          <lb ed="#C" n="46"/>bitiose assumit. &amp; iste est primus modusdi¬ 
+          <cb ed="#P" n="b"/>
+          <lb ed="#C" n="47"/>cendi. scilicet quod ommnes exercentes iurisdicto 
+          <lb ed="#C" n="48"/>nem temporalem habent illam potestatem 
+          <lb ed="#C" n="49"/>exercendi a papa. vltra dicit doct. quod eiusdem 
+          <lb ed="#C" n="50"/>sententie debent esse qui tenent quod licet 
+          pa<lb ed="#C" n="51" break="no"/>pa non habeat illam prlenitudinem potesta 
+          <lb ed="#C" n="52"/>tis de qua dictum est. quoid est ca.d is. tamen habet 
+          <lb ed="#C" n="53"/>plenitudinem potestatis quantum ad omnia quam 
+          <lb ed="#C" n="54"/>necessaria sunt pro communitate fidelium 
+          gu<lb ed="#C" n="55" break="no"/>bernanda. sed ad debitum regimem fidelium 
+          <lb ed="#C" n="56"/>necesse est quod sint aliqui exercentes vsum 
+          <lb ed="#C" n="57"/>gladii. ergo si papa habet plenitudinem 
+          po<lb ed="#C" n="58" break="no"/>testatis/ ila quod potest quicquid non est contra 
+          <lb ed="#C" n="59"/>legem nature aut euangelicam siue dicatur 
+          <lb ed="#C" n="60"/>quod habet polenitudinem potestatis quod teneatur 
+          <lb ed="#C" n="61"/>prouidere de regimine fidelium tenetur 
+          con<lb ed="#C" n="62" break="no"/>mittere istas iurisdictiones temporales. 
+        </p>
+        <p xml:id="ja8dpe-y14859-d1e1384">
+          <lb ed="#C" n="63"/>¶ Tertia questio proposita / in principio 
+          hu<lb ed="#C" n="64" break="no"/>ius tertie questionis erat. an condemnato 
+          a<lb ed="#C" n="65" break="no"/>principe ad mortem liceat fugere si pateat 
+          <lb ed="#C" n="66"/>ei locus fuge. Et apparet quod non per illud quod 
+          <lb ed="#C" n="67"/>scribitur. ad Ro. xiii. qui potestati resistit 
+          or<lb ed="#C" n="68" break="no"/>dinationi deiresistit &amp; loquor de potestate 
+          <lb ed="#C" n="69"/>principum / sed non licet resistere 
+          ordinati<lb ed="#C" n="70" break="no"/>oni dei. ergo non licet resistere principi 
+          se<lb ed="#C" n="71" break="no"/>culari si igitur damnatus ad mortem aufugeret 
+          <lb ed="#C" n="72"/>resisteret huiusmodi potestati. ergo non 
+          li<lb ed="#C" n="73" break="no"/>cite faceret &amp; per consequens peccaret &amp; in 
+          <lb ed="#C" n="74"/>iuste ageret. Oppositum tamen arguitur / 
+          <lb ed="#C" n="75"/>quilibet naturaliter inclinatur ad seruandum 
+          <lb ed="#C" n="76"/>vitam suam / ergo licet seruare quando hoc 
+          <lb ed="#C" n="77"/>fieri potest sine iactura alterius puta sine 
+          per<lb ed="#C" n="78" break="no"/>cussione vel lesione alterius vel damno / vt 
+          <lb ed="#C" n="79"/>puta si aliquis haberet damnatum custodi 
+          <lb ed="#C" n="80"/>re sub aliqua pena non liceret ei aufugere. 
+          <lb ed="#C" n="81"/>Pro ista questioue aduertendum est: quod 
+          ali<lb ed="#C" n="82" break="no"/>ud est loqui de iniuste damnato &amp; de iuste 
+          <lb ed="#C" n="83"/>damnato. &amp; iterum de iuste damnato potest 
+          <lb ed="#C" n="84"/>intelligi dupliciter vel de illo qui est iuste 
+          <lb ed="#C" n="85"/>damnatus ex parte iudicis &amp; non ex parte sui. 
+          <lb ed="#C" n="86"/>ex parte iudicis puta quia iudex seruauit 
+          or<lb ed="#C" n="87" break="no"/>dinem iuris iudicando illum secundum 
+          al<lb ed="#C" n="88" break="no"/>legata &amp; probata: &amp; tamen ipse de facto est 
+          <lb ed="#C" n="89"/>innocens. Aut de iuste damnato &amp; ex parte 
+          <lb ed="#C" n="90"/>iudicis &amp; ex parte sui / quia videlicet serua 
+          <lb ed="#C" n="91"/>tus est ordoiuris in damnando ipsum. &amp; 
+          <lb ed="#C" n="92"/>realiter merebatur damnari quia nocens erat 
+          <pb ed="#P" n="719"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#C" n="1"/>&amp; malefactor. His suppositis sit prima 
+          pr<lb ed="#C" n="2" break="no"/>positio. Iniuste damnatus ad mortem ex 
+          pro<lb ed="#C" n="3" break="no"/>te iudicis puta quia non seruauit ordinem 
+          iu<lb ed="#C" n="4" break="no"/>ris vel non habuit probationes 
+          sufficien<lb ed="#C" n="5" break="no"/>tes ad damnandum ipsum potest immo 
+          te<lb ed="#C" n="6" break="no"/>netur fugere si ei pateat locus fuge / patet sic 
+          <lb ed="#C" n="7"/>quod teneatur fugere / nam iure naturali quilibet 
+          <lb ed="#C" n="8"/>tenetur seruare vitam propriam quantum potest 
+          <lb ed="#C" n="9"/>medio licito / ergo sortes qui est iniuste 
+          dan<lb ed="#C" n="10" break="no"/>natus ex parte iudicis si pateat ei locus 
+          fu<lb ed="#C" n="11" break="no"/>ge &amp; non fugiat peccat contra legem 
+          natu<lb ed="#C" n="12" break="no"/>ralem qua tenetur seruare vitam suam quantum 
+          <lb ed="#C" n="13"/>potest / ergo cum istud medium puta fugere 
+          <lb ed="#C" n="14"/>sic sorti licitum ad seruandum vitam. in 
+          mo<lb ed="#C" n="15" break="no"/>est ei licitum quemadmodum esset ei licitum fugere 
+          <lb ed="#C" n="16"/>contra hostes eum iniuste aggredientes &amp; 
+          <lb ed="#C" n="17"/>persequentes tenetur iure naturali fi igere / alia 
+          <lb ed="#C" n="18"/>ratio adducitur abaliquo doct. que talis est 
+          <lb ed="#C" n="19"/>ille iudex ad iudicando illum morti peccauit 
+          <lb ed="#C" n="20"/>ergo dando sententiam executioni 
+          pecca<lb ed="#C" n="21" break="no"/>bit &amp; sortes qua legesciliet diuina tenetur 
+          dili<lb ed="#C" n="22" break="no"/>gere proximum etiam vitare peccatum in 
+          <lb ed="#C" n="23"/>proximo. ergo cum teneatur vitare in 
+          proxi<lb ed="#C" n="24" break="no"/>mo peccatum etiam tenetur fugere si ei patet 
+          <lb ed="#C" n="25"/>locus fuge. Dices / ergo martires obligaban 
+          <lb ed="#C" n="26"/>tur fugere cum multis patebat locus fuge 
+          <lb ed="#C" n="27"/>&amp; erant iniuste damnati ad mortem. Dico 
+          <lb ed="#C" n="28"/>quod quando ex fuga imminebat scnandalum in 
+          fi<lb ed="#C" n="29" break="no"/>de non tenebantur fugere. immo oportet 
+          <lb ed="#C" n="30"/>quod iniuste dannatus maneat precipue si ex 
+          fu<lb ed="#C" n="31" break="no"/>ga illius immineret periculum in fide.
+        </p>
+        <p xml:id="ja8dpe-y14859-d1e1523">
+          ¶ Secunda 
+          pro<lb ed="#C" n="32" break="no"/>positio licet dumato iniuste. istomodo 
+          impe<lb ed="#C" n="33" break="no"/>tere principem &amp; rebellare si possit / ita quod 
+          pos<lb ed="#C" n="34" break="no"/>set vincere vi sua. patet vnicuique vim vi 
+          re<lb ed="#C" n="35" break="no"/>pellere licet / &amp; hoc quando infertur vis 
+          iniu<lb ed="#C" n="36" break="no"/>ste sed in illo casu infertur vis iniuste. ergo 
+          <lb ed="#C" n="37"/>in illo casu licet vim vi repellere &amp; 
+          occide<lb ed="#C" n="38" break="no"/>re cum moderamine inculpate tutelle. &amp; hoc 
+          <lb ed="#C" n="39"/>expresse habetur. ecclesiastici. xxiiii. 
+          Erue<lb ed="#C" n="40" break="no"/>eos qui ducuntur ad mortem &amp; ad interitum 
+          <lb ed="#C" n="41"/>liberare non cesses / &amp; loquitur de illis qui 
+          du<lb ed="#C" n="42" break="no"/>cuntur iniuste ad interitum / &amp; arguitur sic 
+          <lb ed="#C" n="43"/>Quilibet tenetur se magis diligere &amp; 
+          libe<lb ed="#C" n="44" break="no"/>rare quam quantuncumque proximum / sed sic est quod quando 
+          <lb ed="#C" n="45"/>proximus iniuste ducitur ad mortem 
+          quili<lb ed="#C" n="46" break="no"/>bet tenetur liberare si possit etiam per vio¬ 
+          <cb ed="#P" n="b"/>
+          <lb ed="#C" n="47"/>lentiam. ergo a fortiori si possit ipse illau 
+          <lb ed="#C" n="48"/>vim repellere debet. immo ad hoc tenetur 
+        </p>
+        <p xml:id="ja8dpe-y14859-d1e1566">
+          <lb ed="#C" n="49"/>¶ Tertia propositio / iuste damnatus ex part 
+          e<lb ed="#C" n="50" break="no"/>iudicis / tamen iniuste ex parte sui licite 
+          potec<lb ed="#C" n="51" break="no"/>aufugere si pateat ei locus fuge quia est 
+          reali<lb ed="#C" n="52" break="no"/>ter innocens: patet apud omnes doct. si / a / 
+          <lb ed="#C" n="53"/>possessio sit mea nichilominus plato 
+          pro<lb ed="#C" n="54" break="no"/>bat eam suam &amp; per iudienem ad iudicatur 
+          <lb ed="#C" n="55"/>platoni si possum sine periculocorporis &amp; 
+          <lb ed="#C" n="56"/>fame eam occupare &amp; rapere bene facio. 
+          di<lb ed="#C" n="57" break="no"/>citur notanter sine periculo fame quia si eanm 
+          <lb ed="#C" n="58"/>capiendo reputarer fur &amp; latro non debeo 
+          <lb ed="#C" n="59"/>eam capere / nam bona fama prestantior est 
+          <lb ed="#C" n="60"/>bonis fortune / dicitur notanter etiam sine 
+          <lb ed="#C" n="61"/>periculo corporis quia corpus magis est 
+          di<lb ed="#C" n="62" break="no"/>lige ndum quam fama / &amp; fama quam bona externa: 
+          <lb ed="#C" n="63"/>&amp; super omnia ista: vita magis est diligenda 
+          <lb ed="#C" n="64"/>ergo a simili si sortes sit iuste damnatus ex 
+          per<lb ed="#C" n="65" break="no"/>te iudicis / &amp; iuste ex parte sui: adhuc corpus 
+          <lb ed="#C" n="66"/>suum remanet eius: ergo potest fugere etiam 
+          <lb ed="#C" n="67"/>cum periculo fame / quia corpus magis est 
+          <lb ed="#C" n="68"/>diligendum quam fama.
+        </p>
+        <p xml:id="ja8dpe-y14859-d1e1612">
+          ¶ Quarta propositio in 
+          <lb ed="#C" n="69"/>qua est difficultas inter docto. Si sortes sit 
+          <lb ed="#C" n="70"/>iuste damnatus ad mortem ex parte iudicis. 
+          <lb ed="#C" n="71"/>&amp; sui &amp; pateat ei locus fuge / an teneatur 
+          auf<lb ed="#C" n="72" break="no"/>fugere / dico quod potest licite aufugere &amp; 
+          si<lb ed="#C" n="73" break="no"/>ne peccato &amp; in hoc maior pars doct. 
+          con<lb ed="#C" n="74" break="no"/>uenit / hoctenet Degandauo quolibeto no 
+          <lb ed="#C" n="75"/>no quamuis opposttum imputetur is. thome tamen 
+          <lb ed="#C" n="76"/>non legi in ipso / sed dicit quod potest licite 
+          auf<lb ed="#C" n="77" break="no"/>fugere. vt patet. qu. lxix. in vltimo articulo 
+          <lb ed="#C" n="78"/>in solutione secundi argumenti. dicit quod 
+          nul<lb ed="#C" n="79" break="no"/>lus condemnatur ad manendum in loco 
+          vn<lb ed="#C" n="80" break="no"/>de ducatur ad mortem. tenetur tamem non 
+          re<lb ed="#C" n="81" break="no"/>sistere agenti quin patiatur quod iustum est 
+          <lb ed="#C" n="82"/>eum pati: sicut etiam si aliquis sit condemna 
+          <lb ed="#C" n="83"/>tus vt fame moriatur non peccat si cibum 
+          si<lb ed="#C" n="84" break="no"/>bi occulte ministratum sumat / quia non 
+          su<lb ed="#C" n="85" break="no"/>mere esset seipsum occidere. patet sic 
+          vnus<lb ed="#C" n="86" break="no"/>quisque tenetur seruare vitam suam iure 
+          na<lb ed="#C" n="87" break="no"/>turali indispensabili dum modo possit hoc 
+          <lb ed="#C" n="88"/>medio licito &amp; sine iactura alterius / sed in 
+          ta<lb ed="#C" n="89" break="no"/>li casu sortes potest conseruare vitam suam. 
+          <lb ed="#C" n="90"/>primo iudex non patitur iacturam ex eius 
+          <lb ed="#C" n="91"/>fuga neque custos supposito quod non seruet eum 
+          <lb ed="#C" n="92"/>sub pena. ergo. Holcot in tertio / adducit 
+          <pb ed="#P" n="720"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#C" n="1"/>multas rationes ad istam propositionem / 
+          <lb ed="#C" n="2"/>nam sortes potest postea maius bonum 
+          con<lb ed="#C" n="3" break="no"/>munitati facere quam mors eius fuisset 
+          commu<lb ed="#C" n="4" break="no"/>nitati bona. quia non licet interficere nisi 
+          pro<lb ed="#C" n="5" break="no"/>pter bonum commune / similiter potest 
+          pe<lb ed="#C" n="6" break="no"/>nitere &amp; multa alia bona facere: ergo in 
+          tali<lb ed="#C" n="7" break="no"/>casu sorti proponenti illa bona facere licet 
+          au<lb ed="#C" n="8" break="no"/>fugere. &amp; hoc satis suadet. s. Tho. in loco prae 
+          <lb ed="#C" n="9"/>allegato de condennato vt fame pereat / potest 
+          <lb ed="#C" n="10"/>comedere si minstretur ei cibus. quia nullus 
+          <lb ed="#C" n="11"/>potest condemnari vt seipsum interficiat. 
+          in<lb ed="#C" n="12" break="no"/>mo dicit Degandauo si posset violenter 
+          a<lb ed="#C" n="13" break="no"/>custode carceris vel quouis alio panem 
+          <lb ed="#C" n="14"/>sustrahere licite potest / quia in tali casu cum 
+          <lb ed="#C" n="15"/>sit in extrema necessitate omnia sunt ei 
+          com<lb ed="#C" n="16" break="no"/>munia. Diceret aliquis &amp; est apparentia 
+          <lb ed="#C" n="17"/>maior que possit haberi pro parte 
+          opposi<lb ed="#C" n="18" break="no"/>ta / si sortes esset condemnatus ad 
+          perditio<lb ed="#C" n="19" break="no"/>nem bonorum post illam condemnationem 
+          <lb ed="#C" n="20"/>non potest illis bonis vti neque retinere. 
+          im<lb ed="#C" n="21" break="no"/>mo committeret furtum quia non sunt 
+          ampli<lb ed="#C" n="22" break="no"/>us eius. similiter si sortes iusto iudicio 
+          con<lb ed="#C" n="23" break="no"/>de mnetur in seruitutem alicuius non potest 
+          <lb ed="#C" n="24"/>post sententiam latam aufugere ab eo. immo 
+          <lb ed="#C" n="25"/>tenetur parereei cuius est seruus. immo 
+          si<lb ed="#C" n="26" break="no"/>fugiat tenetur de damno domino suo &amp; eum 
+          <lb ed="#C" n="27"/>recompensare de iniuria facta: ergo a 
+          simili<lb ed="#C" n="28" break="no"/>si sortes sit iuste damnatus ad mortem 
+          cor<lb ed="#C" n="29" break="no"/>pus eius &amp; vita non videtur esse ipsius sed 
+          <lb ed="#C" n="30"/>reipublice / ergo si fugiat iniuriam facit 
+          con<lb ed="#C" n="31" break="no"/>munitati cui vita adiudica est. &amp; per 
+          conse<lb ed="#C" n="32" break="no"/>quens ipse peccat: &amp; ista est maior 
+          apparen<lb ed="#C" n="33" break="no"/>tia que haberi potest pro opposito. &amp; hoc 
+          <lb ed="#C" n="34"/>assumunt alii docto. tenentes oppositam 
+          <lb ed="#C" n="35"/>partem.
+        </p>
+        <p xml:id="ja8dpe-y14859-d1e1747">
+          ¶ Quantum ad hoc optime 
+          respoe<lb ed="#C" n="36" break="no"/>det Pegandauo dicens: quod dupliciter 
+          contin<lb ed="#C" n="37" break="no"/>git habere dominium in aliqua re. vnomodn 
+          <lb ed="#C" n="38"/>quantum ad substantiam rei. alio modo quantum 
+          <lb ed="#C" n="39"/>ad exercitium operationum aliquarum 
+          cir<lb ed="#C" n="40" break="no"/>ca illam rem. primo modo / ille habet 
+          daneni<lb ed="#C" n="41" break="no"/>um qui substantiam rei alienare potest 
+          Se<lb ed="#C" n="42" break="no"/>cundo modo qui locauit equum vel domun 
+          <lb ed="#C" n="43"/>habet dominium isto secundo modo. Hoc 
+          <lb ed="#C" n="44"/>supposito dicit vlterius: quod nullus potest 
+          ha<lb ed="#C" n="45" break="no"/>bere dominium in corpore alterius quantum 
+          <lb ed="#C" n="46"/>ad substantiam preter animam informantem 
+          <cb ed="#P" n="b"/>
+          <lb ed="#C" n="47"/>tale corpus vt sit sortes quantuncumque seruus dan 
+          <lb ed="#C" n="48"/>natus ad mortem nullus habet dnenium quantum ad 
+          <lb ed="#C" n="49"/>substantiam corporis eius &amp; vitam preter 
+          <lb ed="#C" n="50"/>animam ipsius a deo quod quantum ad substantiam 
+          <lb ed="#C" n="51"/>semper remanet corpus anime eius. ergo 
+          a<lb ed="#C" n="52" break="no"/>nima tenetur regere ipsum / nutrire &amp; 
+          conser<lb ed="#C" n="53" break="no"/>uare inesse quantum potest / sed quantum ad aliquans 
+          <lb ed="#C" n="54"/>operationes exercedas circa corpus iudex 
+          <lb ed="#C" n="55"/>habet dominium vt puta citare eum / pruo 
+          <lb ed="#C" n="56"/>care / incarcerare / mortem inferre. &amp; sic 
+          ma<lb ed="#C" n="57" break="no"/>lefactoris corpus quantum ad substantiam 
+          sem<lb ed="#C" n="58" break="no"/>per remanet anime eius sed quantum ad aliquas 
+          <lb ed="#C" n="59"/>operationes exercendas dominium est apd 
+          <lb ed="#C" n="60"/>iudicem / propterea dicit idem Degandauo: 
+          <lb ed="#C" n="61"/>&amp; consequenter. s. Tho. quod si sortes sit 
+          vincu<lb ed="#C" n="62" break="no"/>latus non licet ei frangere vincula &amp; 
+          carce<lb ed="#C" n="63" break="no"/>rem / quia non habet dominium sui 
+          corpo<lb ed="#C" n="64" break="no"/>ris quantum ad hoc / neque rebellare. nam si 
+          rebel<lb ed="#C" n="65" break="no"/>laret licet principi illum inuadere / bellum ene 
+          <lb ed="#C" n="66"/>est iniustum ex parte sortis: ergo illicite 
+          re<lb ed="#C" n="67" break="no"/>bellat. &amp; est argumentum efficax: quia si 
+          re<lb ed="#C" n="68" break="no"/>bellat &amp; princeps aggrediatur bellum est 
+          <lb ed="#C" n="69"/>iustum ex parte principis: ergo iniustum 
+          ex<lb ed="#C" n="70" break="no"/>parte alterius / ergo propositum. Resolulio 
+          <lb ed="#C" n="71"/>igitur istius materie est quod quamuis sit sortes 
+          iu<lb ed="#C" n="72" break="no"/>ste condemnatus &amp; non vinculatus / nequ 
+          <lb ed="#C" n="73"/>clausus in carcere / neque datus alteri in custo 
+          <lb ed="#C" n="74"/>diam sub pena ita quod non immineat alicui 
+          per<lb ed="#C" n="75" break="no"/>sone detrimentum ex eius fuga licet ipsi 
+          fu<lb ed="#C" n="76" break="no"/>gere. Sed est difficultas: vtrum teneatur 
+          fu<lb ed="#C" n="77" break="no"/>gere in tali casu vel solum sit consilium. 
+          Di<lb ed="#C" n="78" break="no"/>cit Pegandauo quod satis elici potest quod tenetur 
+          <lb ed="#C" n="79"/>fugere. immo si non fugiat est homicida 
+          sui<lb ed="#C" n="80" break="no"/>nichilominus dicit lohannes de Gersono 
+          <lb ed="#C" n="81"/>in tractatu quem fecit de esu carnium quod 
+          po<lb ed="#C" n="82" break="no"/>test licite expectare mortem pro suis 
+          deme<lb ed="#C" n="83" break="no"/>ritis &amp; satisfacere pro peccatis. videtur tan 
+          <lb ed="#C" n="84"/>michi quod si sit ei licitum fugere quod pro tunc 
+          <lb ed="#C" n="85"/>etiam tenetur fugere quia iure naturali 
+          te<lb ed="#C" n="86" break="no"/>netur seruare vitam corproris / &amp; quia patet 
+          <lb ed="#C" n="87"/>ei medium licitum ad illam seruandam: 
+          er<lb ed="#C" n="88" break="no"/>go tenetur. &amp; hoc dicit Degandauo &amp; tho. 
+          <lb ed="#C" n="89"/>de illo que est damnatus vt pereat fame 
+          te<lb ed="#C" n="90" break="no"/>netur comedere si habeat panem / quia illud 
+          <lb ed="#C" n="91"/>est medium licitum ad seruandam vitam eius. 
+          <lb ed="#C" n="92"/>Vnde degandauo ponit differentiam inter 
+          <pb ed="#P" n="721"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#C" n="1"/>istos quatuor terminos necessitas / fas / ius / 
+          <lb ed="#C" n="2"/>&amp; licitum / vnde non solum in tali casu est 
+          <lb ed="#C" n="3"/>ius / fas / aut licitum sed necessitatis est 
+          fuge<lb ed="#C" n="4" break="no"/>re &amp; ista opinio videtur probabilior vide 
+          <lb ed="#C" n="5"/>licet quod teneatur fugere. 
+        </p>
+        <p xml:id="ja8dpe-y14859-d1e1890">
+          <lb ed="#C" n="6"/>¶ PRo ls Ta OPlNOtdE poTEs T 
+          <lb ed="#C" n="7"/>sic argui. Habita sunt tria dicta / primum: quod 
+          <lb ed="#C" n="8"/>papa habet potestatem committendi 
+          iuris<lb ed="#C" n="9" break="no"/>dictionem laycam &amp; temporalem / secundum 
+          <lb ed="#C" n="10"/>quod tenetur illam committere quia alias 
+          negli<lb ed="#C" n="11" break="no"/>geret onus sibi commissum / tertium quod qui 
+          <lb ed="#C" n="12"/>libet qui assumit iurisdictionem illam sine 
+          <lb ed="#C" n="13"/>commissione pape est arguendus de 
+          ambi<lb ed="#C" n="14" break="no"/>tione: quia assumit honorem non vocatus 
+          <lb ed="#C" n="15"/>&amp; intrat non per ostium. Prima ratio 
+          hu<lb ed="#C" n="16" break="no"/>ius opinionis / est necessarium est in omni 
+          com<lb ed="#C" n="17" break="no"/>munitate habere supremum a quo 
+          cuncto<lb ed="#C" n="18" break="no"/>rum iurisdictiones dependeant / sed tota 
+          con<lb ed="#C" n="19" break="no"/>munitas Christi anorum est commuintas 
+          vo<lb ed="#C" n="20" break="no"/>lentium adinuicem commuincare: ergo 
+          opor<lb ed="#C" n="21" break="no"/>tet esse supremum in illa communitate &amp;c. 
+          <lb ed="#C" n="22"/>sed nullus alius potest assignari preter 
+          pa<lb ed="#C" n="23" break="no"/>pam. ergo ab ipso dependet iurisdicto 
+          om<lb ed="#C" n="24" break="no"/>nium aliorum. populus enim si est bene 
+          ordi<lb ed="#C" n="25" break="no"/>natus vni gubernatori &amp; non pluribus 
+          de<lb ed="#C" n="26" break="no"/>bet esse subiectus prouerbiorum. xi. vbi non 
+          <lb ed="#C" n="27"/>est gubernator populus corruet. loquitur 
+          <lb ed="#C" n="28"/>enim in singulari &amp; non plurali cum inquit 
+          <lb ed="#C" n="29"/>gubernator &amp; non gubernatores / ergo 
+          vi<lb ed="#C" n="30" break="no"/>detur inuere quod vni populo vnus supemus 
+          <lb ed="#C" n="31"/>debet esse gubernator &amp; non plures: &amp; cum 
+          <lb ed="#C" n="32"/>totum genus humanum vnus populus sit 
+          <lb ed="#C" n="33"/>qui optima constitutione &amp; institutione 
+          vo<lb ed="#C" n="34" break="no"/>lentium adinuicem viuere &amp; 
+          communica<lb ed="#C" n="35" break="no"/>re regi debeat necesse est esse principem 
+          supe<lb ed="#C" n="36" break="no"/>mum a quo ceteri dependeant. &amp; illi 
+          supre<lb ed="#C" n="37" break="no"/>mo in omnibus pareant. Precipua ratio inter 
+          <lb ed="#C" n="38"/>ceteras est ista. si non sit supremus aliquis 
+          a<lb ed="#C" n="39" break="no"/>quo ceterorum iurisdictio dependeat 
+          pote<lb ed="#C" n="40" break="no"/>runt esse alique in aliqua commuintate non 
+          sub<lb ed="#C" n="41" break="no"/>ordinate quarum quilibet illas exercens erit 
+          <lb ed="#C" n="42"/>supremus &amp; nulli alteri subiectus: ergo 
+          po<lb ed="#C" n="43" break="no"/>terunt esse plures superiores non habentes 
+          <lb ed="#C" n="44"/>superiorem / sed hoc optimo modo 
+          regendi<lb ed="#C" n="45" break="no"/>obuiare videtur / quia si sint plures superio 
+          <lb ed="#C" n="46"/>rem non habentes quorum neuter est al¬ 
+          <cb ed="#P" n="b"/>
+          <lb ed="#C" n="47"/>teri subiectus vel presunt eidem populo 
+          vel<lb ed="#C" n="48" break="no"/>diuersis. Si eidem populo / ergo non 
+          pote<lb ed="#C" n="49" break="no"/>rit populus exhiberi quod est exhibendum 
+          <lb ed="#C" n="50"/>superiori. quia si ambo simul contraria 
+          pre<lb ed="#C" n="51" break="no"/>cipiant non poterunt subditis suis superio 
+          <lb ed="#C" n="52"/>ribus parere: ergo necesse erit vt sint alteri in 
+          <lb ed="#C" n="53"/>obedientes &amp; ad impossibile obligati quod 
+          <lb ed="#C" n="54"/>est impossibile. ergo in communitate bene 
+          <lb ed="#C" n="55"/>ordinata nonpossunt esse duo principes non 
+          sub<lb ed="#C" n="56" break="no"/>ordinati. Si autem illi duosuperiorem non 
+          <lb ed="#C" n="57"/>habentes presint diuersis populis. ergo 
+          il<lb ed="#C" n="58" break="no"/>le communitates non erunt bene ordinate 
+          <lb ed="#C" n="59"/>patet inter illos populos possunt esse dissen 
+          <lb ed="#C" n="60"/>tones cum natura humana est prona ad 
+          dis<lb ed="#C" n="61" break="no"/>sentiendum &amp; inter diuersos superiorem non 
+          <lb ed="#C" n="62"/>habentes leuiter poterit oriri discordia que 
+          <lb ed="#C" n="63"/>per superiorem se dari non poterit. discordia 
+          <lb ed="#C" n="64"/>autem inter maiores superiorem non haben 
+          <lb ed="#C" n="65"/>tes periculosa est secundum Aristotelem. vi. 
+          <lb ed="#C" n="66"/>politicorum. ca. ix. ergo si non sit aliquis 
+          su<lb ed="#C" n="67" break="no"/>perior ad vtrumque illorum populorum &amp; 
+          <lb ed="#C" n="68"/>ad vtrumque istorum qui presit istis duobus 
+          <lb ed="#C" n="69"/>populis tales communitates non sunt bene 
+          <lb ed="#C" n="70"/>ordinate. ergo dicit doct. Oportet 
+          confi<lb ed="#C" n="71" break="no"/>teri quod sit vnus aliis omnibus superiora quo 
+          <lb ed="#C" n="72"/>cunctorum potestates &amp; iurisdictiones 
+          de<lb ed="#C" n="73" break="no"/>pendeant / &amp; non videtur alius a summo 
+          pote<lb ed="#C" n="74" break="no"/>tifice. ergo si iurisdictio omnium aliorum 
+          <lb ed="#C" n="75"/>dependet a summo pontifice tunc nec 
+          impe<lb ed="#C" n="76" break="no"/>rator nec alius princeps debet 
+          iurisdictio<lb ed="#C" n="77" break="no"/>nem temporalem exercere nisi sibi a summo 
+          <lb ed="#C" n="78"/>potestifice committatur. &amp; hec est summa 
+          hu<lb ed="#C" n="79" break="no"/>ius opinioniscilicet quod omnis iurisdictionis aucto 
+          <lb ed="#C" n="80"/>ritas dependet a summo pontifice. 
+        </p>
+      </div>
+          </body>
+  </text>
+</TEI>

@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 5</title>
+        <author ref="#JacquesAlmain">Jacques Almain</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 5</title>
+          <date when="2026-07-29">July 29, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-jay12a">Paris 1512</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-07-29" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="724"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ja8dpe-y17365"><!-- dpe-q3c5 -->
+        <head xml:id="ja8dpe-y17365-Hd1e101">Caput 5</head>
+        <head xml:id="ja8dpe-y17365-Hd1e103" type="question-title"/>
+        <p xml:id="ja8dpe-y17365-d1e105">
+          <lb ed="#C" n="29"/>¶ Capitulum quintum. Secundo 
+          <lb ed="#C" n="30"/>ad optimum principatum.
+        </p>
+        <p xml:id="ja8dpe-y17365-d1e112">
+          <lb ed="#C" n="31"/>VISVM est / an principes 
+          <lb ed="#C" n="32"/>seculares habeant suas 
+          iu<lb ed="#C" n="33" break="no"/>risdictiones a papa: &amp; est 
+          <lb ed="#C" n="34"/>opinio connis inter docto. 
+          <lb ed="#C" n="35"/>parisienses quod non. 
+          immo<lb ed="#C" n="36" break="no"/>antequam esset aliquis summus 
+          <lb ed="#C" n="37"/>pontifex erant principes 
+          <lb ed="#C" n="38"/>seculares habentes suas iurisdictiones. &amp; 
+          il<lb ed="#C" n="39" break="no"/>le modus est tripartitus vt visum est. nam 
+          <lb ed="#C" n="40"/>dicebat Marcillius quod papa nullam habet 
+          po<lb ed="#C" n="41" break="no"/>testatemcconactiuam. Alii quod habet in spitumali 
+          <lb ed="#C" n="42"/>bus coactiuam sed non in tem conoralibus nec 
+          <lb ed="#C" n="43"/>regulariter: nec casualiter. Alii quod in 
+          tempo<lb ed="#C" n="44" break="no"/>ralibus non regulariter sed casualiter / &amp; est 
+          <lb ed="#C" n="45"/>opinio iuristarum. ca. licet &amp; capitulo ex 
+          te<lb ed="#C" n="46" break="no"/>nore de foro competenti: Item dictum est quod 
+          <cb ed="#P" n="b"/>
+          <lb ed="#C" n="47"/>ad optimum principatum requiritur quod vnus 
+          <lb ed="#C" n="48"/>principetur propter vtilitatem communem 
+          <lb ed="#C" n="49"/>&amp; hoc fuit deductum in quarto capitulo. in 
+          <lb ed="#C" n="50"/>isto quinto capitulo doc. assumit secundum 
+          <lb ed="#C" n="51"/>quod conueniet optimo principatui quod 
+          prin<lb ed="#C" n="52" break="no"/>cipans sit vnus sicut principatus est vnus / 
+          <lb ed="#C" n="53"/>ita quod ad optimum principatum de 
+          necessi<lb ed="#C" n="54" break="no"/>fate requiritur quod vnus pricspetur quisit 
+          su<lb ed="#C" n="55" break="no"/>perior ceteris omnibus. Pro isto potest 
+          mul<lb ed="#C" n="56" break="no"/>tipliciter argui ex mente aristotelis in tertio 
+          <lb ed="#C" n="57"/>polyticorum nichilominus doct. adducit 
+          <lb ed="#C" n="58"/>precipuam ratonem aristotelis quam facit 
+          lo<lb ed="#C" n="59" break="no"/>co preallegato volens probare quod 
+          pricipa<lb ed="#C" n="60" break="no"/>tus regalis in quo principans est vnus sit 
+          <lb ed="#C" n="61"/>melior principatu aristocratico in quo 
+          pau<lb ed="#C" n="62" break="no"/>ci principantur &amp; tymocratico in quo 
+          mul<lb ed="#C" n="63" break="no"/>ti principantur. &amp; sub regali principatu 
+          con<lb ed="#C" n="64" break="no"/>prehenditur omnis principatus in quo vnus 
+          <lb ed="#C" n="65"/>solus dom inatur siue sit dux comes vel 
+          ba<lb ed="#C" n="66" break="no"/>liuus. Et arguitur sic: ille principatus est 
+          me<lb ed="#C" n="67" break="no"/>lior qui conferuat subiectos in amicitia / 
+          pace<lb ed="#C" n="68" break="no"/>caritate / &amp; concordia / prohibendo &amp; 
+          impe<lb ed="#C" n="69" break="no"/>diendo discordias / rixas / &amp; tumultus inter 
+          <lb ed="#C" n="70"/>subditos: sed principatu regali ista 
+          maxi<lb ed="#C" n="71" break="no"/>me vitantur / ergo est principalis inter 
+          cete<lb ed="#C" n="72" break="no"/>ratis &amp; optimus. &amp; ista propositio est 
+          mani<lb ed="#C" n="73" break="no"/>festa quia omnis principatus est ordinatus ad 
+          <lb ed="#C" n="74"/>conseruandam caritatem &amp; pacem inter subditos 
+          <lb ed="#C" n="75"/>&amp; ad vitandum dissentiones &amp; rixas inter 
+          il<lb ed="#C" n="76" break="no"/>los. ergo ille est optimus quo maxime 
+          ser<lb ed="#C" n="77" break="no"/>uantur illa &amp; maxime vitantur ista cuiusmo 
+          <lb ed="#C" n="78"/>di est regalis. igitur. quod talis sit optimus 
+          <lb ed="#C" n="79"/>qui talia facit patet per multas auctoritates 
+          <lb ed="#C" n="80"/>scripture. Vnde &amp; princeps pacis Christus 
+          <lb ed="#C" n="81"/>super cuius humerum factus est optimus 
+          prin<lb ed="#C" n="82" break="no"/>cipatus corporaliter ab apostolis &amp; ceteris 
+          <lb ed="#C" n="83"/>fidelibus recessurus ipsis dilectionem &amp; 
+          ami<lb ed="#C" n="84" break="no"/>citiam singulariter imponebat dicens / hoc 
+          <lb ed="#C" n="85"/>est preceptum meum vt inuicem diligatis. 
+          <lb ed="#C" n="86"/>&amp; Ioannis. xiiii. pacem relinquo vobis / 
+          pa<lb ed="#C" n="87" break="no"/>cem meam do vobis. &amp; xvi. ait in me 
+          pacemn<lb ed="#C" n="88" break="no"/>habeatis. &amp; Matthei decimo dicit 
+          aposto<lb ed="#C" n="89" break="no"/>lis Intrantes domum salutate eam 
+          dicen<lb ed="#C" n="90" break="no"/>tes pax huic domui. Finis ergo principalis 
+          <lb ed="#C" n="91"/>principatus cuiuslibet est comnieruatio pacis 
+          <lb ed="#C" n="92"/>fubditorum &amp; vitatio discordiarum: sed hoc 
+          <pb ed="#P" n="725"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#C" n="1"/>maxime fuit per principatum regalem / pro 
+          cu<lb ed="#C" n="2" break="no"/>ius declaratione notandum quod dissentio 
+          pro<lb ed="#C" n="3" break="no"/>ueniens in regno non potest nisi tripliciter 
+          <lb ed="#C" n="4"/>prouenire vel prouenit inter subditos: 
+          pu<lb ed="#C" n="5" break="no"/>ta cum subditi dissentiunt inter se. Secundo 
+          <lb ed="#C" n="6"/>vel est dissentio subditorum ad principem 
+          <lb ed="#C" n="7"/>vel principis ad subditos. &amp; isti duo 
+          vlti<lb ed="#C" n="8" break="no"/>mi modi coincidunt. Sed in principatu 
+          ari<lb ed="#C" n="9" break="no"/>stocratico vel tymocratico potest 
+          proueni<lb ed="#C" n="10" break="no"/>re dissentio / &amp; subditorum ad subditos / &amp; 
+          <lb ed="#C" n="11"/>subditorum ad principantes / &amp; vnius 
+          par<lb ed="#C" n="12" break="no"/>tis principantium ad alteram partem 
+          princi<lb ed="#C" n="13" break="no"/>pantium: sed per principatum regalem 
+          faci<lb ed="#C" n="14" break="no"/>lius conseruatur pax subditorum &amp; vitatur 
+          <lb ed="#C" n="15"/>discordia inter ipsos / ergo. Insuper dicit 
+          do<lb ed="#C" n="16" break="no"/>ctor quando dissentiunt subditi inter se / illa 
+          <lb ed="#C" n="17"/>dissentio facile sedari potest per 
+          principan<lb ed="#C" n="18" break="no"/>tem. sed si oriretur dissentio principantium ad 
+          <lb ed="#C" n="19"/>principantes / etiam ad omnes alios faciliter 
+          <lb ed="#C" n="20"/>se diffundet vt testatur Aristoteles politico 
+          <lb ed="#C" n="21"/>rum quinto ca. ix. Ideo difficile esset illam 
+          <lb ed="#C" n="22"/>sedare / propterea / quia subditorum pars 
+          ad<lb ed="#C" n="23" break="no"/>heret vni parti &amp; altera alteri. &amp; sequitur 
+          dis<lb ed="#C" n="24" break="no"/>sentio in populo / ergo dissentio 
+          proueni<lb ed="#C" n="25" break="no"/>ens in principatu aristocratico vel 
+          tymocra<lb ed="#C" n="26" break="no"/>tico est multo grauior &amp; pernitiosior quam illa 
+          <lb ed="#C" n="27"/>que prouenire potest in principatu regali. 
+          <lb ed="#C" n="28"/>Resolutio doctoris post Aristotelem &amp; 
+          con<lb ed="#C" n="29" break="no"/>muniter omnium doctorum est / quod ad optimum 
+          <lb ed="#C" n="30"/>principatum requiritur quod sit vnus 
+          prin<lb ed="#C" n="31" break="no"/>cipans. ratio precipua Aristotelis est / quia 
+          <lb ed="#C" n="32"/>quando est vnus principans in 
+          dissentioni<lb ed="#C" n="33" break="no"/>bus facilior est recursus ad principantem quam 
+          <lb ed="#C" n="34"/>quando sunt plures principantes / ergo 
+          re<lb ed="#C" n="35" break="no"/>galis est melior. Dices / dicit sapiens prouer 
+          <lb ed="#C" n="36"/>biorum vndecimo. salus vbi concilia multa 
+          <lb ed="#C" n="37"/>Sed in principatu aristocratico &amp; tvmocra 
+          <lb ed="#C" n="38"/>tico sunt multa concilia &amp; plura quam in 
+          rega<lb ed="#C" n="39" break="no"/>li / ergo est prestantior regali. Nam princeps 
+          <lb ed="#C" n="40"/>ad hoc est ordinatus vt preuideat pericula 
+          <lb ed="#C" n="41"/>imminentia: &amp; illis obsistat: sed hoc 
+          me<lb ed="#C" n="42" break="no"/>lius preuident plures sapientes quam vnus 
+          so<lb ed="#C" n="43" break="no"/>lus. plura enim vident oculi quam oculus / quod 
+          <lb ed="#C" n="44"/>vnus non videt alter videt / &amp; hoc de 
+          neces<lb ed="#C" n="45" break="no"/>sitate requiritur puta preuisio periculorum 
+          <cb ed="#P" n="b"/>
+          <lb ed="#C" n="46"/>imminentium / &amp; eorum que possunt 
+          duce<lb ed="#C" n="47" break="no"/>re rempu. ad interitum &amp; ruinam. ergo 
+          me<lb ed="#C" n="48" break="no"/>lior est principatus aristocraticus vel tymo 
+          <lb ed="#C" n="49"/>craticus quam regalis. &amp; hoc est precipuum 
+          ar<lb ed="#C" n="50" break="no"/>gumentum partis aduerse tenentis 
+          oppo<lb ed="#C" n="51" break="no"/>situm. Ad hoc respondet sanctus Thomas 
+          <lb ed="#C" n="52"/>in libro de regimine principum / &amp; post eum 
+          <lb ed="#C" n="53"/>Egidius de Roma: supposito quod omnes 
+          ho<lb ed="#C" n="54" break="no"/>mines essent boni non querentes nisi quod 
+          <lb ed="#C" n="55"/>iustum est / &amp; homini &amp; reipublice 
+          melior<lb ed="#C" n="56" break="no"/>esset principatus aristo craticus vel 
+          tymo<lb ed="#C" n="57" break="no"/>craticus quam regalis. nam duo aut tres 
+          queren<lb ed="#C" n="58" break="no"/>tes bonum commune melius prouident quam 
+          <lb ed="#C" n="59"/>vnus: sed supposita conditione &amp; 
+          peruer<lb ed="#C" n="60" break="no"/>sitate que iam reperitur inter homines: quia 
+          <lb ed="#C" n="61"/>vnusquisque saltem pro maiori parte querit 
+          <lb ed="#C" n="62"/>quod suum est &amp; non bonum commune / 
+          <lb ed="#C" n="63"/>supposita ergo tali peruersitate hominum 
+          <lb ed="#C" n="64"/>pro maiori parte / &amp; etiam quia stultorum 
+          <lb ed="#C" n="65"/>infinitus est numerus ex multis 
+          principan<lb ed="#C" n="66" break="no"/>tibus quilibet niteretur acquirere sibi maio 
+          <lb ed="#C" n="67"/>res diuitias &amp; honores / &amp; ex hoc facile 
+          ori<lb ed="#C" n="68" break="no"/>retur dissentio inter principantes in 
+          perni<lb ed="#C" n="69" break="no"/>ciem boni communis / ideo supposita 
+          condi<lb ed="#C" n="70" break="no"/>tione hominum nunc viuentium 
+          prestan<lb ed="#C" n="71" break="no"/>tior est principatus regalis. 
+        </p>
+        <p xml:id="ja8dpe-y17365-d1e411">
+          <lb ed="#C" n="72"/>¶ RES TAT ERGO TNo VlRERE. 
+          <lb ed="#C" n="73"/>Visum est quomodo duo requiruntur ad 
+          <lb ed="#C" n="74"/>optimum principatum. Primum quod 
+          insti<lb ed="#C" n="75" break="no"/>tuitur propter bonum commune. Secundum / 
+          <lb ed="#C" n="76"/>quod sit vnus principans. Videndum est que 
+          <lb ed="#C" n="77"/>sunt incompossibilia illi principatui 
+          opti<lb ed="#C" n="78" break="no"/>mo / &amp; que sunt impertinentia. Primo est 
+          <lb ed="#C" n="79"/>incompossibile illi principatui inquantum 
+          <lb ed="#C" n="80"/>huiusmodi habere seruos proprie dictos / 
+          <lb ed="#C" n="81"/>non dico locaticios / immo necesse est illos 
+          <lb ed="#C" n="82"/>locaticios habere. Ratio est / nullus est in 
+          <lb ed="#C" n="83"/>seruitutem redigendus nisi propter eius cul 
+          <lb ed="#C" n="84"/>pam. ergo de rantione optimi principatus 
+          <lb ed="#C" n="85"/>repugnat illi habere seruos proprie dictos 
+          <lb ed="#C" n="86"/>puta quod necessario sint serui tali 
+          principan<lb ed="#C" n="87" break="no"/>ti. &amp; est precipua ratio que maiorem habet 
+          <lb ed="#C" n="88"/>apparentiam. Nam secundum 
+          Aristote<lb ed="#C" n="89" break="no"/>lem primo politicorum melior est 
+          principa<lb ed="#C" n="90" break="no"/>tus liberorum quam seruorum / quia melior est 
+          <pb ed="#P" n="726"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#C" n="1"/>principatus qui est meliorum subditorum / 
+          si<lb ed="#C" n="2" break="no"/>cut melior est principatus hominum quam 
+          be<lb ed="#C" n="3" break="no"/>stiarum. liberi autem sunt meliores quam 
+          serui<lb ed="#C" n="4" break="no"/>quare principatus seruorum non est 
+          opti<lb ed="#C" n="5" break="no"/>mus iudicandus. melius est enim 
+          principa<lb ed="#C" n="6" break="no"/>ribonis quam malis / ergo iste principatus qui 
+          <lb ed="#C" n="7"/>est super omnimode liberos / hoc est quo non 
+          <lb ed="#C" n="8"/>sunt serui empticii est melior. &amp; hunc 
+          vo<lb ed="#C" n="9" break="no"/>cat Aristoteles regalem. Vnde in plerisque 
+          <lb ed="#C" n="10"/>locis habentur tales serui empticii &amp; 
+          abie<lb ed="#C" n="11" break="no"/>cti: sed hoc repugnat optimo principatui: 
+          <lb ed="#C" n="12"/>puta quod de ratione illius sint tales serui abie 
+          <lb ed="#C" n="13"/>cti &amp; additi principanti siue sint boni siue 
+          <lb ed="#C" n="14"/>mali. Vltra repugnat optimo principatui 
+          <lb ed="#C" n="15"/>plenitudo potestatis in temporalibus. 
+          Pa<lb ed="#C" n="16" break="no"/>tet / illud repugnat quod est in damnum 
+          <lb ed="#C" n="17"/>&amp; pernitiem subditorum: sed illa 
+          plenitu<lb ed="#C" n="18" break="no"/>do potestatis in temporalibus est huiusmo 
+          <lb ed="#C" n="19"/>di. nam est in perniciem rei publice quod 
+          prin<lb ed="#C" n="20" break="no"/>ceps possit res cuiuscumque priuate persone in 
+          <lb ed="#C" n="21"/>dominium alterius transferre pro libito suo 
+          <lb ed="#C" n="22"/>&amp; hoc posset si haberet illam plenitudinem 
+          <lb ed="#C" n="23"/>potestatis de qua dictum est prima questio 
+          <lb ed="#C" n="24"/>ne capitulo secundo 
+        </p>
+      </div>
+          </body>
+  </text>
+</TEI>

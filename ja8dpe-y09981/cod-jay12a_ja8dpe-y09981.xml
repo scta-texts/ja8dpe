@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 16</title>
+        <author ref="#JacquesAlmain">Jacques Almain</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 16</title>
+          <date when="2026-07-29">July 29, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-jay12a">Paris 1512</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-07-29" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="690"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ja8dpe-y09981"><!-- dpe-q1c16 -->
+        <head xml:id="ja8dpe-y09981-Hd1e101">Caput 16</head>
+        <head xml:id="ja8dpe-y09981-Hd1e103" type="question-title">
+          An a sententia summi pontificis possit appellari
+        </head>
+        <p xml:id="ja8dpe-y09981-d1e106">
+          <lb ed="#C" n="58"/>¶ Capitulum xvi. An a sententia 
+          <lb ed="#C" n="59"/>summi pontificis possit appellari.
+        </p>
+        <p xml:id="ja8dpe-y09981-d1e113">
+          <lb ed="#C" n="60"/>VTrum a sententia summi 
+          pontifi<lb ed="#C" n="61" break="no"/>cis possit appellari &amp; an sit altera 
+          <lb ed="#C" n="62"/>potestas super potestatem 
+          summi<lb ed="#C" n="63" break="no"/>pontificis quod est querere. Vtrum 
+          <lb ed="#C" n="64"/>summus pontifex in sua potestate alteri pote 
+          <lb ed="#C" n="65"/>stati etiam ordinarie subiciatur etiam 
+          ma<lb ed="#C" n="66" break="no"/>nendo summus pontifex. Arguitur quod non 
+          <lb ed="#C" n="67"/>in capitulo nemo. ix. q. iii. nemo iudicabit 
+          <lb ed="#C" n="68"/>primam sedem id est apostolicam / neque a clero / 
+          <lb ed="#C" n="69"/>neque ab augusto / neque a regibus / neque a 
+          po<lb ed="#C" n="70" break="no"/>pulo iudex iudicabitur. ergo non est 
+          pote<lb ed="#C" n="71" break="no"/>stas que sit ordinarie superior ad 
+          summum<lb ed="#C" n="72" break="no"/>pontificem.
+        </p>
+        <p xml:id="ja8dpe-y09981-d1e144">
+          ¶ Oppositum arguitur. ex de 
+          <lb ed="#C" n="73"/>ductione Constanti. &amp; Basili. conciliorum 
+          <lb ed="#C" n="74"/>cui concilio quilibet Christianus etiam 
+          <lb ed="#C" n="75"/>papali dignitate constitutus obedire tene 
+          <lb ed="#C" n="76"/>tur. ergo. Pro cuius declaratione 
+          viden<lb ed="#C" n="77" break="no"/>dum est quid sit concilium generale. 
+          Com<lb ed="#C" n="78" break="no"/>muniter diffinitur sic &amp; precipuea <ref xml:id="ja8dpe-y09981-Rd1e159">Iohamne 
+          <lb ed="#C" n="79"/>de Gersono</ref>. Est congregatio auctoritate 
+          <lb ed="#C" n="80"/>legitime facta ad aliquem locum ex omni sta 
+          <lb ed="#C" n="81"/>tu gerarchico nulla persona fideli petente 
+          <lb ed="#C" n="82"/>audiri exclusa ad tractandum ea que 
+          concer<lb ed="#C" n="83" break="no"/>nunt publicam ecclesie vtilitatem &amp; mores 
+          <lb ed="#C" n="84"/>ipsius. Ex prima particula sequitur quod 
+          om<lb ed="#C" n="85" break="no"/>nis congregatio non legitime vocata &amp; 
+          con<lb ed="#C" n="86" break="no"/>gregata non est concilium generale. &amp; 
+          ge<lb ed="#C" n="87" break="no"/>neraliter auctoritas. legitima est auctoritas 
+          <lb ed="#C" n="88"/>pontificis. Veruntamen in tribus casibus sine 
+          <lb ed="#C" n="89"/>eius auctoritate potest concilium congregari. 
+          <lb ed="#C" n="90"/>Pcimus casus si papa sit mortuus vel 
+          mor<lb ed="#C" n="91" break="no"/>te ciuili vel naturali. nam aliquando vacauit 
+          <lb ed="#C" n="92"/>duobus anis sedes apostolica tuncsine eius 
+          <pb ed="#P" n="691"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#C" n="1"/>auctoritate potest generale concilium 
+          con<lb ed="#C" n="2" break="no"/>uocari.
+        </p>
+        <p xml:id="ja8dpe-y09981-d1e203">
+          ¶ Secundus casus si requisitus 
+          legi<lb ed="#C" n="3" break="no"/>time renuat conuocare. Tertius quando 
+          ten<lb ed="#C" n="4" break="no"/>pus &amp; locus fuerunt assignata per concilium 
+          prae<lb ed="#C" n="5" break="no"/>cedens sicut in concilio Basiliensi 
+          assigna<lb ed="#C" n="6" break="no"/>tum futurum concilium fuit lugduni. &amp; 
+          in<lb ed="#C" n="7" break="no"/>fra septemnium / &amp; in primis duobus casibus 
+          <lb ed="#C" n="8"/>non reffert quis conuocauerit. tamen in 
+          pri<lb ed="#C" n="9" break="no"/>mis recurrendum est ad cardinales. Dicitur 
+          <lb ed="#C" n="10"/>ex omi statu gerarchico. nam sunt duo 
+          sta<lb ed="#C" n="11" break="no"/>tus gerarchii in ecclesia scilicet status prelatorum 
+          su<lb ed="#C" n="12" break="no"/>periorum &amp; inferiorum. vnde in tali 
+          conci<lb ed="#C" n="13" break="no"/>lio debent interesse singuli episcopi. 
+          Simi<lb ed="#C" n="14" break="no"/>liter ex parte cleri. &amp; curatorum de 
+          singu<lb ed="#C" n="15" break="no"/>lis episcopatibus aliquis debet interesse &amp; 
+          <lb ed="#C" n="16"/>tales habent vicem &amp; auctoritatem delibe 
+          <lb ed="#C" n="17"/>randi in concilio. Deinde dicitur nulla per 
+          <lb ed="#C" n="18"/>sona fideli petente audiri exclusa ad 
+          tra<lb ed="#C" n="19" break="no"/>ctandum ea que concernunt ecclesiam &amp; 
+          mo<lb ed="#C" n="20" break="no"/>res ipsius / &amp; quia ecclesia non potest tota 
+          con<lb ed="#C" n="21" break="no"/>gregari in vno loco concilium generale 
+          re<lb ed="#C" n="22" break="no"/>presentat illam. Queritur nunc vurum tale 
+          ge<lb ed="#C" n="23" break="no"/>nerale concilium rite congregatum 
+          ordina<lb ed="#C" n="24" break="no"/>riam habeat iurisdictionis potestatem 
+          su<lb ed="#C" n="25" break="no"/>pra papam. Respondetur quod hoc potest 
+          dupli<lb ed="#C" n="26" break="no"/>citer intelligi. Vno modo quod papa teneatur 
+          <lb ed="#C" n="27"/>obtemperare statutis &amp; decretis per concilium 
+          <lb ed="#C" n="28"/>sub pena peccati / alio modo quod si non obtem 
+          <lb ed="#C" n="29"/>perauerit quod concilium habeat auctoritatem 
+          <lb ed="#C" n="30"/>&amp; potestatem feriendi papam etiam ipso 
+          <lb ed="#C" n="31"/>remanente summo pontifice pena 
+          ecclesiasti<lb ed="#C" n="32" break="no"/>ca id est excommunicatione. Supponitur vlte 
+          <lb ed="#C" n="33"/>rius quod sex sunt potestates ecclesie que tacte 
+          <lb ed="#C" n="34"/>sunt prius. Prima super corpus Christi 
+          ve<lb ed="#C" n="35" break="no"/>rum. Secunda super corpus Christi misticum 
+          <lb ed="#C" n="36"/>Item potestas apostolica cohercendi / 
+          in<lb ed="#C" n="37" break="no"/>stituendi prelatos ecclesie / &amp; sexta 
+          sumendi<lb ed="#C" n="38" break="no"/>necessaria vite. lstis suppositis sit prima 
+          pro<lb ed="#C" n="39" break="no"/>positio. Concilium generale legitime 
+          con<lb ed="#C" n="40" break="no"/>gregatum immediate a Christo habet 
+          pote<lb ed="#C" n="41" break="no"/>statem illam coherciuam in foro 
+          exteriori<lb ed="#C" n="42" break="no"/>&amp; publico. Loquitur enim de potestate que 
+          <lb ed="#C" n="43"/>respicit forum exterius. nam concilium 
+          ge<lb ed="#C" n="44" break="no"/>nerale non habet potestatem 
+          consecrandi<lb ed="#C" n="45" break="no"/>neque absoluendi sacramentaliter / cum non 
+          <lb ed="#C" n="46"/>sit sacerdos / est solum modo questio de po¬ 
+          <cb ed="#P" n="b"/>
+          <lb ed="#C" n="47"/>testate iurisdictionis in foro exteriori illam 
+          <lb ed="#C" n="48"/>auctoritatem habet a Christo immediate &amp; non 
+          <lb ed="#C" n="49"/>a papa: vt dicunt iuriste. Patet propositio 
+          <lb ed="#C" n="50"/>Mathei. xvi. loquebantur dominus ad 
+          Be<lb ed="#C" n="51" break="no"/>trum immediate. Si peccauerit in te frater 
+          tu<lb ed="#C" n="52" break="no"/>us &amp;c. tandem dicit si non audierit ecclesiam 
+          <lb ed="#C" n="53"/>sit tibi tanquam ethnicus &amp; publicanus / postea 
+          <lb ed="#C" n="54"/>subiunxit in plurali quecumque solueritis &amp;c. 
+          <lb ed="#C" n="55"/>ergo Christus dedit auctoritatem ecdlesie 
+          <lb ed="#C" n="56"/>cognoscendi per hoc quod dicit dic ecclesie / &amp; 
+          <lb ed="#C" n="57"/>sic vt bene dicit Gerson non dicit dic 
+          eccle<lb ed="#C" n="58" break="no"/>sie id est prelatis ecclesie. quia loquebatur 
+          pe<lb ed="#C" n="59" break="no"/>tro qui non potest esse accusator &amp; testis &amp; 
+          <lb ed="#C" n="60"/>iudex / ideo ibidem non capitur ecclesia 
+          pro<lb ed="#C" n="61" break="no"/>aggregatione prelatorum. dedit ergo potesta 
+          <lb ed="#C" n="62"/>tem ecclesie cognoscendi. ergo concilium 
+          <lb ed="#C" n="63"/>geneale immediate representans vniuersalem 
+          <lb ed="#C" n="64"/>ecclesiam quia constituitur ex cuiuslibet 
+          ec<lb ed="#C" n="65" break="no"/>clesie partiale membrum habet potestatem 
+          <lb ed="#C" n="66"/>cognoscendi super quencumque fidelem &amp; 
+          co<lb ed="#C" n="67" break="no"/>gnitione habita sententiandi &amp; contra non 
+          <lb ed="#C" n="68"/>parentes exercere penam &amp; censuras 
+          ecclesi<lb ed="#C" n="69" break="no"/>asticas. Ex illa auctoritate fundant se doct. 
+          <lb ed="#C" n="70"/>quod concilium generale habet immediate a 
+          Chri<lb ed="#C" n="71" break="no"/>sto potestatem iurisdictionis coherciuam. 
+        </p>
+        <p xml:id="ja8dpe-y09981-d1e357">
+          <lb ed="#C" n="72"/>¶ Habitum est supra quomodo potestas 
+          <lb ed="#C" n="73"/>ecclesiastica iurisdictionis saltem que 
+          respi<lb ed="#C" n="74" break="no"/>cit forum publicum est toti ecclesie a 
+          Chri<lb ed="#C" n="75" break="no"/>sto immediate communicata. quod patet Mat 
+          <lb ed="#C" n="76"/>thei. xvi. si peccauerit in te &amp;c. statim 
+          sub<lb ed="#C" n="77" break="no"/>dit dinc ecclesie in quo verbo est auctoritas 
+          <lb ed="#C" n="78"/>data cognoscendi de crimine. quia frustra 
+          <lb ed="#C" n="79"/>fuisset dicere ecclesie nisi ecclesia 
+          auctorita<lb ed="#C" n="80" break="no"/>tem haberet. &amp; si est data ecclesie potestas 
+          co<lb ed="#C" n="81" break="no"/>gnoscendi &amp; per consequens puniendi id est 
+          <lb ed="#C" n="82"/>excommunicandi. ergo ex institutione 
+          pri<lb ed="#C" n="83" break="no"/>ma Christi est ecclesie auctoritas 
+          communica<lb ed="#C" n="84" break="no"/>ta iurisdictionis &amp; per consequens concilio 
+          <lb ed="#C" n="85"/>generali ecclesiam vniuersalem 
+          representanti<lb ed="#C" n="86" break="no"/>quia constituitur ex aliquo membro 
+          cuius<lb ed="#C" n="87" break="no"/>libet ecclesie particularis.
+        </p>
+        <p xml:id="ja8dpe-y09981-d1e394">
+          ¶ Circa hanc 
+          pro<lb ed="#C" n="88" break="no"/>positionem que est multum vniuersalis 
+          po<lb ed="#C" n="89" break="no"/>nuntur alique particulares de actibus 
+          iuris<lb ed="#C" n="90" break="no"/>dictionis ecclesiastice. vnde multi sunt ac 
+          <lb ed="#C" n="91"/>tus inrisdictions ecdinastice seueffectus 
+          pote<lb ed="#C" n="92" break="no"/>statis ecdesiastice quos exercere potest concilium 
+          <pb ed="#P" n="692"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#C" n="1"/>generale scilicet edere canones / dare 
+          indulgen<lb ed="#C" n="2" break="no"/>tias / excommunicare. &amp; sub 
+          excommunica<lb ed="#C" n="3" break="no"/>tione continentur siue intelliguntur alie 
+          pe<lb ed="#C" n="4" break="no"/>ne quas ecclesia exercere potest ratione 
+          cri<lb ed="#C" n="5" break="no"/>minis vt interdicere / degradare &amp;c. Et 
+          vl<lb ed="#C" n="6" break="no"/>tra potest dispensare istis sunt quattuor 
+          ef<lb ed="#C" n="7" break="no"/>fectus potestatis ecclesiastice quos 
+          exercere<lb ed="#C" n="8" break="no"/>potest concilium generale. &amp; similiter 
+          om<lb ed="#C" n="9" break="no"/>nes similes actus qui respiciunt iurisdictio 
+          <lb ed="#C" n="10"/>nem excepta absolutione sacramentali / &amp; 
+          <lb ed="#C" n="11"/>qui sunt actus iurisdictionis exterioris potest 
+          <lb ed="#C" n="12"/>exercere. Et quantum ad istos actus ponit 
+          <lb ed="#C" n="13"/>aliquis doct. aliquas propositiones / 
+          primap<lb ed="#C" n="14" break="no"/>politio. Concilium generale potest ex hac 
+          <lb ed="#C" n="15"/>auctoritate a Christo sibi immediate data 
+          <lb ed="#C" n="16"/>edere canones punitiuos. Patet sic primo / 
+          con<lb ed="#C" n="17" break="no"/>cilium Basiliense edidit canones punitios 
+          <lb ed="#C" n="18"/>contra sacerdotes publice fornicarios quod 
+          per<lb ed="#C" n="19" break="no"/>trimestre fructibus suorum beneficiorum 
+          <lb ed="#C" n="20"/>priuantur &amp; si recidiuarent &amp; non corrige 
+          <lb ed="#C" n="21"/>rentur perpetuo priuarentur beneficio. 
+          lxxxiii<lb ed="#C" n="22" break="no"/>in capitulo presbyter dicit textus de 
+          presby<lb ed="#C" n="23" break="no"/>tero qui dedit litteras quibus docetur de 
+          pos<lb ed="#C" n="24" break="no"/>sessionibus ecclesie. Dicit concilium Gargan 
+          <lb ed="#C" n="25"/>se quod ille tenebitur restituere damnum quod in 
+          <lb ed="#C" n="26"/>currit ecclesia propter celationem illarum 
+          lit<lb ed="#C" n="27" break="no"/>terarum vel perditionem / &amp; quod priuaretur 
+          per<lb ed="#C" n="28" break="no"/>ceptione sacri corporis &amp; sanguinis / ideo 
+          <lb ed="#C" n="29"/>concilium generale ex illa auctoritate potest 
+          <lb ed="#C" n="30"/>edere canones punitiuos. Secunda 
+          propo<lb ed="#C" n="31" break="no"/>sitio / concilium generale potest dare indul 
+          <lb ed="#C" n="32"/>gentias. &amp; hoc fuit practicatum in concilio 
+          <lb ed="#C" n="33"/>basili. Nam greci excusabant se quod propter 
+          <lb ed="#C" n="34"/>paupertatem non poterant venire ad 
+          con<lb ed="#C" n="35" break="no"/>cilium / tunc concilium dedit indulgentias 
+          <lb ed="#C" n="36"/>largientibus bona &amp; pecunias pro expensis 
+          <lb ed="#C" n="37"/>illorum grecorum pro subleuatione 
+          pauper<lb ed="#C" n="38" break="no"/>tatis ipsorum.
+        </p>
+        <p xml:id="ja8dpe-y09981-d1e494">
+          ¶ Ista secunda propositio sic 
+          <lb ed="#C" n="39"/>suadetur. Indulgentie procedunt a claue ita 
+          <lb ed="#C" n="40"/>quod datio indulgentiarum est effectus clauis 
+          <lb ed="#C" n="41"/>ecclesie / sed clauis regni celorum est data 
+          pe<lb ed="#C" n="42" break="no"/>tro non tanquam persone priuate / sed vt 
+          represen<lb ed="#C" n="43" break="no"/>tanti totam ecclesiam. xxiiii. qu. in capi. quod 
+          <lb ed="#C" n="44"/>cunque fuerunt claues ecclesie petro date non 
+          <lb ed="#C" n="45"/>vt singulari persone. Dicit hieronimus sed 
+          <lb ed="#C" n="46"/>vt representanti ecdesiam / ergo concilium ge¬ 
+          <cb ed="#P" n="b"/>
+          <lb ed="#C" n="47"/>nerale representans immediate totam 
+          eccle<lb ed="#C" n="48" break="no"/>siam vniuersalem &amp; immediatius quam petrus 
+          <lb ed="#C" n="49"/>habet istam potestatem. Item concilium 
+          ge<lb ed="#C" n="50" break="no"/>nerale potest limitare largitionem indulgen 
+          <lb ed="#C" n="51"/>tiarum in ipsis episcopis &amp; prelatis. ergo 
+          <lb ed="#C" n="52"/>potest largiri. nam si potest limitare ergo in 
+          <lb ed="#C" n="53"/>minentius habet illam potestatem. Patet 
+          an<lb ed="#C" n="54" break="no"/>tecedens in capitulo cum ex eo de 
+          peniten<lb ed="#C" n="55" break="no"/>tiis &amp; remissionibus. limitat concilium quod 
+          <lb ed="#C" n="56"/>in dedicatione non dantur vltra annum &amp; 
+          <lb ed="#C" n="57"/>in anniuersariis vltra quadraginta dies. 
+          er<lb ed="#C" n="58" break="no"/>go concilium habet potestatem 
+          limitandi<lb ed="#C" n="59" break="no"/>indulgentias &amp; perconsequens conferendi. 
+        </p>
+        <p xml:id="ja8dpe-y09981-d1e544">
+          <lb ed="#C" n="60"/>¶ Tertia propositio / potest concilium 
+          excon<lb ed="#C" n="61" break="no"/>municare. patet in verbis Christi Matthei 
+          <lb ed="#C" n="62"/>x vi. Si non audierit te sit tibi tanquam ethnicus 
+          <lb ed="#C" n="63"/>id est excommunicatus. Similiter in 
+          capitu<lb ed="#C" n="64" break="no"/>lo omnis vtriusque sexus quod editum est in 
+          <lb ed="#C" n="65"/>concilio generali vbi excommunicantur non 
+          <lb ed="#C" n="66"/>communicantes semel in anno &amp; arcentur 
+          <lb ed="#C" n="67"/>ab ingressu ecclesie / ergo concilium 
+          excom<lb ed="#C" n="68" break="no"/>municat eos. ergo concilium potest 
+          excon<lb ed="#C" n="69" break="no"/>municare.
+        </p>
+        <p xml:id="ja8dpe-y09981-d1e568">
+          ¶ Quarta propositio concilium 
+          ge<lb ed="#C" n="70" break="no"/>nerale potest dispensare in capitulo 
+          presby<lb ed="#C" n="71" break="no"/>ter. lxxxiii. distinctione est editus canon quod 
+          <lb ed="#C" n="72"/>presbyter fornicator deponatur. &amp; ab illo 
+          <lb ed="#C" n="73"/>dispensatum fuit in concilio Gargansi quod 
+          per<lb ed="#C" n="74" break="no"/>mitteretur in ordinibus susceptis ministra 
+          <lb ed="#C" n="75"/>re post per actam decem annorum peniten 
+          <lb ed="#C" n="76"/>tiam / ideo contra canones punitiuos potest 
+          <lb ed="#C" n="77"/>concilium dispensare. Habetur 
+          resolutio<lb ed="#C" n="78" break="no"/>ne. ergo quod concilium in istis quattuor 
+          su<lb ed="#C" n="79" break="no"/>pra nominatis potest exercere potestatem 
+          <lb ed="#C" n="80"/>ecclesiasticam iurisdictionis &amp; quod habet 
+          po<lb ed="#C" n="81" break="no"/>testatem edendi canones punitiuos 
+          dandi<lb ed="#C" n="82" break="no"/>indulgentias &amp;c. Similiter talem potestatem 
+          <lb ed="#C" n="83"/>habet qualem papa vt notum est / potest edere 
+          ca<lb ed="#C" n="84" break="no"/>nones / conferre indulgentias / 
+          excommu<lb ed="#C" n="85" break="no"/>nicare / dispensare. Cum ergo in concilio &amp; 
+          <lb ed="#C" n="86"/>in papa sint iste duepotestates vtrum 
+          respi<lb ed="#C" n="87" break="no"/>ciant se ex equo. hoc est an neutra habeat 
+          po<lb ed="#C" n="88" break="no"/>testatem super aliam ita quod vna non sit super 
+          <lb ed="#C" n="89"/>aliam vel an vna habeat auctoritatem super 
+          <lb ed="#C" n="90"/>aliam / vt puta vtrum auctoritas concili i sit 
+          <lb ed="#C" n="91"/>super aucttoritatem pape. De hoc est 
+          con<lb ed="#C" n="92" break="no"/>trouersia inter docto. Pro cuius declaratio 
+          <pb ed="#P" n="693"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#C" n="1"/>ne notandum est quod multa sunt annexa 
+          au<lb ed="#C" n="2" break="no"/>ctoritati alicuius superioris.
+        </p>
+        <p xml:id="ja8dpe-y09981-d1e630">
+          ¶ Primum est 
+          <lb ed="#C" n="3"/>quod ab inferiori ad superiorem licet 
+          appella<lb ed="#C" n="4" break="no"/>re vt ab episcopo ad archiepiscopum / ab 
+          <lb ed="#C" n="5"/>archiepiscopo ad primatem / a primate ad 
+          pa<lb ed="#C" n="6" break="no"/>pam. similiter a baliuo ad curiam parlamenti &amp;e 
+        </p>
+        <p xml:id="ja8dpe-y09981-d1e641">
+          <lb ed="#C" n="7"/>¶ Secundum est / quod ille habens auctoritatem 
+          <lb ed="#C" n="8"/>superiorem potest habentem auctoritatem 
+          <lb ed="#C" n="9"/>inferiorem iudicare / punire / deponere suas 
+          le<lb ed="#C" n="10" break="no"/>ges infringere. Nam fungens auctoritate 
+          <lb ed="#C" n="11"/>superioris habet potestatem coherciuam 
+          su<lb ed="#C" n="12" break="no"/>per illum qui habet inferiorem.
+        </p>
+        <p xml:id="ja8dpe-y09981-d1e657">
+          ¶ Tertium 
+          <lb ed="#C" n="13"/>habens auctoritatem superioris siue supior potest 
+          <lb ed="#C" n="14"/>edere leges &amp; constitutiones &amp; tenebitur 
+          inferi<lb ed="#C" n="15" break="no"/>or secundum illas iudicare: ita quod si oppositum 
+          fa<lb ed="#C" n="16" break="no"/>ciat de facto suum iudicium erit nullum ita quod 
+          po<lb ed="#C" n="17" break="no"/>test potestatem inferioris certis legibus 
+          ar<lb ed="#C" n="18" break="no"/>ctare ad se conformandum illis.
+        </p>
+        <p xml:id="ja8dpe-y09981-d1e673">
+          ¶ Quartum / 
+          <lb ed="#C" n="19"/>superior vel habens auctoritatem superio 
+          <lb ed="#C" n="20"/>ris certis de causis aliquos potest eximere 
+          a<lb ed="#C" n="21" break="no"/>potestate inferioris vt papa multos exemit 
+          <lb ed="#C" n="22"/>a potestate inferiorum siue episcoporum.
+        </p>
+        <p xml:id="ja8dpe-y09981-d1e684">
+          <lb ed="#C" n="23"/>¶ Istis suppositis est difficultas. Vtruma 
+          pa<lb ed="#C" n="24" break="no"/>pa ad concilium vel econtra possit 
+          appel<lb ed="#C" n="25" break="no"/>lari vel neutrum alterum. Item vtrum 
+          conci<lb ed="#C" n="26" break="no"/>lium possit papam deponere &amp; iudicare / 
+          <lb ed="#C" n="27"/>vel econtra. vel neutrum alterum.
+        </p>
+        <p xml:id="ja8dpe-y09981-d1e697">
+          ¶ Item 
+          <lb ed="#C" n="28"/>vtrum possit concilium aliquos a 
+          potesta<lb ed="#C" n="29" break="no"/>te pape eximere / vel econtra vel neutrum 
+          <lb ed="#C" n="30"/>alterum.
+        </p>
+        <p xml:id="ja8dpe-y09981-d1e707">
+          ¶ Item vtrum concilium possit 
+          <lb ed="#C" n="31"/>edere canones quibus teneatur papa 
+          pa<lb ed="#C" n="32" break="no"/>rere vel ediuerso: vel neutro modo. 
+        </p>
+        <p xml:id="ja8dpe-y09981-d1e714">
+          <lb ed="#C" n="33"/>¶ Est apparentia in multis textibus quod 
+          pa<lb ed="#C" n="34" break="no"/>pa non possit iudicari a concilio / vt allega 
+          <lb ed="#C" n="35"/>tum est supra Nemo iudicabit primam 
+          se<lb ed="#C" n="36" break="no"/>dem neque a Cesare / neque a clero / neque a 
+          regi<lb ed="#C" n="37" break="no"/>bus &amp;c. ergo concilium non potest 
+          iudica<lb ed="#C" n="38" break="no"/>re papam ideo non est supra ipsum / &amp; per 
+          <lb ed="#C" n="39"/>consequens non est inferior concilio. 
+          Simi<lb ed="#C" n="40" break="no"/>liter in capitulo significasti de electione. 
+          <lb ed="#C" n="41"/>Omnia concilia sunt auctoritate summi 
+          pon<lb ed="#C" n="42" break="no"/>tificis celebrata. ergo auctoritas concilii de 
+          <lb ed="#C" n="43"/>pendet ab auctoritate pape. igitur. Item sta 
+          <lb ed="#C" n="44"/>tuta concilii generalis non possunt ligare 
+          <lb ed="#C" n="45"/>papam quia de ratione superioris est quod pos¬ 
+          <cb ed="#P" n="b"/>
+          <lb ed="#C" n="46"/>sit inferiorem suis legibus arctare. ergo 
+          ex<lb ed="#C" n="47" break="no"/>istis testibus videtur quod nullo modo 
+          dici<lb ed="#C" n="48" break="no"/>possit quod concilium sit supra papam / &amp; quod 
+          <lb ed="#C" n="49"/>auctoritas pape sit sub concilio vel infra 
+          con<lb ed="#C" n="50" break="no"/>cilium collocata.
+        </p>
+        <p xml:id="ja8dpe-y09981-d1e758">
+          ¶ Quantum ad ista est 
+          <lb ed="#C" n="51"/>conclulio quam tenent omnes doctores 
+          par<lb ed="#C" n="52" break="no"/>rhisienses &amp; galli / quod protestas pape est 
+          sub<lb ed="#C" n="53" break="no"/>iecta potestati concilii: Dico primo quod quam 
+          <lb ed="#C" n="54"/>tum ad originem seu institutionem 
+          pote<lb ed="#C" n="55" break="no"/>stas pape non est supra concilium neque edi 
+          <lb ed="#C" n="56"/>uerso / quia vtraque immediate est a Christo 
+          <lb ed="#C" n="57"/>instituta. ergo quantum ad hoc vna non est 
+          <lb ed="#C" n="58"/>super aliam neque vna dependet ab altera. 
+          <lb ed="#C" n="59"/>Sed dicunt communiter doctores omnes 
+          <lb ed="#C" n="60"/>parrhisien. quod potestas pape est sub potesta 
+          <lb ed="#C" n="61"/>te concilii quantum ad hoc quod concilium 
+          <lb ed="#C" n="62"/>potest certis legibus papam arctare / ita quod 
+          <lb ed="#C" n="63"/>tenetur papa iudicare secundum leges &amp; 
+          <lb ed="#C" n="64"/>constitutiones a concilio latas / &amp; quantum 
+          <lb ed="#C" n="65"/>ad hoc est expressa determinatio 
+          concilii<lb ed="#C" n="66" break="no"/>Basilien. &amp; Constanti. quod concilium in 
+          spiun<lb ed="#C" n="67" break="no"/>sancto congregatum vniuersalem ecclesiam immedia 
+          <lb ed="#C" n="68"/>te representans immediate habet a Christo 
+          <lb ed="#C" n="69"/>potestatem cui omnis christianus etiam 
+          pa<lb ed="#C" n="70" break="no"/>pali dignitate constitutus obedire tenetur 
+          <lb ed="#C" n="71"/>ergo concilium potest papam certis 
+          legi<lb ed="#C" n="72" break="no"/>bus arctare &amp; cetera. &amp; istomodo quantum 
+          <lb ed="#C" n="73"/>ad collationes beneficiotum est arctata 
+          po<lb ed="#C" n="74" break="no"/>testas pape in regno francie. neque potest 
+          si<lb ed="#C" n="75" break="no"/>bi ea reseruare amplius / ergo quantum ad 
+          <lb ed="#C" n="76"/>ista est sibi data certa lex / &amp; si faciat contra 
+          <lb ed="#C" n="77"/>sua sententia erit nulla.
+        </p>
+        <p xml:id="ja8dpe-y09981-d1e819">
+          ¶ Et apparentia est 
+          <lb ed="#C" n="78"/>in ista opiniqne. Quandocunque sunt 
+          due<lb ed="#C" n="79" break="no"/>potestates eiusdem generis / &amp; vna est 
+          de<lb ed="#C" n="80" break="no"/>uiabilis &amp; altera non: potestas que est in 
+          <lb ed="#C" n="81"/>supposito deuiabili: debet dirigi 
+          secun<lb ed="#C" n="82" break="no"/>dum potestatem indeuiabilem. Sed 
+          qui<lb ed="#C" n="83" break="no"/>libet papa est deuiabilis. &amp; concilium 
+          ge<lb ed="#C" n="84" break="no"/>nerale rite congregatum est indeuiabile / 
+          <lb ed="#C" n="85"/>ergo potestas pape debet dirigi secundum 
+          <lb ed="#C" n="86"/>dispositionem concilii generalis. 
+          Apparen<lb ed="#C" n="87" break="no"/>tia est in maiore maxima / sed minor est 
+          ve<lb ed="#C" n="88" break="no"/>ra. nam papa potest deuiare / immo potest 
+          <lb ed="#C" n="89"/>hereticari. Est enim homo non confirmatus 
+          <lb ed="#C" n="90"/>&amp; remanet equaliter peccator sicut prius: 
+          <pb ed="#P" n="694"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#C" n="1"/>quod autem concilium rite corgregatum 
+          <lb ed="#C" n="2"/>non possit errare. Patet / semper dirigitur 
+          <lb ed="#C" n="3"/>s pecialiter a spiritusanco quantum ad 
+          exer<lb ed="#C" n="4" break="no"/>citium sue potestatis. ideo non potest 
+          er<lb ed="#C" n="5" break="no"/>rare secundum id secundum quod dirigitur. 
+          igi<lb ed="#C" n="6" break="no"/>tur. Patet maior / Actuum decimoquinto. 
+          <lb ed="#C" n="7"/>Visum est spiritui sancto &amp; nobis. 
+          preponi<lb ed="#C" n="8" break="no"/>tur spiritus sanctus quasi regens concilium 
+          <lb ed="#C" n="9"/>&amp; gubernans / ergo signum est quod spiritus: 
+          <lb ed="#C" n="10"/>sanctus semper regit &amp; guberr at concilium / 
+          <lb ed="#C" n="11"/>ergo ratione indeuiabilitatis nituntur 
+          osten<lb ed="#C" n="12" break="no"/>dere quod concilium sit supra papam quantum ad 
+          <lb ed="#C" n="13"/>istud quod est de ratione superioris potestatis 
+          <lb ed="#C" n="14"/>quod certis legibus potest arctare inferiorem. 
+        </p>
+        <p xml:id="ja8dpe-y09981-d1e884">
+          <lb ed="#C" n="15"/>¶ Quantum ad aliud quod est de ratione 
+          <lb ed="#C" n="16"/>superioris potestatis quod licet ab inferiori ad 
+          <lb ed="#C" n="17"/>eum apellare qui superiorem habet 
+          aucto<lb ed="#C" n="18" break="no"/>ritatem. videtur satis manifestum / quod licet 
+          a<lb ed="#C" n="19" break="no"/>papa ad concilium appellare postquam 
+          papa<lb ed="#C" n="20" break="no"/>est deuiabilis &amp; concilium non potest erra 
+          <lb ed="#C" n="21"/>re / ergo quantum ad hoc apparet papam 
+          <lb ed="#C" n="22"/>esse inferiorem.
+        </p>
+        <p xml:id="ja8dpe-y09981-d1e904">
+          ¶ Quantum vero ad aliud 
+          <lb ed="#C" n="23"/>videlicet quod potestas superior potest 
+          infe<lb ed="#C" n="24" break="no"/>riorem iudicare. Vtrum scilicet ipsum 
+          con<lb ed="#C" n="25" break="no"/>cilium possit papam iudicare / aut 
+          depone<lb ed="#C" n="26" break="no"/>re a papali dignitate &amp; alium instituere. 
+          Di<lb ed="#C" n="27" break="no"/>co quod quantum ad hoc concilium est 
+          supra<lb ed="#C" n="28" break="no"/>papam &amp; ipsum iudicare potest / &amp; habet 
+          <lb ed="#C" n="29"/>auctoritatem immediate a Christo / &amp; est 
+          ma<lb ed="#C" n="30" break="no"/>xima apparentia cum papa sit defectibilis 
+          <lb ed="#C" n="31"/>quod possit ab ipso concilio pro erratis 
+          puni<lb ed="#C" n="32" break="no"/>ri.
+        </p>
+        <p xml:id="ja8dpe-y09981-d1e929">
+          ¶ Dicit dominus de Gersono: quod 
+          quem<lb ed="#C" n="33" break="no"/>ad modum papa potest dare libellum 
+          repu<lb ed="#C" n="34" break="no"/>dii sponse sue id est ecclesie / hoc est cedere 
+          <lb ed="#C" n="35"/>papatui: eodem modo si papa sit inutilis 
+          <lb ed="#C" n="36"/>sponse id est ecclesie / poterit sponsa eum 
+          re<lb ed="#C" n="37" break="no"/>pudiare: &amp; ipsum a papatu auferre. ergo 
+          <lb ed="#C" n="38"/>quantum ad istum effectum iurisdictionis 
+          <lb ed="#C" n="39"/>quod superior potestas potest inferiorem 
+          iu<lb ed="#C" n="40" break="no"/>dicare videtur apparenter &amp; concilium sit 
+          <lb ed="#C" n="41"/>supra papam.
+        </p>
+        <p xml:id="ja8dpe-y09981-d1e951">
+          ¶ Difficultas / quantum ad 
+          <lb ed="#C" n="42"/>istum modum dicendi. an concilium possit 
+          <lb ed="#C" n="43"/>excommunicare papam manente in 
+          papa<lb ed="#C" n="44" break="no"/>tu. id est ipso existente papa. Hoc postea 
+          <lb ed="#C" n="45"/>tegrpitur.
+        </p>
+        <p xml:id="ja8dpe-y09981-d1e962">
+          ¶ Sxartux ad alium effe¬ 
+          <cb ed="#P" n="b"/>
+          <lb ed="#C" n="46"/>ctum superioris potestatis / an concilium 
+          <lb ed="#C" n="47"/>possit aliquos eximere a potestate pape / 
+          si<lb ed="#C" n="48" break="no"/>cut papa aliquos eximit a potestate 
+          episco<lb ed="#C" n="49" break="no"/>porum. Pico quod conclium quantum ad 
+          ali<lb ed="#C" n="50" break="no"/>quos effectus potest aliquos eximere a 
+          po<lb ed="#C" n="51" break="no"/>testate pape. nam potest facere concilium 
+          <lb ed="#C" n="52"/>quod aliquos actus iurisdictionis non possit 
+          pa<lb ed="#C" n="53" break="no"/>pa exerce in aliquam personam sincut prius 
+          <lb ed="#C" n="54"/>potuisset ante illam prohibitionem / 
+          verun<lb ed="#C" n="55" break="no"/>tamen non potest quantum ad omnes sic quod non 
+          <lb ed="#C" n="56"/>possit postea aliquos exercere immo non 
+          po<lb ed="#C" n="57" break="no"/>test prohiberi vniuersaliter ab omnibus 
+          a<lb ed="#C" n="58" break="no"/>ctibus circa aliquam personam.
+        </p>
+        <p xml:id="ja8dpe-y09981-d1e995">
+          ¶ Dat 
+          Ger<lb ed="#C" n="59" break="no"/>son primo exemplum de quodam 
+          cardinali<lb ed="#C" n="60" break="no"/>respectu cuius inhibitum est pape ne posset 
+          <lb ed="#C" n="61"/>pro peccatis preteritis illum punire / &amp; quod 
+          <lb ed="#C" n="62"/>remaneret prpetuus segatus: videlicet quod 
+          pa<lb ed="#C" n="63" break="no"/>pa non posset illum priuare perpetua 
+          lega<lb ed="#C" n="64" break="no"/>tione: sed sic est quod papa illos actus 
+          iurisdi<lb ed="#C" n="65" break="no"/>ctionis non potuit exercere in illum post 
+          ta<lb ed="#C" n="66" break="no"/>le priuilegium. ergo concilium potest 
+          ali<lb ed="#C" n="67" break="no"/>quas personas eximere a potestate pape 
+          quan<lb ed="#C" n="68" break="no"/>tum ad certos actus iurisdictionis: sed de 
+          pec<lb ed="#C" n="69" break="no"/>catis futuris non potest concilium facere 
+          <lb ed="#C" n="70"/>neque eos eximere a potestate coherciua 
+          pa<lb ed="#C" n="71" break="no"/>pe nisi concilium esset tunc congregatum / 
+          <lb ed="#C" n="72"/>&amp; hoc sibi reseruaret.
+        </p>
+        <p xml:id="ja8dpe-y09981-d1e1028">
+          ¶ Adhuc restat 
+          diffi<lb ed="#C" n="73" break="no"/>cultas de illo / an concilium posset aliquem 
+          <lb ed="#C" n="74"/>omnino eximere a potestate pape / ita quod 
+          pa<lb ed="#C" n="75" break="no"/>pa non posset eum excommunicare / nec 
+          pro<lb ed="#C" n="76" break="no"/>peccatis preteritis nec pro futuris / vt dicunt 
+          <lb ed="#C" n="77"/>aliquide rege francie / quod papa non potest 
+          <lb ed="#C" n="78"/>eum excommunicare: sed credo quod concilium 
+          <lb ed="#C" n="79"/>non potest illum omnino eximere quin 
+          pos<lb ed="#C" n="80" break="no"/>sit ab ipso papa vere excommunicari pro 
+          cau<lb ed="#C" n="81" break="no"/>sa iusta &amp; pro vera contumacia nisi 
+          conci<lb ed="#C" n="82" break="no"/>lium esset tunc congregatum quod reseruaret 
+          sibi<lb ed="#C" n="83" break="no"/>talem punitionem. 
+        </p>
+        <p xml:id="ja8dpe-y09981-d1e1054">
+          <lb ed="#C" n="84"/>¶ Resolutio ergo est / quod potestas pape 
+          po<lb ed="#C" n="85" break="no"/>test a concilio certis arctari legibus &amp; ab 
+          ip<lb ed="#C" n="86" break="no"/>so ad concilium potest appellari &amp; potest 
+          <lb ed="#C" n="87"/>iudicari a concilio / puta &amp; maxime si esset 
+          <lb ed="#C" n="88"/>hereticus &amp; obstinatus &amp; in perniciem 
+          ec<lb ed="#C" n="89" break="no"/>clesie potest deponi a concilio &amp; quod potest 
+          <lb ed="#C" n="90"/>eximere certas personas ab eius potestats 
+          <pb ed="#P" n="695"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#C" n="1"/>quantum ad aliquos casus. ideo quantum ad 
+          <lb ed="#C" n="2"/>ista potestas pape est sub concilio &amp; 
+          con<lb ed="#C" n="3" break="no"/>cilium super ipsum papam propter 
+          mul<lb ed="#C" n="4" break="no"/>ta. Primo / ratione indeuiabilitatis. Secundo 
+          <lb ed="#C" n="5"/>quia potestas concilii ad plura se extendit quam 
+          <lb ed="#C" n="6"/>potestas pape. Ram ad quencunque effectum 
+          <lb ed="#C" n="7"/>se extendit potestas pape similiter &amp; 
+          conci<lb ed="#C" n="8" break="no"/>lii &amp; cum hoc ad ipiseum papam. ideo ratione 
+          ex<lb ed="#C" n="9" break="no"/>tentionis potestas concilii est supra papam: 
+          <lb ed="#C" n="10"/>quis potestas pape non sit a concilio sed 
+          im<lb ed="#C" n="11" break="no"/>mediate a deo sicut &amp; potestas concilii non 
+          <lb ed="#C" n="12"/>est a papa sed etiam immediate a deo: 
+          nihilomi<lb ed="#C" n="13" break="no"/>nus potestas pape est subdita potestati 
+          con<lb ed="#C" n="14" break="no"/>cilii / sicut potestates baliui &amp; prepositi sunt 
+          <lb ed="#C" n="15"/>immediate a rege / tamen potestas baliui est sub 
+          <lb ed="#C" n="16"/>potestate prepositi. Propter difficultatem 
+          su<lb ed="#C" n="17" break="no"/>pra tactam orta est questio / sub qua 
+          forma<lb ed="#C" n="18" break="no"/>deberet poni conclusio in conciliis generalibus. 
+          <lb ed="#C" n="19"/>Nam reparitur in statutis hoc modo nos 
+          sacroap<lb ed="#C" n="20" break="no"/>probante concilio statuimus. Aliquando reperitur 
+          <lb ed="#C" n="21"/>sancta synodus statuit. Aliquando reperitur 
+          sacri<lb ed="#C" n="22" break="no"/>concilii auctoritas in cap. de iure 
+          iuran<lb ed="#C" n="23" break="no"/>do vbi est conclusio sub ista forma sacri auco 
+          <lb ed="#C" n="24"/>ritate cocilii inhibemus &amp;c. fuit ergo 
+          con<lb ed="#C" n="25" break="no"/>trouersia sub qua forma deberet poni 
+          con<lb ed="#C" n="26" break="no"/>cilii condlusio / an nonine concilii / an nonine pape. 
+          <lb ed="#C" n="27"/>Dicit Dealyaco quod melior modus est 
+          dicere<lb ed="#C" n="28" break="no"/>sic / sancta synodus statuit &amp;c. vel sic 
+          aucto<lb ed="#C" n="29" break="no"/>ritate sacri concilii statuimus. lsti duo sunt 
+          me<lb ed="#C" n="30" break="no"/>liores modiponendi conclusiones in conciliis 
+          <lb ed="#C" n="31"/>&amp; non nomine pape. 
+        </p>
+      </div>
+          </body>
+  </text>
+</TEI>

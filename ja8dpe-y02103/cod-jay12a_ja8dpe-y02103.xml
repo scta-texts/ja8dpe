@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 5</title>
+        <author ref="#JacquesAlmain">Jacques Almain</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 5</title>
+          <date when="2026-07-29">July 29, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-jay12a">Paris 1512</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-07-29" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="654"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ja8dpe-y02103"><!-- dpe-q1c5 -->
+        <head xml:id="ja8dpe-y02103-Hd1e101">Caput 5</head>
+        <head xml:id="ja8dpe-y02103-Hd1e103" type="question-title">
+          An suprema potestas 
+          ecclesiastica possit duobus simul ex aequo 
+          conferri
+        </head>
+        <p xml:id="ja8dpe-y02103-d1e106">
+          <lb ed="#C" n="49"/>¶ An suprema potestas 
+          ecclesiasti<lb ed="#C" n="50" break="no"/>ca possit duobus simul ex equo 
+          con<lb ed="#C" n="51" break="no"/>ferri. Capitulum quintum.
+        </p>
+        <p xml:id="ja8dpe-y02103-d1e115">
+          <lb ed="#C" n="52"/>COnsequenter videndum 
+          <lb ed="#C" n="53"/>est vtrum ista suprema 
+          po<lb ed="#C" n="54" break="no"/>testas que est suprema in 
+          <lb ed="#C" n="55"/>vno possit duobus simul 
+          <lb ed="#C" n="56"/>ex equo conferri ita quod 
+          po<lb ed="#C" n="57" break="no"/>lytia Christiana que est 
+          re<lb ed="#C" n="58" break="no"/>galis possit commutari in aliam speciem 
+          pu<lb ed="#C" n="59" break="no"/>ta in aristocratiam vel thymocratiam &amp; hoc 
+          <lb ed="#C" n="60"/>le ge euangelica stante propter aliquam 
+          le<lb ed="#C" n="61" break="no"/>gitimam superuenientem causam. &amp; vide 
+          <lb ed="#C" n="62"/>tur quod sic. nam aliquando fuerunt duo quo 
+          <lb ed="#C" n="63"/>rum quilibet erat papa ex equo. vnde hic 
+          <lb ed="#C" n="64"/>vnum quod supponitur verisimile est quod 
+          Pe<lb ed="#C" n="65" break="no"/>trus vsque ad mortem exclusiue fuit papa sed 
+          <lb ed="#C" n="66"/>simul cum eo ipso adhuc viuente fuit 
+          Cle<lb ed="#C" n="67" break="no"/>mens etiam papa habens plenitudinem 
+          hu<lb ed="#C" n="68" break="no"/>iusmodi potestatis. ergo illa potestas 
+          ali<lb ed="#C" n="69" break="no"/>quando fuit duobus communicata ex equo / 
+          <lb ed="#C" n="70"/>maior est nota quia Petrus habuit illam a 
+          <lb ed="#C" n="71"/>Christo instituente ipsum sed minor patet 
+          <lb ed="#C" n="72"/>in capi. Si Petrus. viii. questione prima 
+          di<lb ed="#C" n="73" break="no"/>citur quod Petrus Linum &amp; Cletum 
+          adiuto<lb ed="#C" n="74" break="no"/>res asciuit dans normam apostolicam: &amp; 
+          po<lb ed="#C" n="75" break="no"/>testatem ligandi non contulit Lino sed 
+          tan<lb ed="#C" n="76" break="no"/>tum Clementi qui beato Petro tradente se 
+          <lb ed="#C" n="77"/>dem apostolicam meruit obtinere. habetur 
+          <lb ed="#C" n="78"/>ex illo capi. quod talis potestas ligandi &amp; 
+          sol<lb ed="#C" n="79" break="no"/>uendi Petro viuente fuit in Clemente &amp; hoc 
+          <lb ed="#C" n="80"/>habetur in historiis summorum pontificum 
+          <lb ed="#C" n="81"/>quod Petrus fecit Clementem papam &amp; hoc 
+          ip<lb ed="#C" n="82" break="no"/>so adhuc viuente. Item arguitur. possunt 
+          es<lb ed="#C" n="83" break="no"/>se duo episopi ex equo in eodem 
+          episcopa<lb ed="#C" n="84" break="no"/>tu / similiter duo curati in eadem cura. ergo 
+          <lb ed="#C" n="85"/>&amp; duo pape. consequentia tenet: quoniam 
+          <lb ed="#C" n="86"/>papa nichil aliud est quam curatus vniuersalis 
+          <lb ed="#C" n="87"/>ecclesie. Probatur antecedens. Nam 
+          augu<lb ed="#C" n="88" break="no"/>stinus accessit Valerio 
+          Hyponensiepisco<lb ed="#C" n="89" break="no"/>po &amp; factus coepiscopus. ergotam Valerius 
+          <lb ed="#C" n="90"/>quam Augustinus in solidum quilibet erat 
+          epi<lb ed="#C" n="91" break="no"/>lcopus hyponensis. ergo in vtroque erat 
+          po<lb ed="#C" n="92" break="no"/>testas illa ex equo. Item possunt simul esse 
+          <pb ed="#P" n="655"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#C" n="1"/>duo imperatores quorum quilibet est 
+          im<lb ed="#C" n="2" break="no"/>perator / ex capitulo nunc autem. xxi. 
+          distin<lb ed="#C" n="3" break="no"/>ctione dicitur tempore Maximiani &amp; Dio 
+          <lb ed="#C" n="4"/>cletiani Augustorum. ex hoc verbo 
+          augu<lb ed="#C" n="5" break="no"/>storum / sequitur quod quilibet erat augustus 
+          er<lb ed="#C" n="6" break="no"/>go erant tunc duo imperatores. Item 
+          sup<lb ed="#C" n="7" break="no"/>ponitur quod omnis verus successor Petri 
+          ha<lb ed="#C" n="8" break="no"/>bet eandem vel tantam potestatem ex 
+          institu<lb ed="#C" n="9" break="no"/>tione Christi / quantam habuit Petrus. Ite 
+          <lb ed="#C" n="10"/>tunc arguitur sic / si sit possibile duobus istam 
+          su<lb ed="#C" n="11" break="no"/>premam potestatem communicari vt ino 
+          <lb ed="#C" n="12"/>&amp; Cleto queritur an Linus possit ligare 
+          Cle<lb ed="#C" n="13" break="no"/>tum vel non / si sic ergo Cletus non est 
+          pa<lb ed="#C" n="14" break="no"/>pa / cum habeat superiorem in spiritualibus 
+          <lb ed="#C" n="15"/>scilicet Linum immo implicat quod papa 
+          ha<lb ed="#C" n="16" break="no"/>beat superiorem in spiritualibus &amp; potesta 
+          <lb ed="#C" n="17"/>te ecdesiastica &amp; sit papa / si non: ergo ista 
+          pro<lb ed="#C" n="18" break="no"/>positio falsificatur de successore Petri / 
+          tibi<lb ed="#C" n="19" break="no"/>dabo claues &amp; quodcumque ligaueris super 
+          ter<lb ed="#C" n="20" break="no"/>ram &amp;c:quia non potest ligare illum ergo 
+          <lb ed="#C" n="21"/>non habet tantam potestatem quantam 
+          ha<lb ed="#C" n="22" break="no"/>buit Petrus ex institutione Christi / &amp; non 
+          <lb ed="#C" n="23"/>loquor de ligatione in foro interiori sed 
+          ex<lb ed="#C" n="24" break="no"/>teriori coerciuo / implicat quod papa iuridice 
+          <lb ed="#C" n="25"/>ab vno ligetur (non dico a consilio) &amp; si 
+          ta<lb ed="#C" n="26" break="no"/>lis non potest ligare ergo non est papa. nam 
+          <lb ed="#C" n="27"/>Nicolaus de Cusa dicit quod papalis potestas 
+          <lb ed="#C" n="28"/>est libera super alios a se ligandi &amp; 
+          soluen<lb ed="#C" n="29" break="no"/>di facultas. sed in isto casu Linus non esset 
+          <lb ed="#C" n="30"/>papa / quia non posset ligare Cletum. &amp; sic 
+          <lb ed="#C" n="31"/>videtur quod polytia regalis Christiana non 
+          <lb ed="#C" n="32"/>potest mutari in aliam speciem. &amp; hoc que 
+          <lb ed="#C" n="33"/>rit Occam in secunda parte dyalogilibro 
+          se<lb ed="#C" n="34" break="no"/>cundo capitulo a vicesimo vsque ad 
+          vicesi<lb ed="#C" n="35" break="no"/>mum octauum.
+        </p>
+        <p xml:id="ja8dpe-y02103-d1e287">
+          ¶ Pro veritate elucidanda 
+          <lb ed="#C" n="36"/>termini prius declarandi sunt. nam politia 
+          <lb ed="#C" n="37"/>regalis non est nisi polytia in qua quidem 
+          <lb ed="#C" n="38"/>vnicus recte dominatur ad vtilitatem 
+          toti<lb ed="#C" n="39" break="no"/>us communitatis. Aristocratica est quando 
+          <lb ed="#C" n="40"/>pauci dominantur ad vtilitatem 
+          commu<lb ed="#C" n="41" break="no"/>nem. Timocratica quando valde multi 
+          do<lb ed="#C" n="42" break="no"/>minantur ad vtilitatem communem. Hoc 
+          <lb ed="#C" n="43"/>declarat Aristo. viii. ethi. ca. x. dicens quod 
+          tri<lb ed="#C" n="44" break="no"/>plices sunt reipublice species &amp; totidem 
+          trans<lb ed="#C" n="45" break="no"/>gressiones scilicet regnum optimorum potestas 
+          <lb ed="#C" n="46"/>&amp; tertia censupotestas. &amp; inter has summa 
+          <cb ed="#P" n="b"/>
+          <lb ed="#C" n="47"/>&amp; optima est regnum. Infima autem 
+          censupo<lb ed="#C" n="48" break="no"/>testas / &amp; media est potestas optimorum / &amp; 
+          <lb ed="#C" n="49"/>species opposite siue transgressiones sunt 
+          <lb ed="#C" n="50"/>regni trangressio / tranis. optimatum 
+          pote<lb ed="#C" n="51" break="no"/>statis / paucorum potentia. &amp; censupotesta 
+          <lb ed="#C" n="52"/>ris / popularis potestas. vltra supponitur 
+          <lb ed="#C" n="53"/>quod nulla est polytia pure ciuilis &amp; nulla est 
+          <lb ed="#C" n="54"/>regalis quin possit mutari in aliam speciem 
+          <lb ed="#C" n="55"/>puta Timocraticam vel Aristocraticam. quia 
+          <lb ed="#C" n="56"/>quelibet talis est instituta iure pure 
+          positi<lb ed="#C" n="57" break="no"/>uo. ergo quelibet potest in aliam 
+          mutari<lb ed="#C" n="58" break="no"/>sstis suppositis fit prima propositio. in 
+          nul<lb ed="#C" n="59" break="no"/>lo est suprema potestas spiritualis quin 
+          ip<lb ed="#C" n="60" break="no"/>so viuente alteri conferri possit. patet. 
+          nul<lb ed="#C" n="61" break="no"/>lus habet istam prlenitudinem potestatis 
+          quin<lb ed="#C" n="62" break="no"/>possit libere cedere adueniente legitina 
+          cau<lb ed="#C" n="63" break="no"/>sa / quo facto alteri poterit conferri. 
+          maior<lb ed="#C" n="64" break="no"/>patet per capi. quoniam libro. vi. de 
+          renun<lb ed="#C" n="65" break="no"/>ciatione. Similiter habetur de Marcellino 
+          <lb ed="#C" n="66"/>qui cessit marcello. Similiter de Clemente 
+          <lb ed="#C" n="67"/>qui cessit Lino / ergo nullus habet 
+          plenitu<lb ed="#C" n="68" break="no"/>dinem huius potestatis quin simpliciter 
+          ce<lb ed="#C" n="69" break="no"/>dere possit sicut dicitur in illo capitulo 
+          pre<lb ed="#C" n="70" break="no"/>allegato. quia difficultas erat vtrum 
+          papa<lb ed="#C" n="71" break="no"/>possit papatui cedere / hoc est renunciare 
+          il<lb ed="#C" n="72" break="no"/>li potestati quam nunc habet Dominus 
+          de<lb ed="#C" n="73" break="no"/>Gersono allegat tres rationes pro vna 
+          par<lb ed="#C" n="74" break="no"/>te. sed glo. illius capi. dicit quod non / quia omnis 
+          <lb ed="#C" n="75"/>renunciatio debet fieri in manibus superio 
+          <lb ed="#C" n="76"/>rum. sed papa non habet superiorem. igitur. 
+          <lb ed="#C" n="77"/>rationes Gerson&amp; valentiores sunt iste. 
+          no<lb ed="#C" n="78" break="no"/>tum est quod quando papa consentit 
+          electioni<lb ed="#C" n="79" break="no"/>facit votum de regenda vniuersali ecclesia 
+          <lb ed="#C" n="80"/>sicut monachus de obseruanda regula. tunc 
+          <lb ed="#C" n="81"/>sic. nullus potest dispensaria voto nisi a 
+          su<lb ed="#C" n="82" break="no"/>periore / sed papa nullum habet superiorem 
+          <lb ed="#C" n="83"/>a quo possit dispensari super tali voto 
+          emis<lb ed="#C" n="84" break="no"/>so de regenda ecclesia / nec potest in melius 
+          <lb ed="#C" n="85"/>commutari. ergo non potest cedere 
+          papa<lb ed="#C" n="86" break="no"/>tui. Secunda ratio / quia est verum 
+          matrio<lb ed="#C" n="87" break="no"/>nium spirituale intet papam &amp; ecclesiam. 
+          <lb ed="#C" n="88"/>sed sicut in matrimonio carnali non fit 
+          so<lb ed="#C" n="89" break="no"/>lutio nisi causa fornicationis. ergo 
+          simili<lb ed="#C" n="90" break="no"/>ter nisi papa fuerit hereticus non poterit 
+          ce<lb ed="#C" n="91" break="no"/>dere a potestate illa. tamen non 
+          obstanti<lb ed="#C" n="92" break="no"/>bus illis rationibns fuit conclusum quod papa¬ 
+          <pb ed="#P" n="656"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#C" n="1"/>potest cedere &amp; renunciare inducti exemplo 
+          <lb ed="#C" n="2"/>illo sanctorum qui ita cesserunt. Contra / non 
+          <lb ed="#C" n="3"/>fit renunciatio nisi in manibus superiorum 
+          <lb ed="#C" n="4"/>Dico quod verum est si talis habeat superiorem 
+          <lb ed="#C" n="5"/>Ad aliud papa emittit votum. sed quilibet 
+          <lb ed="#C" n="6"/>tenetur obseruare votum nisi dispensetur 
+          <lb ed="#C" n="7"/>ab isto habente auctoritatem hoc 
+          faciendi<lb ed="#C" n="8" break="no"/>sed nullus est qui hoc possit facere. lgitur. 
+          <lb ed="#C" n="9"/>dicit Gerson quod quando votum vel emissio &amp; 
+          <lb ed="#C" n="10"/>obseruatio voti vergit in detrimentum 
+          sa<lb ed="#C" n="11" break="no"/>lutis vel in peiorem exitum puta in 
+          pericu<lb ed="#C" n="12" break="no"/>lum mortis corporalis non est obseruandum. 
+          <lb ed="#C" n="13"/>vt si vouerem toto isto anno manere in hoc 
+          <lb ed="#C" n="14"/>loco &amp; vigeret pestis non tenerer illud 
+          ob<lb ed="#C" n="15" break="no"/>seruare. vide in capi. de iureiurando / sed quando 
+          <lb ed="#C" n="16"/>potest haberi superior recurrendum est ad 
+          <lb ed="#C" n="17"/>illum vt declaret illud votum non obliga 
+          <lb ed="#C" n="18"/>re. ideo quando tale votum pape vergit in 
+          <lb ed="#C" n="19"/>peiorem exitum salutis non amplius 
+          obli<lb ed="#C" n="20" break="no"/>gatur per illud sed vbi est sufficiens non 
+          de<lb ed="#C" n="21" break="no"/>bet cedere nisi sit alius qui valde notabiliter 
+          <lb ed="#C" n="22"/>sit sufficientior. Quantum ad tertium dicitur 
+          <lb ed="#C" n="23"/>quod aliud est matrimonium corporale &amp; 
+          spiri<lb ed="#C" n="24" break="no"/>tuale. nam matrimonium corporale deno 
+          <lb ed="#C" n="25"/>tat matrimonium inter Christum &amp; 
+          ecclesi<lb ed="#C" n="26" break="no"/>am presentialiter sed non significat ita 
+          pre<lb ed="#C" n="27" break="no"/>sentialiter matrimonium inter papam &amp; 
+          eccle<lb ed="#C" n="28" break="no"/>siam quod non est ita indissolubile sicut 
+          cor<lb ed="#C" n="29" break="no"/>porale. resolutio ergo est quod papa potest 
+          al<lb ed="#C" n="30" break="no"/>teri cedere talem potestatem supremam.
+        </p>
+        <p xml:id="ja8dpe-y02103-d1e486">
+          ¶ 
+          Se<lb ed="#C" n="31" break="no"/>cunda propositio. non potest duobus 
+          ex<lb ed="#C" n="32" break="no"/>equo ista potestas spiritualis stante lege euam 
+          <lb ed="#C" n="33"/>gelica conferri ita quod quilibet habeat plenan 
+          <lb ed="#C" n="34"/>hoc est quod ipsa remanente in ipso alicui alte 
+          <lb ed="#C" n="35"/>ri conferatur. ista propositio ponitur inglo 
+          <lb ed="#C" n="36"/>sa / nona. quoid est in ca. non autem. nam ista duo 
+          <lb ed="#C" n="37"/>non stant quod in isto remaneat plenitudo 
+          hu<lb ed="#C" n="38" break="no"/>ius potestatis &amp; alteri conferatur &amp; ponatur 
+          <lb ed="#C" n="39"/>quod sint duo scilicet a &amp; b habentes talem 
+          poleni<lb ed="#C" n="40" break="no"/>tudinem potestatis spiritualis ex equo. tunc 
+          <lb ed="#C" n="41"/>vel a potest ligare bvel non: si non &amp; 
+          pri<lb ed="#C" n="42" break="no"/>us potuit ergo diminuitur eius potestas. 
+          <lb ed="#C" n="43"/>Siprimum videlicet quod possit ipsum ligare 
+          <lb ed="#C" n="44"/>ergo ib non habet istam supremam 
+          potesta<lb ed="#C" n="45" break="no"/>tem. glosa allegat multas rationes / prima est 
+          <lb ed="#C" n="46"/>que ecclesia catholica est vna. patet. habetur 
+          <cb ed="#P" n="b"/>
+          <lb ed="#C" n="47"/>in vno articulo credo in vnam sanctam 
+          ec<lb ed="#C" n="48" break="no"/>clesiam. &amp; non est vna nisi vnitate capitis 
+          <lb ed="#C" n="49"/>&amp; contra illum articulum non potest 
+          fieri<lb ed="#C" n="50" break="no"/>dispensatio. ergo non potest talis potestas 
+          <lb ed="#C" n="51"/>simul duobus conferri. Secunda ratio. 
+          Chri<lb ed="#C" n="52" break="no"/>stus instituit vnicum caput ecclesie &amp; non 
+          <lb ed="#C" n="53"/>potest ecclesia contra institutionem Christi. 
+          <lb ed="#C" n="54"/>igitur. Item tertia ratio apparentior / 
+          eccle<lb ed="#C" n="55" break="no"/>sia est vnum corpus mysticum cuius 
+          papa<lb ed="#C" n="56" break="no"/>est caput. ergo si essent duo ex equo tunc 
+          il<lb ed="#C" n="57" break="no"/>lud corpus haberet duo capita non 
+          subor<lb ed="#C" n="58" break="no"/>dinata. ergo esset corpus monstruosum 
+          quan<lb ed="#C" n="59" break="no"/>uis habeat duo capita vnum alteri 
+          subordina<lb ed="#C" n="60" break="no"/>tum scilicet papam qui Christo vero &amp; 
+          princi<lb ed="#C" n="61" break="no"/>pali capiti ecclesie subordinatur. consequens 
+          <lb ed="#C" n="62"/>est falsum: ergo secunda propositio vera. 
+          <lb ed="#C" n="63"/>&amp; ad rationes in oppositum de Petro &amp; 
+          Cle<lb ed="#C" n="64" break="no"/>mente secundum hystorias cum dicitnr quod 
+          <lb ed="#C" n="65"/>Petrus instituit Clementem papam. dico 
+          <lb ed="#C" n="66"/>quantum ad hoc quod non est euidens ex sacris lit 
+          <lb ed="#C" n="67"/>teris quod petrus senper fuerit papa vsque ad 
+          mor<lb ed="#C" n="68" break="no"/>tem. fortasse videns petrus quod erat 
+          propin<lb ed="#C" n="69" break="no"/>quus morti &amp; quod non posset ecclesia neque 
+          fi<lb ed="#C" n="70" break="no"/>deles ipso mortuo facile congregari pro 
+          eli<lb ed="#C" n="71" break="no"/>gendo successore voluit vtilitati ecclesie 
+          con<lb ed="#C" n="72" break="no"/>sulere &amp; cessit. vnde dicit Occam quod non 
+          re<lb ed="#C" n="73" break="no"/>gulariter papa potest instituere successoren 
+          <lb ed="#C" n="74"/>sed solum in casu puta quando sequitur 
+          ma<lb ed="#C" n="75" break="no"/>gna vtilitas ecclesie &amp; periculum est in 
+          mo<lb ed="#C" n="76" break="no"/>ra tunc potest cedere &amp; alterum 
+          constitue<lb ed="#C" n="77" break="no"/>re. Secundo dicit quod in illo capitulo 
+          preal<lb ed="#C" n="78" break="no"/>legato non habetur quod Petrus instituerit 
+          cle<lb ed="#C" n="79" break="no"/>mentem papam: sed solum quod dederit illi 
+          po<lb ed="#C" n="80" break="no"/>testatem ligandi &amp; soluendi sicut suo vica 
+          <lb ed="#C" n="81"/>rio sed tamen dependenter sicut episcopus 
+          <lb ed="#C" n="82"/>potest instituere vicarium &amp; tantum 
+          ope<lb ed="#C" n="83" break="no"/>rabitur quantum ad hoc quod est ligare &amp; soluere 
+          si<lb ed="#C" n="84" break="no"/>cut pe roprius episcopus sicut sunt 
+          episcopi<lb ed="#C" n="85" break="no"/>suffraganei: sed tamen dependenter quia 
+          po<lb ed="#C" n="86" break="no"/>terit retrahere quando voluerit. Dico etiam 
+          <lb ed="#C" n="87"/>quod Petrus instituit Clementem vicarium 
+          <lb ed="#C" n="88"/>sed tunc est difficile saluare quomodo 
+          cle<lb ed="#C" n="89" break="no"/>mens successerit papatui nisi fuerit 
+          elec<lb ed="#C" n="90" break="no"/>tus post mortem Petri. Quantum ad 
+          se<lb ed="#C" n="91" break="no"/>cundum argumentum / stat in eodem 
+          epi<lb ed="#C" n="92" break="no"/>scopatu esse ex equo duos episcopos vt pa¬ 
+          <pb ed="#P" n="657"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#C" n="1"/>tet de Augustino &amp; Valerio inca. non 
+          aue<lb ed="#C" n="2" break="no"/>tem. glo. dicit quod Augustinus non erat adeo 
+          <lb ed="#C" n="3"/>principalis episcopus vt Valerius / sed 
+          Va<lb ed="#C" n="4" break="no"/>lerius retento titulo administrationem 
+          de<lb ed="#C" n="5" break="no"/>dit Augustino tanquam idoneo ac suffraganeo 
+          <lb ed="#C" n="6"/>retenta tamen dignitate episcopali: verunta 
+          <lb ed="#C" n="7"/>men dato quod possintesse duo episcopi ex 
+          e<lb ed="#C" n="8" break="no"/>quo tamen non sequitur quod duo summi 
+          pote<lb ed="#C" n="9" break="no"/>tifices. &amp; ratio est. nam quod in episcopatu 
+          Hy<lb ed="#C" n="10" break="no"/>ponensi vel alio sint duo episcopi hoc non 
+          <lb ed="#C" n="11"/>est ex institutione diuina &amp; Christi sed 
+          hu<lb ed="#C" n="12" break="no"/>mana. sed quod sit aliquis qu habeat regere totam 
+          <lb ed="#C" n="13"/>Christianitatem est ex institutione Christi: 
+          <lb ed="#C" n="14"/>&amp; quod aliquis regat hunc episcopatum est 
+          ex<lb ed="#C" n="15" break="no"/>institutione humana / ideo potest 
+          committi<lb ed="#C" n="16" break="no"/>duobus ex equo / alia vero que est ex 
+          insti<lb ed="#C" n="17" break="no"/>tutione Christi non potest / neque aliquis 
+          po<lb ed="#C" n="18" break="no"/>test contra talem constitutionem quod ex equo 
+          <lb ed="#C" n="19"/>duobus conferatur. ideo consequentia non 
+          <lb ed="#C" n="20"/>valuit videlicet possunt esse duo 
+          episcopi<lb ed="#C" n="21" break="no"/>in vno episcopatu. ergo &amp; duo 
+          summi<lb ed="#C" n="22" break="no"/>pontifices. Ad secundum cum dicitur 
+          <lb ed="#C" n="23"/>possunt esse duo imperatores ex equo / 
+          tran<lb ed="#C" n="24" break="no"/>seat nam imperium non est dominium a 
+          iu<lb ed="#C" n="25" break="no"/>re diuinum introductum. sed solum a iure 
+          <lb ed="#C" n="26"/>positiuo. ideo dominium regale potest 
+          mu<lb ed="#C" n="27" break="no"/>tari in Aristocraticum vel Timocraticum. sed 
+          ip<lb ed="#C" n="28" break="no"/>sa potestas papalis suprema in spiritualibus 
+          <lb ed="#C" n="29"/>est potestas ex iure diuino introducta a 
+          Chri<lb ed="#C" n="30" break="no"/>sto immediate instituta. ideo non potest 
+          mu<lb ed="#C" n="31" break="no"/>tari in aliud genus dominii aliud ab illo quod 
+          <lb ed="#C" n="32"/>Christus instituit. Habetur ergo resolutorie 
+          <lb ed="#C" n="33"/>quod plenitudo illius potestatis in aliquo 
+          exi<lb ed="#C" n="34" break="no"/>stente non potest ex equo alteri conferri ita 
+          <lb ed="#C" n="35"/>quod quilibet eorum seorsum habeat illam. Si 
+          <lb ed="#C" n="36"/>militer non potest aliquibus conferri ita quod 
+          <lb ed="#C" n="37"/>nullus eorum seorsum habeat: sed quod illi 
+          co<lb ed="#C" n="38" break="no"/>pulatim habeant secluso concilio generali 
+          <lb ed="#C" n="39"/>nam concilium id est illi de concilio simul 
+          <lb ed="#C" n="40"/>iuncti possunt facere ea que sunt iurisdictio 
+          <lb ed="#C" n="41"/>nis &amp; nullus eorum seorsum nisi ex 
+          commis<lb ed="#C" n="42" break="no"/>sione plurium sicut in Aristocratico 
+          domi<lb ed="#C" n="43" break="no"/>nio vel Timocratico. Similiter dico quod ista 
+          <lb ed="#C" n="44"/>plenitudo potestatis non potest esse pluri 
+          <lb ed="#C" n="45"/>bus ita quod nullus seorsum habeat. quod si hoc 
+          <lb ed="#C" n="46"/>posset fieriponatur in esse videlicet quod duo 
+          <cb ed="#P" n="b"/>
+          <lb ed="#C" n="47"/>habeant illam &amp; nullus seorsum sine alio quantum 
+          <lb ed="#C" n="48"/>ad exercitium. &amp; sit Linus &amp; Cletus iam queri 
+          <lb ed="#C" n="49"/>tur vel Linus est verus papa vel non. si non 
+          <lb ed="#C" n="50"/>ergo Linus potest excommunicari. queritur 
+          <lb ed="#C" n="51"/>ergo a quo ferretur sententia 
+          excomnunicati<lb ed="#C" n="52" break="no"/>onis super Linum. non a solo Cleto / quia 
+          <lb ed="#C" n="53"/>non solus habet illam potestatem quia L 
+          i<lb ed="#C" n="54" break="no"/>nus habet etiam illam. &amp; non consentiet quia 
+          <lb ed="#C" n="55"/>non potest Linus nec participaliter nec 
+          to<lb ed="#C" n="56" break="no"/>taliter ferre sententiam super seipsum. 
+          Simi<lb ed="#C" n="57" break="no"/>liter dicendum est ediuerso quod Linus non 
+          pos<lb ed="#C" n="58" break="no"/>set excommunicare Cetum. ergo videtur 
+          <lb ed="#C" n="59"/>michi quod hoc repugnet videlicet quod 
+          aliqui<lb ed="#C" n="60" break="no"/>bus duobus copulatim conferatur / ita quod 
+          <lb ed="#C" n="61"/>nullus eorum seorsum habeat illam sed 
+          illi<lb ed="#C" n="62" break="no"/>simul iuncti. Igitur soli vni potest conferri&amp; 
+          <lb ed="#C" n="63"/>talis potest pro rationabili causa cedere sed 
+          <lb ed="#C" n="64"/>ipso sedente necesse est quod vnico supposito 
+          <lb ed="#C" n="65"/>conferatur. 
+        </p>
+      </div>
+          </body>
+  </text>
+</TEI>

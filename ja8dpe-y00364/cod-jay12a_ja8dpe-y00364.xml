@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 2</title>
+        <author ref="#JacquesAlmain">Jacques Almain</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 2</title>
+          <date when="2026-07-29">July 29, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-jay12a">Paris 1512</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-07-29" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="646"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ja8dpe-y00364"><!-- dpe-q1c2 -->
+        <head xml:id="ja8dpe-y00364-Hd1e101">Caput 2</head>
+        <head xml:id="ja8dpe-y00364-Hd1e103" type="question-title">De multiplici potestate ecclesiastica</head>
+        <p xml:id="ja8dpe-y00364-d1e106">
+          <lb ed="#C" n="53"/>¶ De <sic>muultiplici</sic> potestate ecclesiastica. Ca. II.
+        </p>
+        <p xml:id="ja8dpe-y00364-d1e113">
+          <lb ed="#C" n="54"/>COnsequenter videndum 
+          quotupli<lb ed="#C" n="55" break="no"/>ces sunt tales potestates ecclesiastice. 
+          <lb ed="#C" n="56"/>
+          <ref xml:id="ja8dpe-y00364-Rd1e121">de Alaco</ref> post <name xml:id="ja8dpe-y00364-Nd1e123">Ioannem de 
+          Pari<lb ed="#C" n="57" break="no"/>siis</name> assignat sex potestates 
+          ecdesiasti<lb ed="#C" n="58" break="no"/>cas immediate a Christo traditas. Prima est 
+          or<lb ed="#C" n="59" break="no"/>dinis: hoc est sacerdotalis prrtans / &amp; est essentia 
+          <lb ed="#C" n="60"/>liter ipse caracter sacerdotalis: &amp; talis fuit in 
+          <lb ed="#C" n="61"/>stituta a Christo vt postea videbitur. Vnde 
+          <lb ed="#C" n="62"/>regulariter dicitur quod fuit instituta in cena quando 
+          <lb ed="#C" n="63"/>dixit apsris. hoc facite / hoc est accipite partantem 
+          <lb ed="#C" n="64"/>hoc faciendi hoc est consecrandi. <name xml:id="ja8dpe-y00364-Nd1e144">Armachanus</name>
+          <lb ed="#C" n="65"/>dicit quando vocauit eos apostolos. Secunda est partans ad 
+          <lb ed="#C" n="66"/>minist randi sacramenta populo &amp; praecipue 
+          sa<lb ed="#C" n="67" break="no"/>cramentum penitentie: &amp; regularius dicitur quod 
+          <lb ed="#C" n="68"/>fuit instituta in die quando insuffauit dicens. 
+          Accipi<lb ed="#C" n="69" break="no"/>te spiritum sanctum. &amp; ad hanc spectat perans 
+          ba<lb ed="#C" n="70" break="no"/>ptisandi. &amp; licet omnes possint baptisare in 
+          casu<lb ed="#C" n="71" break="no"/>necessitatis: soli tamen sacerdotes possunt ex 
+          of<lb ed="#C" n="72" break="no"/>ficio. Tertia pertas est iurisdictionis: quam 
+          diffi<lb ed="#C" n="73" break="no"/>niuimus supra: &amp; est in foro exteriori id est 
+          po<lb ed="#C" n="74" break="no"/>testas corrigendi &amp; inferendi penam in 
+          contuma<lb ed="#C" n="75" break="no"/>ces etiam inuitos. &amp; fuit tradita apfis. 
+          Mat<lb ed="#C" n="76" break="no"/>thei. xviii. in istis verbis. Si peccauerit in 
+          te<lb ed="#C" n="77" break="no"/>frater tuus. Et habetur tandem ibi. Sit tibi tanquam 
+          <lb ed="#C" n="78"/>ethnicus &amp; publicanus. Similiter quecumque 
+          <lb ed="#C" n="79"/>solueritis &amp; ligaueritis &amp;c. etiam ligamine 
+          ex<lb ed="#C" n="80" break="no"/>commnicationis. Quarta est potestas instituendi 
+          mi<lb ed="#C" n="81" break="no"/>nistros / distribuendi beneficia &amp; dignitates 
+          <lb ed="#C" n="82"/>ecclesiasticas: &amp; quando ista fuerit collata &amp; qui 
+          <lb ed="#C" n="83"/>bus est difficultas. Dicit Occam quod fuit 
+          da<lb ed="#C" n="84" break="no"/>ta petro Ioan. primo. Tu vocaberis cephas 
+          <lb ed="#C" n="85"/>quia ad caput spectat distribuere officia mem 
+          <lb ed="#C" n="86"/>bris / sed hoc non est verisimile. quia immediate 
+          <lb ed="#C" n="87"/>subdit quod cephas interpretatur Petrus: sed 
+          <lb ed="#C" n="88"/>opinio conior &amp; probabilior est quod fuit 
+          col<lb ed="#C" n="89" break="no"/>lata per illud verbum. pasce oues. nam ad 
+          offi<lb ed="#C" n="90" break="no"/>ficium pascendi non solum spectat quod audiat 
+          <lb ed="#C" n="91"/>confessiones &amp; ministret sacramentum 
+          pe<lb ed="#C" n="92" break="no"/>nitentie sed etiam quod possit alios instituere 
+          <pb ed="#P" n="647"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#C" n="1"/>super determinatas regiones &amp; populos ad 
+          <lb ed="#C" n="2"/>eos pascendos &amp; erudiendos in necessariis 
+          <lb ed="#C" n="3"/>ad salutem. Ideo petro fuit data potestas etiam 
+          <lb ed="#C" n="4"/>instituendi ministros ad pascendum &amp; 
+          instituen<lb ed="#C" n="5" break="no"/>dum &amp; distribuendum ceteras dignitates ecclesia 
+          <lb ed="#C" n="6"/>sticas sicut episcopatus curas &amp;c.
+        </p>
+        <p xml:id="ja8dpe-y00364-d1e225">
+          ¶ 
+          Quin<lb ed="#C" n="7" break="no"/>ta potestas est apostolatus seu praedicationis 
+          <lb ed="#C" n="8"/>quod idem est. hanc contulit apostolis Christus 
+          <lb ed="#C" n="9"/>Matthei &amp; Marci capitulis vltimis. lte predi 
+          <lb ed="#C" n="10"/>cate euangelium omni creature. Vltima 
+          pote<lb ed="#C" n="11" break="no"/>stas ecclesiastica quam oritur ex supradictis / est 
+          <lb ed="#C" n="12"/>potestas accipiendi &amp; etiam exigendi a 
+          subdi<lb ed="#C" n="13" break="no"/>tis temporalia pro necessitatibus victus &amp; 
+          <lb ed="#C" n="14"/>vestitus instituta a Christo quando dixit / dignus 
+          <lb ed="#C" n="15"/>est operarius mercede sua. Notandum quod 
+          di<lb ed="#C" n="16" break="no"/>cit Occam in tertia parte dia. lib. ii. cap. iii. 
+          <lb ed="#C" n="17"/>quod duo sunt homim genera / &amp; hoc habetur ex 
+          <lb ed="#C" n="18"/>beato Hieronymo in capitulo duo suntin 
+          <lb ed="#C" n="19"/>decretis. Sunt ene homines spiumales &amp; laici. 
+          <lb ed="#C" n="20"/>Item / rerum quedam spiumales &amp; quedam tempora 
+          <lb ed="#C" n="21"/>les seu seculares. Res spiritualis vt est 
+          euange<lb ed="#C" n="22" break="no"/>lium doctrina sancta: sacramenta &amp;c. Res 
+          pu<lb ed="#C" n="23" break="no"/>re seculares vt sunt bona temporalia. Item 
+          pecca<lb ed="#C" n="24" break="no"/>torum quoddam seculare: &amp; quoddam 
+          spiritua<lb ed="#C" n="25" break="no"/>le. quia in hac diffinitione quaeritur ad que peccata 
+          <lb ed="#C" n="26"/>se extendat potestas illa. dicit Occam quod 
+          secu<lb ed="#C" n="27" break="no"/>lare peccatum est quod seclusa quacunque 
+          reuela<lb ed="#C" n="28" break="no"/>tione diuina &amp; in lege nature stando esset 
+          pec<lb ed="#C" n="29" break="no"/>catum / tale dicitur peccatam seculare vt homicidium: 
+          <lb ed="#C" n="30"/>quia secludendo quancunque legem diuinam adhuc 
+          <lb ed="#C" n="31"/>est peccatum. Sed pecatum spitumale est quod est de 
+          di<lb ed="#C" n="32" break="no"/>recto contra euangelium quod nobis ex 
+          reuela<lb ed="#C" n="33" break="no"/>tione diuina traditum est vt peccata contra 
+          sa<lb ed="#C" n="34" break="no"/>cramenta commissa: sicut illa que committuntur 
+          con<lb ed="#C" n="35" break="no"/>tra legem nature vocantur sccularia. Item 
+          nego<lb ed="#C" n="36" break="no"/>ciorum quedam sunt spistumalia &amp; quedam temporalia. 
+          <lb ed="#C" n="37"/>Exemplum primi vt celebratio missarum 
+          exhi<lb ed="#C" n="38" break="no"/>bitio sacramenti / coniunctio matrimonialis 
+          <lb ed="#C" n="39"/>&amp;c. Exemplum secundi vt venditio / emptio / 
+          loca<lb ed="#C" n="40" break="no"/>tio. Item causarum quedam spiumales &amp; quedam 
+          tem<lb ed="#C" n="41" break="no"/>porales seu seculares. Seculares quam sunt de 
+          ne<lb ed="#C" n="42" break="no"/>gocio seculari vt de emptione / de furto &amp;c. 
+          <lb ed="#C" n="43"/>Spitumales seu ecclesiastice: quam aguntur de re 
+          spi<lb ed="#C" n="44" break="no"/>rituali vt de simonia / matrimonio &amp;c. Item 
+          <lb ed="#C" n="45"/>iurisdictio quedam ecclesiastica: &amp; quedam 
+          se<lb ed="#C" n="46" break="no"/>cularis. Item iudicum quidam ecclesiasticus &amp; 
+          <cb ed="#P" n="b"/>
+          <lb ed="#C" n="47"/>quidam secularis &amp;c. Patet / quod potestas 
+          lai<lb ed="#C" n="48" break="no"/>ca &amp; quod eccsimastica / &amp; de differentiis earum 
+          tan<lb ed="#C" n="49" break="no"/>ex parte instituentis quam ex parte fundamenti: 
+          <lb ed="#C" n="50"/>quia vna est instituta immediate a Christo / alia 
+          <lb ed="#C" n="51"/>a populo. Et vna fundatur in prudentia &amp; 
+          <lb ed="#C" n="52"/>in bonis naturalibus. Alia vero in bono 
+          <lb ed="#C" n="53"/>spirituali &amp; supenaturali scilicet in caractere 
+          <lb ed="#C" n="54"/>baptismali. Similiter ex parte finis differunt 
+          <lb ed="#C" n="55"/>&amp; sicpatet triplex eorum differentia. 
+        </p>
+      </div>
+          </body>
+  </text>
+</TEI>

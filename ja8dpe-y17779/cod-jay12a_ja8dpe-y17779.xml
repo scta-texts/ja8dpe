@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 6</title>
+        <author ref="#JacquesAlmain">Jacques Almain</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 6</title>
+          <date when="2026-07-29">July 29, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-jay12a">Paris 1512</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-07-29" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="726"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ja8dpe-y17779"><!-- dpe-q3c6 -->
+        <head xml:id="ja8dpe-y17779-Hd1e101">Caput 6</head>
+        <head xml:id="ja8dpe-y17779-Hd1e103" type="question-title"/>
+        <p xml:id="ja8dpe-y17779-d1e105">
+          <lb ed="#C" n="25"/>¶ Capitulum sextum.
+        </p>
+        <p xml:id="ja8dpe-y17779-d1e110">
+          <lb ed="#C" n="26"/>CONSEQUENTER
+          re<lb ed="#C" n="27" break="no"/>stat inquirere que possunt 
+          <lb ed="#C" n="28"/>adesse &amp; abesse optimo 
+          <lb ed="#C" n="29"/>principatui. Et breuiter 
+          <lb ed="#C" n="30"/>dicitur quod ad optimum 
+          prin<lb ed="#C" n="31" break="no"/>cipatum spectat vnicui quod 
+          <lb ed="#C" n="32"/>quod suum est reddere hoc 
+          <lb ed="#C" n="33"/>est iusticiam administrare / leges condere / 
+          <lb ed="#C" n="34"/>iudices inferiores &amp; alios officiales 
+          delige<lb ed="#C" n="35" break="no"/>re &amp; constituere / operationes quaruncunque 
+          <lb ed="#C" n="36"/>virtutum precipere. quilibet princeps ex 
+          offi<lb ed="#C" n="37" break="no"/>cio ad ista tenetur: sed tamen ad hoc 
+          vide<lb ed="#C" n="38" break="no"/>tur esse principalissime constitutus vt 
+          cor<lb ed="#C" n="39" break="no"/>rigat &amp; puniat delinquentes. Patet id et ad 
+          co<lb ed="#C" n="40" break="no"/>rinth id est lex iusto non est posita: sed iniustis 
+          <lb ed="#C" n="41"/>&amp; non subditis. precipuum igitur quod perti 
+          <lb ed="#C" n="42"/>net ad principem est peccatorum correctio. 
+          <lb ed="#C" n="43"/>Patet / principes ad hoc maxime sunt creati 
+          <lb ed="#C" n="44"/>propter mutuam &amp; pacificam tranquillamque 
+          <lb ed="#C" n="45"/>conuersationem subditorum fouendam / &amp; 
+          <cb ed="#P" n="b"/>
+          <lb ed="#C" n="46"/>discordias dissidiaque sedanda / &amp; nihil aliud 
+          <lb ed="#C" n="47"/>vult dicere in isto sexto capitulo quam quod 
+          prin<lb ed="#C" n="48" break="no"/>ceps inter cetera magis debet intendere 
+          pu<lb ed="#C" n="49" break="no"/>nitioni malorum / ita quod actus principalis 
+          <lb ed="#C" n="50"/>propter quem princeps est institutus est 
+          de<lb ed="#C" n="51" break="no"/>linquentium punitio &amp; correctio.
+        </p>
+        <p xml:id="ja8dpe-y17779-d1e171">
+          ¶ Ex his 
+          <lb ed="#C" n="52"/>patet que sunt optimo 
+          principatuinecessa<lb ed="#C" n="53" break="no"/>ria annexa. &amp; que incompossibilia / &amp; que 
+          <lb ed="#C" n="54"/>impertinentia. &amp; dictum est quod ad optimum 
+          <lb ed="#C" n="55"/>principatum necesse est quod sit propter 
+          bo<lb ed="#C" n="56" break="no"/>num commune / &amp; quod principans 
+          principe<lb ed="#C" n="57" break="no"/>tur liberis &amp; non seruis / &amp; quod sit vnus 
+          prin<lb ed="#C" n="58" break="no"/>cipans &amp; non plures. Item repugnat 
+          opti<lb ed="#C" n="59" break="no"/>mo principatui habere plenitudinem 
+          po<lb ed="#C" n="60" break="no"/>testatis: puta quod possit ad placitum eius 
+          tran<lb ed="#C" n="61" break="no"/>ferrerem meam in alterum sine quocunque 
+          <lb ed="#C" n="62"/>meo peccato vel causa / &amp; facere quicquid 
+          <lb ed="#C" n="63"/>non repugnat iuri nature &amp; diuino. &amp; 
+          vi<lb ed="#C" n="64" break="no"/>sum est etiam quomodo precipuus actus 
+          prin<lb ed="#C" n="65" break="no"/>cipantis est malorum punitioni intendere. 
+          <lb ed="#C" n="66"/>¶lam doctor infert aliqua correlaria ibi his 
+          <lb ed="#C" n="67"/>visis dicitur. Primum / non repugnat optimo 
+          <lb ed="#C" n="68"/>principatui supremo optime ordinato 
+          ali<lb ed="#C" n="69" break="no"/>quam potestate m iurisdicam esse alicuius vel aliquo 
+          <lb ed="#C" n="70"/>rum ex istis de communitate illa a supremo 
+          <lb ed="#C" n="71"/>principe eiusdem communitatis que nullo 
+          <lb ed="#C" n="72"/>modo ab ipso supremo principante 
+          depen<lb ed="#C" n="73" break="no"/>deat nec sit ab ipso instituta / hoc est quod non 
+          <lb ed="#C" n="74"/>dependeat ab ipso nec quo ad institutionem 
+          <lb ed="#C" n="75"/>nec quo ad destitutionem saltem 
+          regulari<lb ed="#C" n="76" break="no"/>ter. Patet / dictum est quod optimus 
+          principa<lb ed="#C" n="77" break="no"/>tus est institutus propter bonum commune 
+          <lb ed="#C" n="78"/>&amp; malorum correctionem. ergo si non 
+          im<lb ed="#C" n="79" break="no"/>pediat malorum cohertio / ita quod nullus 
+          de<lb ed="#C" n="80" break="no"/>linquens in illa communitate iustam &amp; 
+          debi<lb ed="#C" n="81" break="no"/>tam effugiat vltionem / non repugnat supre 
+          <lb ed="#C" n="82"/>mo principatui esse aliquam talem iurisdi 
+          <lb ed="#C" n="83"/>tionem que nullo modo dependet ab ipso 
+          <lb ed="#C" n="84"/>supremo / nec quo ad institutionem nec quo 
+          <lb ed="#C" n="85"/>ad destitutionem. Nec etiam talis iiurisditio 
+          <lb ed="#C" n="86"/>bono communi repugnat. Patet sic / 
+          vnde<lb ed="#C" n="87" break="no"/>cunque choerceantur malefactores dummo 
+          <lb ed="#C" n="88"/>do coherceantur per potestatem aliquam 
+          <lb ed="#C" n="89"/>vndecunque sit talis potestas vela supremo 
+          <lb ed="#C" n="90"/>vel ab altero non est impertinens bono 
+          <pb ed="#P" n="727"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#C" n="1"/>communi si puniantur perpotestatem 
+          pu<lb ed="#C" n="2" break="no"/>blicam &amp; coherciuam. ergo correlarium 
+          <lb ed="#C" n="3"/>verum. hinc est quod in aliquibus regnis vt 
+          fer<lb ed="#C" n="4" break="no"/>tur in regno Aragonie rex non habet 
+          insti<lb ed="#C" n="5" break="no"/>tuere iurisditiones: immo est aliqua 
+          pote<lb ed="#C" n="6" break="no"/>stas iurisdica que habetur ex successione 
+          pa<lb ed="#C" n="7" break="no"/>rentum / ita quod post patres filiisunt iudices / 
+          <lb ed="#C" n="8"/>&amp; filii filiorum erunt iudices / nec illos rex 
+          po<lb ed="#C" n="9" break="no"/>test destituere immo sunt supra regem 
+          quan<lb ed="#C" n="10" break="no"/>tum ad illam iurisditionem.
+        </p>
+        <p xml:id="ja8dpe-y17779-d1e285">
+          ¶ Secundum 
+          corre<lb ed="#C" n="11" break="no"/>larium. Non repugnat optimo 
+          principa<lb ed="#C" n="12" break="no"/>tui aliquam personam politie esse regulari 
+          <lb ed="#C" n="13"/>ter exemptam ab eius iurisditione dummo 
+          <lb ed="#C" n="14"/>do sit casualiter subiecta puta ratione 
+          crimi<lb ed="#C" n="15" break="no"/>nis ab ea commissi. dicitur regulariter. quia 
+          <lb ed="#C" n="16"/>vt patet in primo correlario / non repugnat 
+          <lb ed="#C" n="17"/>optimo principatui aliquam personam 
+          ha<lb ed="#C" n="18" break="no"/>bere iurisditionem que nullo modo 
+          depen<lb ed="#C" n="19" break="no"/>det a supremo principante. ergo illa non 
+          re<lb ed="#C" n="20" break="no"/>gulariter est subiecta: sed bene casualiter 
+          pu<lb ed="#C" n="21" break="no"/>ta si peccat talis persona in rempu. ad 
+          supre<lb ed="#C" n="22" break="no"/>mum principantem spectat illam punire. 
+        </p>
+        <p xml:id="ja8dpe-y17779-d1e314">
+          <lb ed="#C" n="23"/>¶ Tertium correlarium. Non repugnat 
+          opti<lb ed="#C" n="24" break="no"/>mo principatui &amp; supremo correctionem 
+          <lb ed="#C" n="25"/>illius persone sic regulariter exempte ad aliquem 
+          <lb ed="#C" n="26"/>alterum vel ad aliquos spectare quam ad 
+          supre<lb ed="#C" n="27" break="no"/>mum principantem. Patet sic. quicquid non 
+          <lb ed="#C" n="28"/>repugnat bono communi est compossibile 
+          <lb ed="#C" n="29"/>optimo principatui &amp; supremo: sed quod ista 
+          <lb ed="#C" n="30"/>persona sic exempta puniatur ab aliis quam a 
+          su<lb ed="#C" n="31" break="no"/>premo principante non est repugnans 
+          bo<lb ed="#C" n="32" break="no"/>no communi &amp; punitioni malorum. ergo. 
+          <lb ed="#C" n="33"/>Vnde ponit ista doc. volens dicere quod 
+          pa<lb ed="#C" n="34" break="no"/>pa non est supremus principans in politia: 
+          <lb ed="#C" n="35"/>sed imperator si foret aliquis ex vniuersali 
+          <lb ed="#C" n="36"/>consensu totius populi. Vltra dicit quod non 
+          <lb ed="#C" n="37"/>obstante quod ipse imperator sit supremus prin 
+          <lb ed="#C" n="38"/>cipans / non tamen repugnat quin papa 
+          ha<lb ed="#C" n="39" break="no"/>beat potestatem coherciuam: puta 
+          excommu<lb ed="#C" n="40" break="no"/>nicandi. Similiter papa est regulariter 
+          exese<lb ed="#C" n="41" break="no"/>ptus a principe / quia non potest eum 
+          impe<lb ed="#C" n="42" break="no"/>rator pro qualicunque crimine punire / dato 
+          <lb ed="#C" n="43"/>quod papa committeret crimen quod scandalisa 
+          <lb ed="#C" n="44"/>ret totam ecclesiam: adhuc regulariter non 
+          <lb ed="#C" n="45"/>spectat ad supremum principantem eum 
+          pu<lb ed="#C" n="46" break="no"/>nire: sed ad concilium generale:
+        </p>
+        <p xml:id="ja8dpe-y17779-d1e369">
+          ¶ Resolu¬ 
+          <cb ed="#P" n="b"/>
+          <lb ed="#C" n="47"/>tio ergo talis est. Non repugnat optimo 
+          <lb ed="#C" n="48"/>principatui &amp; supremo esse potestatem in 
+          <lb ed="#C" n="49"/>politia que non dependet ab eo / neque quo 
+          <lb ed="#C" n="50"/>ad institutionem / neque quo ad 
+          destitutio<lb ed="#C" n="51" break="no"/>nem. Preterea non repugnat esse personam 
+          <lb ed="#C" n="52"/>exemptam a tali principante quantum ad 
+          <lb ed="#C" n="53"/>correctionem quin possit per alias fieri quam per 
+          <lb ed="#C" n="54"/>supremum principantem: 
+        </p>
+      </div>
+          </body>
+  </text>
+</TEI>

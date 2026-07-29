@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 7</title>
+        <author ref="#JacquesAlmain">Jacques Almain</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 7</title>
+          <date when="2026-07-29">July 29, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-jay12a">Paris 1512</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-07-29" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="660"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ja8dpe-y03346"><!-- dpe-q1c7 -->
+        <head xml:id="ja8dpe-y03346-Hd1e101">Caput 7</head>
+        <head xml:id="ja8dpe-y03346-Hd1e103" type="question-title">
+          De suprema potestate laicali an iure 
+          divino sit annexa spirituali
+        </head>
+        <p xml:id="ja8dpe-y03346-d1e106">
+          <lb ed="#C" n="31"/>¶ De suprema potestate laicali an iure 
+          <lb ed="#C" n="32"/>diuino sit annexa spirituali. Capi. vii. 
+        </p>
+        <p xml:id="ja8dpe-y03346-d1e113">
+          <lb ed="#C" n="33"/>QVeritur consequenter circa 
+          secun<lb ed="#C" n="34" break="no"/>dum capitulum quod ponit Occam 
+          <lb ed="#C" n="35"/>in prima questione. vtrum supre 
+          <lb ed="#C" n="36"/>ma potestas laicalis ex iure diuino 
+          <lb ed="#C" n="37"/>&amp; ex institutione Christi sit annexa 
+          supre<lb ed="#C" n="38" break="no"/>me potestati spirituali. In isto secundo 
+          ca<lb ed="#C" n="39" break="no"/>pitulo allegatur opinio contraria secunde 
+          <lb ed="#C" n="40"/>propositioni prius posite. vnde opinio prima 
+          <lb ed="#C" n="41"/>fuit quod ex natura rei iste due potestates sunt 
+          <lb ed="#C" n="42"/>ita distincte quod eidem supposito competere 
+          <lb ed="#C" n="43"/>non possunt. Secunda opinio quod de facto 
+          <lb ed="#C" n="44"/>cadunt in eundem hominem scilicet in summum 
+          <lb ed="#C" n="45"/>pontificem non ad istum sensum quod summus 
+          <lb ed="#C" n="46"/>pontifex sit laicus / sed ad istum sensum quod 
+          <cb ed="#P" n="b"/>
+          <lb ed="#C" n="47"/>super res temporales &amp; homines tanta 
+          vti<lb ed="#C" n="48" break="no"/>potest potestate quanta quicunque alius etiam 
+          <lb ed="#C" n="49"/>imperator vel rex: &amp; vltra addunt aliqui 
+          de<lb ed="#C" n="50" break="no"/>ista opinione quod papa habet tantam 
+          pote<lb ed="#C" n="51" break="no"/>statem in rebus temporalibus &amp; spirituali 
+          <lb ed="#C" n="52"/>bus quod quicquid attentet facere circa illas dum 
+          <lb ed="#C" n="53"/>modo non repugnet iuri naturali vel 
+          diui<lb ed="#C" n="54" break="no"/>no quamuis repugnet iuri ciuili vel 
+          canoni<lb ed="#C" n="55" break="no"/>coipsum factum tenet quamuis ipse peccet 
+          facien<lb ed="#C" n="56" break="no"/>do / vt puta si tentet transferre rem meam in 
+          <lb ed="#C" n="57"/>dominium alterius quamuis peccet hoc 
+          facien<lb ed="#C" n="58" break="no"/>do tamen ipsum factum tenet. Similiter 
+          si<lb ed="#C" n="59" break="no"/>tentet me obligare ad aliquid faciendum quod 
+          <lb ed="#C" n="60"/>non repugnet directe iuri naturali vel 
+          diui<lb ed="#C" n="61" break="no"/>no quod sim obligatus quamuis peccet me obligan 
+          <lb ed="#C" n="62"/>do &amp; vt dicit <name xml:id="ja8dpe-y03346-Nd1e182">Gerson</name> ista fuit opinio 
+          adu<lb ed="#C" n="63" break="no"/>latorum pape &amp; fundamentum huius 
+          opi<lb ed="#C" n="64" break="no"/>nionis videlicet quod suprema potestas 
+          laica<lb ed="#C" n="65" break="no"/>lis residet in summo pontifice habetur vt 
+          <lb ed="#C" n="66"/>dicunt ex multis auctoribus scripture etiam 
+          <lb ed="#C" n="67"/>ex institutione Christi. primo probatur. 
+          is<lb ed="#C" n="68" break="no"/>le quihabet potestatem ligandi quencumque 
+          <lb ed="#C" n="69"/>si tentet aliquem ligare de facto est ligatus: sed 
+          <lb ed="#C" n="70"/>summus potestifex habet potestatem vnum quemque 
+          <lb ed="#C" n="71"/>ligandi &amp; soluendi. ergo. patet minor. 
+          di<lb ed="#C" n="72" break="no"/>ctum est Petro pro se &amp; successoribus suis. 
+          <lb ed="#C" n="73"/>Quencumque ligaueris &amp;c. Similiter tibi dabo 
+          <lb ed="#C" n="74"/>claues regni celorum. in istis verbis fuit 
+          fa<lb ed="#C" n="75" break="no"/>cta promissio summo pontifici. ergo aliquando 
+          <lb ed="#C" n="76"/>Christus illam promissionem impleuit &amp; 
+          ni<lb ed="#C" n="77" break="no"/>chil excepit dicens qudcunque &amp;c. Hoc 
+          argu<lb ed="#C" n="78" break="no"/>mento vtitur Innocentius in capitulo solite 
+          <lb ed="#C" n="79"/>de maioritate &amp; obedientia volens 
+          osten<lb ed="#C" n="80" break="no"/>dere potestatem ecclesiasticnam maiorem 
+          la<lb ed="#C" n="81" break="no"/>icali. Item arguitur: ille qui a Christo 
+          con<lb ed="#C" n="82" break="no"/>stitutus est super reges &amp; regna habet 
+          su<lb ed="#C" n="83" break="no"/>premam potestatem in temporalibus: sed 
+          <lb ed="#C" n="84"/>papa ex ordinatione diuina sic constitutus 
+          <lb ed="#C" n="85"/>est. ergo habet supremam potestatem in 
+          ten<lb ed="#C" n="86" break="no"/>poralibus / consequentia certa est. sed 
+          minor<lb ed="#C" n="87" break="no"/>patet. nam dictum est Hieremie qui non erat 
+          <lb ed="#C" n="88"/>supremus sacerdos &amp; misit danes manum 
+          suan<lb ed="#C" n="89" break="no"/>&amp; tetigit os meum &amp; dixit ad me. Ecce 
+          dedi<lb ed="#C" n="90" break="no"/>verba mea in ore tuo ecce constitui te hodie 
+          su<lb ed="#C" n="91" break="no"/>per gentes &amp; regna vt euelles &amp; plantes Hie 
+          <lb ed="#C" n="92"/>remie prio. ergo a fortiori illi qu erat supre¬ 
+          <pb ed="#P" n="661"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#C" n="1"/>mus sacerdos. Item certio ille qui habet in 
+          <lb ed="#C" n="2"/>temporalibus &amp; secularibus iudicare. &amp; nul 
+          <lb ed="#C" n="3"/>lus alius super ipsum habet supremam 
+          po<lb ed="#C" n="4" break="no"/>testatem in secularibus &amp; temporalibus: sed 
+          <lb ed="#C" n="5"/>summus pontifex est huiusmodi. Patet / ad 
+          <lb ed="#C" n="6"/>Corin. vi. dicit Paulus / angelos 
+          iudicabi<lb ed="#C" n="7" break="no"/>mus quanto magis secularia: ergo summus 
+          <lb ed="#C" n="8"/>pontifex ex institutione Christi habet 
+          secu<lb ed="#C" n="9" break="no"/>laria iudicare.
+        </p>
+        <p xml:id="ja8dpe-y03346-d1e274">
+          ¶ Quarto arguitur. Christus 
+          <lb ed="#C" n="10"/>habuit supremam potestatem in 
+          temporali<lb ed="#C" n="11" break="no"/>bus: sed sic est quod omnis potestas quam ha / 
+          <lb ed="#C" n="12"/>buit Christus collata fuit Petro suo vicario 
+          <lb ed="#C" n="13"/>&amp; successoribns: alias non fuisset plene vica 
+          <lb ed="#C" n="14"/>rius Christi. Patet maior. dicit enim ipse 
+          Chri<lb ed="#C" n="15" break="no"/>stus / data est mihi omnis potestas in celo &amp; 
+          <lb ed="#C" n="16"/>in terra. ergo habuit supremam potestatem in 
+          <lb ed="#C" n="17"/>quibuscunque temporalibus. vnde misit de 
+          <lb ed="#C" n="18"/>mones in porcos &amp; submersi sunt. Marci. 
+          <lb ed="#C" n="19"/>quinto. &amp; maledixit ficulnee &amp; arida facta 
+          <lb ed="#C" n="20"/>est. ergo si non habuisset potestatem in illis / 
+          <lb ed="#C" n="21"/>damnificasset proximum. ergo habuit 
+          supse<lb ed="#C" n="22" break="no"/>mam in temporalibus / &amp; per consequens 
+          <lb ed="#C" n="23"/>successores eius. sed de hoc postea videbitur. 
+        </p>
+        <p xml:id="ja8dpe-y03346-d1e308">
+          <lb ed="#C" n="24"/>¶ Consequenter Occam allegat tertiam 
+          opi<lb ed="#C" n="25" break="no"/>nionem in tertio capitulo cuius principium 
+          <lb ed="#C" n="26"/>est tale. Alia est opinio quodammodo media / 
+          <lb ed="#C" n="27"/>&amp; in illo tertio capi. allegat primum dictum 
+          <lb ed="#C" n="28"/>huius secunde opinionis. quod iste due 
+          pote<lb ed="#C" n="29" break="no"/>states non ita repugnant ex natura rei quod et 
+          <lb ed="#C" n="30"/>dem non possint conuenire de facto.
+        </p>
+        <p xml:id="ja8dpe-y03346-d1e326">
+          ¶ Secumn 
+          <lb ed="#C" n="31"/>dum dictum / non cadunt de lege in eundem 
+          <lb ed="#C" n="32"/>ex institutione diuina. Primum dictum 
+          pro<lb ed="#C" n="33" break="no"/>bat cum tertia propositione supra posita 
+          <lb ed="#C" n="34"/>in sexto capitulo aliquibus rationibus 
+          ipse<lb ed="#C" n="35" break="no"/>Occam. Prima / suprema potestas laicalis 
+          <lb ed="#C" n="36"/>non repugnat ordini. ergo neque supreme 
+          <lb ed="#C" n="37"/>potestati in spiritualibus. Patet antecedens / 
+          <lb ed="#C" n="38"/>aliqua potestas in temporalibus quamuis non 
+          <lb ed="#C" n="39"/>sit suprema non repugnat ordini. ergo nec 
+          <lb ed="#C" n="40"/>snprema / quia non videtur maior ratio 
+          de<lb ed="#C" n="41" break="no"/>vno quam de alio. Assumptum patet / si vnus 
+          co<lb ed="#C" n="42" break="no"/>mes vel dut efficiatur episcopus vel 
+          sacer<lb ed="#C" n="43" break="no"/>dos remanet dux. ergo habet potestatem 
+          <lb ed="#C" n="44"/>iurisdictionis / quia de ratione comitis vel 
+          <lb ed="#C" n="45"/>regie potestatis hoc habet. Similiter sunt 
+          <lb ed="#C" n="46"/>muiti episcopiduces vt sunt illi qui dicun 
+          <cb ed="#P" n="b"/>
+          <lb ed="#C" n="47"/>tur pares in francia / ergo habent potestatem 
+          <lb ed="#C" n="48"/>iurisdictionis. immo non repugnat 
+          fratri<lb ed="#C" n="49" break="no"/>minori. ergo nullo modo repugnat 
+          supre<lb ed="#C" n="50" break="no"/>me potestati in spiritualibus. Sed quantum 
+          <lb ed="#C" n="51"/>ad secundam partem puta quod de lege non 
+          ca<lb ed="#C" n="52" break="no"/>dant in eundem hominem immo ex 
+          ordina<lb ed="#C" n="53" break="no"/>tione diuina non debent cadere quamuis eis 
+          <lb ed="#C" n="54"/>non repugnet ex natura sua. Patet / ille qui 
+          <lb ed="#C" n="55"/>habet supremam potestatem in 
+          temporali<lb ed="#C" n="56" break="no"/>bus debet se temporalibus implicare. qui 
+          <lb ed="#C" n="57"/>vero habet supremam in spiritualibus 
+          mi<lb ed="#C" n="58" break="no"/>nime debet se implicare negociis 
+          seculari<lb ed="#C" n="59" break="no"/>bus. ergo ille due potestates non debent 
+          ca<lb ed="#C" n="60" break="no"/>dere in eundem hominem. Maior pro 
+          pri<lb ed="#C" n="61" break="no"/>ma parte patet: quia ille est finis sue potesta 
+          <lb ed="#C" n="62"/>tis scilicet mutuam pacem conseruare. ergo 
+          <lb ed="#C" n="63"/>debet illis se implicare. Alia pars patet / 
+          ne<lb ed="#C" n="64" break="no"/>mo militans deo debet se negociis 
+          secula<lb ed="#C" n="65" break="no"/>ribus implicare secunde ad Thimo. secundo. 
+          <lb ed="#C" n="66"/>Similiter Petrus in canonica ait / non sis 
+          fi<lb ed="#C" n="67" break="no"/>deiussor &amp;c. vide alias auctoritates ad hoc 
+          <lb ed="#C" n="68"/>propositum quas citat ipse Occam 
+          capitu<lb ed="#C" n="69" break="no"/>lo quarto.
+        </p>
+        <p xml:id="ja8dpe-y03346-d1e415">
+          ¶ Secundo ad idem arguitur / 
+          il<lb ed="#C" n="70" break="no"/>le due potestates que diuersis actibus &amp; 
+          di<lb ed="#C" n="71" break="no"/>gnitatibus sunt a Christo institute non 
+          de<lb ed="#C" n="72" break="no"/>bent eidem persone competere: send ille due 
+          <lb ed="#C" n="73"/>supreme potestates sunt huiusmodi. 
+          Pa<lb ed="#C" n="74" break="no"/>tet. lxxxx vi. distinctione capi. cum ad 
+          ve<lb ed="#C" n="75" break="no"/>rum. Dicitur quod sicut imperator non debet 
+          <lb ed="#C" n="76"/>sibi assumere summum pontificis 
+          hono<lb ed="#C" n="77" break="no"/>rem ita nec summus pontifex imperatoris 
+          <lb ed="#C" n="78"/>honorem. Ratio / quia Christus illa 
+          distin<lb ed="#C" n="79" break="no"/>xit distinctis actibus / &amp; distinctis 
+          perso<lb ed="#C" n="80" break="no"/>nis competere voluit. Item qui habet 
+          supre<lb ed="#C" n="81" break="no"/>mam potestatem in temporalibus debet 
+          <lb ed="#C" n="82"/>vel potest sanguinem fundere vel iubere 
+          <lb ed="#C" n="83"/>quod sanguis humanus fundatur a ministris 
+          <lb ed="#C" n="84"/>suis pro iusticia seruanda vnumquemque 
+          ple<lb ed="#C" n="85" break="no"/>ctendo pro peccatis: sed hoc non licet illi quod 
+          <lb ed="#C" n="86"/>habet supremam in spiritualibus / licet in 
+          <lb ed="#C" n="87"/>vniuersali possit innuere maleficos esse 
+          pu<lb ed="#C" n="88" break="no"/>niendos: sed non in particulari scilicet 
+          accu<lb ed="#C" n="89" break="no"/>sando vel condemnando. ergo illa 
+          supre<lb ed="#C" n="90" break="no"/>ma potestas in temporalibus non debet 
+          <lb ed="#C" n="91"/>conuenire illi qui habet supremam in 
+          spi<lb ed="#C" n="92" break="no"/>ritualibus. &amp; iste sunt rationes apparen¬ 
+          <pb ed="#P" n="662"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#C" n="1"/>tiores quas latius in capituloquarto ipsius 
+          <lb ed="#C" n="2"/>Occam videbis si vis. 
+        </p>
+      </div>
+          </body>
+  </text>
+</TEI>
